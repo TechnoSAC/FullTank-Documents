@@ -29,8 +29,8 @@
       <td>Mathias Andree Cardenas Huaman</td>
     </tr>
     <tr>
-      <td>u</td>
-      <td>S</td>
+      <td>u20231b842</td>
+      <td>Enrique Manuel Mantilla Maldonado</td>
     </tr>
   </table>
 </div>
@@ -55,7 +55,7 @@
       <td>
         - Asto Jacome Jose Gustavo <br>
         - Mathias Andree Cardenas Huaman <br>
-        -  <br>
+        - Enrique Manuel Mantilla Maldonado <br>
         - 
       </td>
       <td>
@@ -192,7 +192,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
-        <b>A</b><br>
+        <b>Enrique Mantilla</b><br>
         TB1: .<br>
       </td>
       <td>
@@ -208,7 +208,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
         TB1: .<br>
         <b>Mathias Cardenas</b><br>
         TB1: .<br>
-        <b>A</b><br>
+        <b>Enrique Mantilla</b><br>
         TB1: .<br>
       </td>
       <td>
@@ -265,6 +265,13 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>u202316353</td>
       <td>Ingeniería de Software</td>
       <td>S. </td>
+    </tr>
+    <tr>
+      <td><img src="assets/chapter-1/enrique-foto.jpg" alt="nombre" width="80"></td>
+      <td>Enrique Manuel Mantilla Maldonado</td>
+      <td>u20231b842</td>
+      <td>Ingeniería de Software</td>
+      <td>Estudiante de la carrera de Ingeniería de Software en la UPC. Manejo algunos lenguajes de programación como Python y C++. Busco adquirir distintos tipos de conocimientos relacionados al software y hardware con el fin de servir de apoyo a distintas empresas.</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/Foto.jpg" alt="Alberto Alejandro Ponce Perales" width="80"></td>
