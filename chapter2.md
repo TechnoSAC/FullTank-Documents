@@ -183,13 +183,23 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 ### 2.2.2 Registro de entrevistas
 **1. Segmento 1: Empresas solicitantes de combustible**
 - Entrevista 1:
-- Nombre: Kevyn Anthony Asto Jacome
-- Edad: 32
-- Distrito: San Miguel
-<div align="center">
+  - Nombre: Kevyn Anthony Asto Jacome
+  - Edad: 32
+  - Distrito: San Miguel
+<div allign="center">
 
   <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado"/> 
   <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9</p>
+</div>
+
+- Entrevista 2:
+  - Nombre: Renato Guillermo Calvo Yalan
+  - Edad: 22 años
+  - Distrito: San Juan de Lurigancho, Lima
+<div allign="center">
+<img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado"/>
+
+  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP</p>
 </div>
 
 ### 2.2.3 Análisis de entrevistas
