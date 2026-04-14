@@ -25,8 +25,8 @@
       <td>Milenko Rubén Cayanchi Avila</td>
     </tr>
     <tr>
-      <td>u</td>
-      <td>O</td>
+      <td>u202316353</td>
+      <td>Mathias Andree Cardenas Huaman</td>
     </tr>
     <tr>
       <td>u</td>
