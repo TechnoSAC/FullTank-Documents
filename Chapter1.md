@@ -54,7 +54,7 @@
       <td>30/04/2026</td>
       <td>
         - Asto Jacome Jose Gustavo
-        -  <br>
+        - Mathias Andree Cardenas Huaman <br>
         -  <br>
         - 
       </td>
@@ -261,8 +261,8 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
-      <td>Nombre</td>
-      <td>u</td>
+      <td>Mathias Andree Cardenas Huaman</td>
+      <td>u202316353</td>
       <td>Ingeniería de Software</td>
       <td>S. </td>
     </tr>
