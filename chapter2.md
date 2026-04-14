@@ -181,6 +181,17 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 12. ¿Qué barreras considera que dificultarían implementar una solución digital como NombredelaStartup en su empresa?
 
 ### 2.2.2 Registro de entrevistas
+**1. Segmento 1: Empresas solicitantes de combustible**
+- Entrevista 1:
+- Nombre: Kevyn Anthony Asto Jacome
+- Edad: 32
+- Distrito: San Miguel
+<div align="center">
+
+  <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado"/> 
+  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9</p>
+</div>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
