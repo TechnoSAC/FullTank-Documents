@@ -21,8 +21,8 @@
       <td>Asto Jacome Jose Gustavo</td>
     </tr>
     <tr>
-      <td>u</td>
-      <td>S</td>
+      <td>u202312566</td>
+      <td>Milenko Rubén Cayanchi Avila</td>
     </tr>
     <tr>
       <td>u</td>
@@ -188,7 +188,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>
         <b>Jose Asto</b><br>
         TB1: .<br>
-        <b>A</b><br>
+        <b>Milenko Rubén</b><br>
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
@@ -204,7 +204,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>
         <b>Jose Asto</b><br>
         TB1: .<br>
-        <b>A</b><br>
+        <b>Milenko Rubén</b><br>
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
@@ -250,14 +250,14 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>Jose Gustavo Asto Jacome</td>
       <td>u20241c630</td>
       <td>Ingeniería de Software</td>
-      <td>C.</td>
+      <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="100"></td>
-      <td>Nombre</td>
-      <td>u</td>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>u202312566</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
+      <td></td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/foto.jpg" alt="nombre" width="80"></td>
