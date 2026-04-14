@@ -53,7 +53,7 @@
       <td>TB1</td>
       <td>30/04/2026</td>
       <td>
-        - Asto Jacome Jose Gustavo
+        - Asto Jacome Jose Gustavo <br>
         - Mathias Andree Cardenas Huaman <br>
         -  <br>
         - 
@@ -206,7 +206,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
         TB1: .<br>
         <b>Milenko Rubén</b><br>
         TB1: .<br>
-        <b>A</b><br>
+        <b>Mathias Cardenas</b><br>
         TB1: .<br>
         <b>A</b><br>
         TB1: .<br>
