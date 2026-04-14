@@ -16,7 +16,7 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
   <tr>
     <td colspan="2"><strong></strong></td>
-    <td><strong>NombredelaStartup</strong><br><img src="./assets/chapter-2/logo-startup.jpg" height="100"/></td>
+    <td><strong>FullTank</strong><br><img src="./assets/chapter-2/logo-FullTank.png" height="100"/></td>
     <td><strong>Zavgar</strong><br><img src="./assets/chapter-2/logo-zavgar.jpg" height="100"/></td>
     <td><strong>FuelCloud</strong><br><img src="./assets/chapter-2/logo-fuelcloud.jpg" height="100"/></td>
     <td><strong>Wialon</strong><br><img src="./assets/chapter-2/logo-wialon.jpg" height="100"/></td>
@@ -212,14 +212,323 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP</p>
 </div>
 
+- Entrevista 2:
+  - Nombre: Samuel
+  - Edad: 48 años
+  - Distrito: Bellavista, Lima
+<div allign="center">
+<img src="assets/chapter-2/Samuel.png" alt="Captura entrevistado Samuel"/>
+<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCHmDhpE9SeS79-7cpkvvj4ARv-HzcyTjlnuszQWkBofBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DSF66n</p>
+</div>
+
 ### 2.2.3 Análisis de entrevistas
 
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
+-Segmento 1: Empresas solicitantes de combustible
+
+-Segmento 2: Proveedores de Combustible
+
 ### 2.3.2 User Task Matrix
+-Segmento 1: Empresas solicitantes de combustible
+<table border="1">
+  <thead>
+    <tr>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Dolor actual (Pain Point)</th>
+      <th>Oportunidad de mejora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Registrar pedido de combustible</td>
+      <td>Ingresar cantidad, tipo y fecha de entrega</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Procesos manuales y propensos a errores</td>
+      <td>Formulario digital rápido (&lt;3 min)</td>
+    </tr>
+    <tr>
+      <td>Consultar estado del pedido</td>
+      <td>Verificar estado del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Falta de trazabilidad, requiere llamadas</td>
+      <td>Tracking en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Modificar pedido</td>
+      <td>Editar detalles antes de confirmación</td>
+      <td>Media</td>
+      <td>Alta</td>
+      <td>Dificultad para hacer cambios</td>
+      <td>Edición simple con historial</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con proveedor</td>
+      <td>Coordinar detalles del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Uso de múltiples canales</td>
+      <td>Chat integrado</td>
+    </tr>
+    <tr>
+      <td>Revisar historial de pedidos</td>
+      <td>Consultar pedidos anteriores</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Información dispersa</td>
+      <td>Historial centralizado</td>
+    </tr>
+    <tr>
+      <td>Recibir notificaciones</td>
+      <td>Alertas sobre estado del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Seguimiento manual</td>
+      <td>Notificaciones automáticas</td>
+    </tr>
+    <tr>
+      <td>Generar reportes</td>
+      <td>Analizar consumo de combustible</td>
+      <td>Baja</td>
+      <td>Media</td>
+      <td>Falta de datos estructurados</td>
+      <td>Dashboard con métricas</td>
+    </tr>
+  </tbody>
+</table>
+
+
+-Segmento 2: Proveedores de Combustible
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Tarea</th>
+      <th>Descripción</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Dolor actual (Pain Point)</th>
+      <th>Oportunidad de mejora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recibir pedidos</td>
+      <td>Visualizar solicitudes de clientes</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Pedidos por múltiples canales</td>
+      <td>Bandeja centralizada</td>
+    </tr>
+    <tr>
+      <td>Validar pedidos</td>
+      <td>Confirmar disponibilidad</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Falta de organización</td>
+      <td>Flujo estructurado</td>
+    </tr>
+    <tr>
+      <td>Programar entregas</td>
+      <td>Asignar fechas y logística</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Coordinación manual compleja</td>
+      <td>Sistema de planificación</td>
+    </tr>
+    <tr>
+      <td>Actualizar estado del pedido</td>
+      <td>Marcar progreso del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Información desactualizada</td>
+      <td>Actualización en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Gestionar múltiples pedidos</td>
+      <td>Organizar pedidos simultáneos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Sobrecarga operativa</td>
+      <td>Panel de control</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con clientes</td>
+      <td>Resolver dudas y coordinar</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Exceso de llamadas</td>
+      <td>Chat integrado</td>
+    </tr>
+    <tr>
+      <td>Monitorear desempeño</td>
+      <td>Evaluar eficiencia</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Falta de métricas</td>
+      <td>Dashboard analítico</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### 2.3.3 User Journey Mapping
+
+
+-Segmento 1: Empresas solicitantes de combustible
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Acciones</th>
+      <th>Pensamientos</th>
+      <th>Emociones</th>
+      <th>Pain Points</th>
+      <th>Oportunidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Identificación de necesidad</td>
+      <td>Detecta que necesita combustible</td>
+      <td>“Necesito hacer el pedido rápido”</td>
+      <td>😐 Neutral</td>
+      <td>No hay sistema centralizado</td>
+      <td>Recordatorios automáticos</td>
+    </tr>
+    <tr>
+      <td>Registro del pedido</td>
+      <td>Contacta al proveedor (WhatsApp/correo)</td>
+      <td>“Espero no equivocarme en los datos”</td>
+      <td>😕 Estrés</td>
+      <td>Errores manuales</td>
+      <td>Formulario digital guiado</td>
+    </tr>
+    <tr>
+      <td>Confirmación</td>
+      <td>Espera respuesta del proveedor</td>
+      <td>“¿Habrá sido recibido?”</td>
+      <td>😟 Incertidumbre</td>
+      <td>Falta de confirmación inmediata</td>
+      <td>Confirmación automática</td>
+    </tr>
+    <tr>
+      <td>Seguimiento</td>
+      <td>Hace llamadas para saber estado</td>
+      <td>“Necesito saber dónde está”</td>
+      <td>😤 Frustración</td>
+      <td>No hay tracking</td>
+      <td>Seguimiento en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Recepción</td>
+      <td>Recibe el combustible</td>
+      <td>“Espero que llegue a tiempo”</td>
+      <td>🙂 Alivio</td>
+      <td>Retrasos inesperados</td>
+      <td>Alertas de entrega</td>
+    </tr>
+    <tr>
+      <td>Post-servicio</td>
+      <td>Registra o revisa el pedido</td>
+      <td>“Necesito llevar control”</td>
+      <td>😐 Neutral</td>
+      <td>Datos desorganizados</td>
+      <td>Historial automático</td>
+    </tr>
+  </tbody>
+</table>
+
+
+-Segmento 2: Proveedores de Combustible
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Etapa</th>
+      <th>Acciones</th>
+      <th>Pensamientos</th>
+      <th>Emociones</th>
+      <th>Pain Points</th>
+      <th>Oportunidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recepción de pedido</td>
+      <td>Recibe pedidos por múltiples canales</td>
+      <td>“Tengo demasiados pedidos por revisar”</td>
+      <td>😓 Estrés</td>
+      <td>Desorganización</td>
+      <td>Bandeja centralizada</td>
+    </tr>
+    <tr>
+      <td>Validación</td>
+      <td>Verifica datos del pedido</td>
+      <td>“¿Está todo correcto?”</td>
+      <td>😐 Neutral</td>
+      <td>Errores en información</td>
+      <td>Validación automática</td>
+    </tr>
+    <tr>
+      <td>Planificación</td>
+      <td>Organiza rutas y entregas</td>
+      <td>“Esto toma mucho tiempo”</td>
+      <td>😫 Carga</td>
+      <td>Proceso manual</td>
+      <td>Optimización de rutas</td>
+    </tr>
+    <tr>
+      <td>Comunicación</td>
+      <td>Coordina con clientes</td>
+      <td>“Recibo demasiadas llamadas”</td>
+      <td>😤 Frustración</td>
+      <td>Saturación de comunicación</td>
+      <td>Notificaciones automáticas</td>
+    </tr>
+    <tr>
+      <td>Entrega</td>
+      <td>Realiza despacho</td>
+      <td>“Debe salir todo bien”</td>
+      <td>😬 Tensión</td>
+      <td>Falta de visibilidad</td>
+      <td>Tracking en tiempo real</td>
+    </tr>
+    <tr>
+      <td>Evaluación</td>
+      <td>Revisa desempeño</td>
+      <td>“¿Estamos siendo eficientes?”</td>
+      <td>🤔 Reflexión</td>
+      <td>No hay métricas claras</td>
+      <td>Dashboard analítico</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 ### 2.3.4 Empathy Mapping
 
+
+-Segmento 1: Empresas solicitantes de combustible
+
+
+
+-Segmento 2: Proveedores de Combustible
+
+
+
 ## 2.4 Big Picture Event Storming
+
 
 ## 2.5 Ubiquitous Language
