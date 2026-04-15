@@ -264,7 +264,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>Mathias Andree Cardenas Huaman</td>
       <td>u202316353</td>
       <td>Ingeniería de Software</td>
-      <td>S. </td>
+      <td>Actualmente estoy cursando el sexto ciclo de la carrera de Ingeniería de Software. Soy proactivo y comunicativo, tengo habilidades para el trabajo en equipo y la resolución de problemas. También me gusta plantearme objetivos desafiantes para mejorar. Me encanta el curso y mi meta es completarlo con la máxima nota posible. </td>
     </tr>
     <tr>
       <td><img src="assets/chapter-1/enrique-foto.jpg" alt="nombre" width="80"></td>
