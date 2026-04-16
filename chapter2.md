@@ -592,3 +592,68 @@ Esta estructura temporal nos ayudó a identificar claramente las áreas crítica
 
 
 ## 2.5 Ubiquitous Language
+
+This section defines the shared domain vocabulary for the fuel ordering and delivery ecosystem. The terms below are intended to align the language used by suppliers, requesters, logistics coordinators, and stakeholders, ensuring clear communication across business processes. Only domain-specific terms are included; technical software engineering language is intentionally excluded.
+
+<table border="1" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td><strong>Term</strong></td>
+    <td><strong>Definition</strong></td>
+  </tr>
+  <tr>
+    <td>Contract (Contrato)</td>
+    <td>Formal agreement between a supplier and a requester that defines pricing, delivery terms, payment conditions, and any exclusivity or service commitments.</td>
+  </tr>
+  <tr>
+    <td>Consumption Report (Reporte de Consumo)</td>
+    <td>Summary of fuel usage and delivery history for a requester, showing volumes consumed, costs incurred, and trends over a defined period.</td>
+  </tr>
+  <tr>
+    <td>Delivery (Entrega)</td>
+    <td>Actual transfer of fuel from the supplier’s tanker to the requester’s storage location, completing the fulfillment of an order.</td>
+  </tr>
+  <tr>
+    <td>Dispatch (Despacho)</td>
+    <td>Process of assigning and sending a tanker to deliver fuel after a request has been validated and scheduled.</td>
+  </tr>
+  <tr>
+    <td>Fuel Order (Pedido de Combustible)</td>
+    <td>Confirmed request from a requester to a supplier specifying the type, volume, delivery date, and location for the fuel supply.</td>
+  </tr>
+  <tr>
+    <td>Fuel Request (Solicitud de Combustible)</td>
+    <td>Initial expression of interest from a requester to a supplier indicating the need for fuel and inviting a quotation or confirmation.</td>
+  </tr>
+  <tr>
+    <td>Inventory (Inventario)</td>
+    <td>Stock of fuel available at supplier facilities, monitored to ensure sufficient capacity for fulfilling orders and managing replenishment.</td>
+  </tr>
+  <tr>
+    <td>Logistics (Logística)</td>
+    <td>Coordination of routes, vehicles, scheduling, and resources required to move fuel from supplier depots to requester locations efficiently.</td>
+  </tr>
+  <tr>
+    <td>Onboarding (Incorporación)</td>
+    <td>Process of registering new companies, suppliers, or requesters in the system and verifying their credentials before starting operations.</td>
+  </tr>
+  <tr>
+    <td>Quotation (Cotización)</td>
+    <td>Price estimate prepared by the supplier in response to a fuel request, including fees, taxes, delivery charges, and validity period.</td>
+  </tr>
+  <tr>
+    <td>Requester (Solicitante)</td>
+    <td>Company or organization that demands fuel supply, submits requests, and approves orders for operational use.</td>
+  </tr>
+  <tr>
+    <td>Supplier (Proveedor)</td>
+    <td>Company that provides fuel, manages stock, offers pricing, and completes deliveries to requester locations.</td>
+  </tr>
+  <tr>
+    <td>Tanker (Cisterna)</td>
+    <td>Vehicle or container used to transport and deliver fuel safely from supplier depots to the requester’s site.</td>
+  </tr>
+  <tr>
+    <td>Validation (Validación)</td>
+    <td>Review and approval step that checks order details, inventory availability, pricing, and contract compliance before dispatch.</td>
+  </tr>
+</table>
