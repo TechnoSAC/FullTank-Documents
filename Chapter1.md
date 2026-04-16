@@ -32,6 +32,10 @@
       <td>u20231b842</td>
       <td>Enrique Manuel Mantilla Maldonado</td>
     </tr>
+        <tr>
+      <td>u20231a257</td>
+      <td>Brayan Alexis Corvacho Damian</td>
+    </tr>
   </table>
 </div>
 
@@ -279,6 +283,13 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
       <td>u</td>
       <td>Ingeniería de Software</td>
       <td>E</td>
+    </tr>
+       <tr>
+      <td><img src="assets/chapter-1/Brayan.png" alt="nombre" width="80"></td>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>u20231a257</td>
+      <td>Ingeniería de Software</td>
+      <td>EMi nombre es Brayan Corvacho, tengo 22 años y estoy cursando el 5 ciclo de la carrera de ingeniería de software en la UPC. Busco en esta carrera aprender sobre todo lo relacionado a la tecnología, mejorar mis habilidades en el desarrollo de proyectos. Mis hobbies son ver documentales, series, revisar foros de tecnología. Me comprometo a hacer mi mayor esfuerzo en este proyecto y organizar mejor mis tareas diarias de este curso.</td>
     </tr>
   </tbody>
 </table>
