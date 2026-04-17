@@ -284,18 +284,29 @@ En esta sección se presenta un análisis de los datos recopilados de las entrev
 
 -Segmento 1: Empresas solicitantes de combustible
 
+El análisis del segmento de empresas solicitantes de combustible revela un ecosistema operativo con una dependencia del 100% en canales de comunicación informal como llamadas y correos, donde el 75% utiliza herramientas no especializadas como Excel para su gestión. Esta precariedad se traduce en que el 50% de los usuarios enfrente problemas críticos de trazabilidad y un 25% sufra errores de registro que ponen en riesgo la continuidad operativa. En el plano subjetivo, existe una demanda unánime (100%) por la centralización de la información y el acceso a reportes históricos para la toma de decisiones, mientras que un 75% considera indispensable la implementación de alertas automáticas y mayor transparencia en los procesos para mitigar la incertidumbre en el suministro.
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="assets/chapter-2/Caracteristicas Objetivas Segmento 1.png" alt="Gráfico 1 Segmento 1" style="max-width: 45%;"/>
+  <img src="assets/chapter-2/Caracteristicas Subjetivas Segemento 1.png" alt="Gráfico 2 Segmento 1" style="max-width: 45%;"/>
+</div>
 
 -Segmento 2: Proveedores de Combustible
 
 Análisis de Características Objetivas y Subjetivas: Los datos confirman una gestión operativa basada en herramientas no especializadas. El 100% utiliza correos y llamadas como medio principal de coordinación, el 75% complementa la gestión con Excel, el 50% presenta problemas de trazabilidad en el proceso y el 25% menciona dificultades específicas como errores en registros o falta de comunicación con proveedores. Subjetivamente, el 100% considera importante la centralización de la información, el 75% destaca la necesidad de mejoras en la facilidad de uso y seguimiento del sistema, el 75% valora la incorporación de alertas automáticas y el 100% considera relevante el acceso a información histórica para la toma de decisiones. En conjunto, los resultados evidencian una alta dependencia de procesos manuales y una clara demanda por una solución digital integrada que mejore la trazabilidad, el control y la eficiencia operativa.
-
-
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <img src="assets/chapter-2/segmento2-grafico1.png" alt="Gráfico 1 Segmento 2" style="max-width: 45%;"/>
   <img src="assets/chapter-2/segmento2-grafico2.png" alt="Gráfico 2 Segmento 2" style="max-width: 45%;"/>
 </div>
 
+#### Análisis Comparativo
+
+La contrastación de ambos segmentos revela una convergencia crítica en la ineficiencia comunicativa, donde el 100% de las interacciones dependen de canales informales, generando en las empresas solicitantes una incertidumbre del 50% sobre la trazabilidad de sus pedidos y en los proveedores un riesgo constante de pérdida de información operativa. Mientras que las empresas demandan transparencia y acceso a historiales para asegurar su continuidad (100%), los proveedores requieren una centralización de cotizaciones que elimine el caos administrativo actual, validando que el valor real de la solución radica en actuar como una fuente única de verdad que resuelva la asimetría de información detectada en las entrevistas. Esta alineación de necesidades demuestra que el éxito de la plataforma depende de ofrecer una trazabilidad bidireccional que transforme la desconfianza del solicitante en eficiencia administrativa para el proveedor.
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="assets/chapter-2/ContrastaciónDeSegmentos.png" alt="Contrastación De Segmentos" style="max-width: 45%;"/>
+</div>
 
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
