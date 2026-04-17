@@ -181,83 +181,102 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 12. ¿Qué barreras considera que dificultarían implementar una solución digital como NombredelaStartup en su empresa?
 
 ### 2.2.2 Registro de entrevistas
-**1. Segmento 1: Empresas solicitantes de combustible**
-- Entrevista 1:
-  - Nombre: Kevyn Anthony Asto Jacome
-  - Edad: 32
-  - Distrito: San Miguel
-<div allign="center">
+## 1. Segmento 1: Empresas solicitantes de combustible
 
-  <img src="assets/chapter-2/kevyn.png" alt="Captura primer entrevistado"/> 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=uQEHe9</p>
-</div>
+### - Entrevista 1:
 
-- Entrevista 2:
-  - Nombre: Renato Guillermo Calvo Yalan
-  - Edad: 22 años
-  - Distrito: San Juan de Lurigancho, Lima
-<div allign="center">
-<img src="assets/chapter-2/Renato.png" alt="Captura segundo entrevistado"/>
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Kevyn Anthony Asto Jacome |
+| **Edad**               | 32 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g |
+| **Foto entrevista**    | <img src="assets/chapter-2/kevyn.png" width="150"/> |
+| **Resumen**           | Empresa con consumo constante de combustible para operaciones. La gestión actual depende de coordinación manual con proveedores, generando riesgos de desabastecimiento. Se valora especialmente la trazabilidad y la continuidad operativa. |
 
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG</p>
-</div>
+### - Entrevista 2:
 
-- Entrevista 3:
-  - Nombre: Alessando Daniel Bravo Castillo
-  - Edad: 24 años
-  - Distrito: San Martin de Porres, Lima
-<div allign="center">
-<img src="assets/chapter-2/Alessandro.png" alt="Captura tercero entrevistado"/>
-  
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA6kFOl51ZHR64XnqKoMLX5AZqcLey9f3T7M8bFaGsdJZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kvkkFZ</p>
-</div>
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Alessando Daniel Bravo Castillo |
+| **Edad**               | 24 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA6kFOl51ZHR64XnqKoMLX5AZqcLey9f3T7M8bFaGsdJZA |
+| **Foto entrevista**    | <img src="assets/chapter-2/Alessandro.png" width="150"/> |
+| **Resumen**           | El entrevistado participa en la gestión logística de pedidos de combustible, enfrentando problemas como desorganización, errores en pedidos y falta de visibilidad. Considera clave contar con información clara y en tiempo real. |
 
-- Entrevista 4:
-  - Nombre: Betsabe Maldonado Estrella
-  - Edad: 52 años
-  - Distrito: Pueblo Libre, Lima
-<div allign="center">
-<img src="assets/chapter-2/Betsabe.png" alt="Captura tercero entrevistado"/>
-  
-  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAvW2r-wC31SpLubqvPvDwNAe1JTnjc7D4vw0fs_U2dIRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cdaTPq</p>
-</div>
+### - Entrevista 3:
 
-**2. Segmento 2: Proveedores de combustible**
-- Entrevista 1:
-  - Nombre: Francesco
-  - Edad: 20 años
-  - Distrito: La Molina, Lima
-<div allign="center">
-<img src="assets/chapter-2/Francesco.png" alt="Captura entrevistado Francesco"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0GD1zP</p>
-</div>
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Betsabe Maldonado Estrella |
+| **Edad**               | 52 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAvW2r-wC31SpLubqvPvDwNAe1JTnjc7D4vw0fs_U2dIRg |
+| **Foto entrevista**    | <img src="assets/chapter-2/Betsabe.png" width="150"/> |
+| **Resumen**           | La entrevistada evidencia la necesidad de mejorar la planificación y el control del abastecimiento. Los procesos actuales son manuales y poco eficientes, lo que genera demoras y posibles errores en la gestión. |
 
-- Entrevista 2:
-  - Nombre: Samuel
-  - Edad: 48 años
-  - Distrito: Bellavista, Lima
-<div allign="center">
-<img src="assets/chapter-2/Samuel.png" alt="Captura entrevistado Samuel"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCHmDhpE9SeS79-7cpkvvj4ARv-HzcyTjlnuszQWkBofBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DSF66n</p>
-</div>
+---
 
-- Entrevista 3:
-  - Nombre: Carlos Mendoza
-  - Edad: 50 años
-  - Distrito: San Martin de Porres, Lima
-<div align="center">
-<img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+## 2. Segmento 2: Proveedores de combustible
 
-- Entrevista 4:
-  - Nombre: Lucia Fernandez
-  - Edad: 21 años
-  - Distrito: Villa el Salvador, Lima
-<div align="center">
-<img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
-<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
-</div>
+### - Entrevista 1:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Francesco |
+| **Edad**               | 20 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4 |
+| **Foto entrevista**    | <img src="assets/chapter-2/Francesco.png" width="150"/> |
+| **Resumen**           | Se encarga de la gestión comercial de pedidos, utilizando herramientas básicas como Excel y WhatsApp. Identifica problemas de desorganización y falta de integración, mostrando interés en soluciones digitales centralizadas. |
+
+### - Entrevista 2:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Samuel |
+| **Edad**               | 48 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCHmDhpE9SeS79-7cpkvvj4ARv-HzcyTjlnuszQWkBofBQ |
+| **Foto entrevista**    | <img src="assets/chapter-2/Samuel.png" width="150"/> |
+| **Resumen**           | Gestiona operaciones de suministro con procesos tradicionales. Señala dificultades en la coordinación, seguimiento y control de pedidos, resaltando la necesidad de automatización y mejor visibilidad. |
+
+### - Entrevista 3:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Carlos Mendoza |
+| **Edad**               | 50 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4 |
+| **Foto entrevista**    | <img src="assets/chapter-2/CarlosEntrevista.png" width="150"/> |
+| **Resumen**           | Responsable de operaciones logísticas con alto volumen de pedidos. Destaca problemas de trazabilidad, integración de sistemas y dependencia de procesos manuales, valorando soluciones digitales integradas. |
+
+### - Entrevista 4:
+
+| Campo                    | Detalle |
+|-------------------------|---------|
+| **Nombre entrevistado** | Lucia Fernandez |
+| **Edad**               | 21 |
+| **Departamento**       | Lima |
+| **Inicio del video**   | 00:00 |
+| **Fin del video**      | — |
+| **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4 |
+| **Foto entrevista**    | <img src="assets/chapter-2/LuciaEntrevista.png" width="150"/> |
+| **Resumen**           | Participa en ventas y operaciones, con procesos altamente manuales y dependientes de comunicación informal. Identifica problemas de pérdida de información y errores, mostrando interés en herramientas simples y centralizadas. |
 
 ### 2.2.3 Análisis de entrevistas
 
@@ -499,18 +518,3 @@ In this project, whose main objective is to improve efficiency, traceability, an
 
 
 
-### 2.3.4 Empathy Mapping
-
-
--Segmento 1: Empresas solicitantes de combustible
-
-
-
--Segmento 2: Proveedores de Combustible
-
-
-
-## 2.4 Big Picture Event Storming
-
-
-## 2.5 Ubiquitous Language
