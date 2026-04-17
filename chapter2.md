@@ -212,6 +212,15 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
   <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA6kFOl51ZHR64XnqKoMLX5AZqcLey9f3T7M8bFaGsdJZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kvkkFZ</p>
 </div>
 
+- Entrevista 4:
+  - Nombre: Betsabe Maldonado Estrella
+  - Edad: 52 años
+  - Distrito: Pueblo Libre, Lima
+<div allign="center">
+<img src="assets/chapter-2/Betsabe.png" alt="Captura tercero entrevistado"/>
+  
+  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAvW2r-wC31SpLubqvPvDwNAe1JTnjc7D4vw0fs_U2dIRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cdaTPq</p>
+</div>
 
 **2. Segmento 2: Proveedores de combustible**
 - Entrevista 1:
