@@ -202,7 +202,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
   <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Jgu6ZG</p>
 </div>
 
-- Entrevista 2:
+- Entrevista 3:
   - Nombre: Alessando Daniel Bravo Castillo
   - Edad: 24 años
   - Distrito: San Martin de Porres, Lima
@@ -236,154 +236,112 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
+
+A partir del análisis de entrevistas y la recolección de información sobre la gestión de pedidos de combustible, se identificaron los principales perfiles de usuarios que interactúan con la solución **FullTank**, desarrollada por la startup **TechnoSAC**, destacando tanto a las empresas solicitantes como a los proveedores, quienes concentran la necesidad de optimizar la solicitud, gestión y seguimiento de pedidos en tiempo real; en este contexto, **FullTank** propone centralizar y digitalizar todo el proceso en una sola plataforma, reduciendo el uso de canales informales, minimizando errores operativos y mejorando la trazabilidad, lo que permite al equipo de desarrollo comprender mejor sus motivaciones y frustraciones para diseñar funcionalidades como formularios digitales, tracking en tiempo real, dashboards y herramientas de comunicación integradas, logrando así una experiencia más eficiente, clara y confiable.
+
 -Segmento 1: Empresas solicitantes de combustible
+
+ <img src="assets/chapter-2/userCarlos.png" alt="userPersona de Carlos"/>
 
 -Segmento 2: Proveedores de Combustible
 
+ <img src="assets/chapter-2/userAndrea.png" alt="userPersona de Andrea"/>
+
 ### 2.3.2 User Task Matrix
--Segmento 1: Empresas solicitantes de combustible
+
+El User Task Matrix presenta las tareas que realizan los User Persona para cumplir sus objetivos en su día a día, independientemente de si usan nuestro software o no. Se evalúa la frecuencia y la importancia de cada tarea para identificar dónde aportar valor.
+
 <table border="1">
   <thead>
     <tr>
-      <th>Tarea</th>
-      <th>Descripción</th>
+      <th rowspan="2">Tarea (Task)</th>
+      <th colspan="2">Empresas Solicitantes</th>
+      <th colspan="2">Proveedores de Combustible</th>
+    </tr>
+    <tr>
       <th>Frecuencia</th>
       <th>Importancia</th>
-      <th>Dolor actual (Pain Point)</th>
-      <th>Oportunidad de mejora</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Registrar pedido de combustible</td>
-      <td>Ingresar cantidad, tipo y fecha de entrega</td>
+      <td>Registrar / recibir pedidos</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Procesos manuales y propensos a errores</td>
-      <td>Formulario digital rápido (&lt;3 min)</td>
+      <td>Alta</td>
+      <td>Alta</td>
     </tr>
     <tr>
-      <td>Consultar estado del pedido</td>
-      <td>Verificar estado del pedido</td>
+      <td>Validar información del pedido</td>
+      <td>Media</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Falta de trazabilidad, requiere llamadas</td>
-      <td>Tracking en tiempo real</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Consultar / actualizar estado del pedido</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
     </tr>
     <tr>
       <td>Modificar pedido</td>
-      <td>Editar detalles antes de confirmación</td>
       <td>Media</td>
       <td>Alta</td>
-      <td>Dificultad para hacer cambios</td>
-      <td>Edición simple con historial</td>
-    </tr>
-    <tr>
-      <td>Comunicarse con proveedor</td>
-      <td>Coordinar detalles del pedido</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Uso de múltiples canales</td>
-      <td>Chat integrado</td>
-    </tr>
-    <tr>
-      <td>Revisar historial de pedidos</td>
-      <td>Consultar pedidos anteriores</td>
-      <td>Media</td>
-      <td>Media</td>
-      <td>Información dispersa</td>
-      <td>Historial centralizado</td>
-    </tr>
-    <tr>
-      <td>Recibir notificaciones</td>
-      <td>Alertas sobre estado del pedido</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Seguimiento manual</td>
-      <td>Notificaciones automáticas</td>
-    </tr>
-    <tr>
-      <td>Generar reportes</td>
-      <td>Analizar consumo de combustible</td>
       <td>Baja</td>
       <td>Media</td>
-      <td>Falta de datos estructurados</td>
-      <td>Dashboard con métricas</td>
-    </tr>
-  </tbody>
-</table>
-
-
--Segmento 2: Proveedores de Combustible
-
-
-<table border="1">
-  <thead>
-    <tr>
-      <th>Tarea</th>
-      <th>Descripción</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Dolor actual (Pain Point)</th>
-      <th>Oportunidad de mejora</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Recibir pedidos</td>
-      <td>Visualizar solicitudes de clientes</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Pedidos por múltiples canales</td>
-      <td>Bandeja centralizada</td>
     </tr>
     <tr>
-      <td>Validar pedidos</td>
-      <td>Confirmar disponibilidad</td>
+      <td>Programar y planificar entregas</td>
+      <td>Baja</td>
+      <td>Media</td>
       <td>Alta</td>
       <td>Alta</td>
-      <td>Falta de organización</td>
-      <td>Flujo estructurado</td>
-    </tr>
-    <tr>
-      <td>Programar entregas</td>
-      <td>Asignar fechas y logística</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Coordinación manual compleja</td>
-      <td>Sistema de planificación</td>
-    </tr>
-    <tr>
-      <td>Actualizar estado del pedido</td>
-      <td>Marcar progreso del pedido</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Información desactualizada</td>
-      <td>Actualización en tiempo real</td>
     </tr>
     <tr>
       <td>Gestionar múltiples pedidos</td>
-      <td>Organizar pedidos simultáneos</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Sobrecarga operativa</td>
-      <td>Panel de control</td>
-    </tr>
-    <tr>
-      <td>Comunicarse con clientes</td>
-      <td>Resolver dudas y coordinar</td>
-      <td>Alta</td>
-      <td>Alta</td>
-      <td>Exceso de llamadas</td>
-      <td>Chat integrado</td>
-    </tr>
-    <tr>
-      <td>Monitorear desempeño</td>
-      <td>Evaluar eficiencia</td>
       <td>Media</td>
       <td>Media</td>
-      <td>Falta de métricas</td>
-      <td>Dashboard analítico</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Comunicarse entre cliente y proveedor</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recibir / enviar notificaciones</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar historial de pedidos</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Monitorear desempeño / consumo</td>
+      <td>Baja</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Generar reportes y métricas</td>
+      <td>Baja</td>
+      <td>Media</td>
+      <td>Media</td>
+      <td>Media</td>
     </tr>
   </tbody>
 </table>
@@ -394,152 +352,126 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 
 -Segmento 1: Empresas solicitantes de combustible
 
+El User Journey Mapping de Carlos representa el recorrido actual que experimenta como responsable en una empresa constructora, en la gestión del abastecimiento de combustible necesario para la operación de maquinaria pesada. El mapa ilustra el proceso end-to-end, desde la identificación de la necesidad de combustible hasta la evaluación de la entrega y desempeño del proveedor.
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Etapa</th>
-      <th>Acciones</th>
-      <th>Pensamientos</th>
-      <th>Emociones</th>
-      <th>Pain Points</th>
-      <th>Oportunidades</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Identificación de necesidad</td>
-      <td>Detecta que necesita combustible</td>
-      <td>“Necesito hacer el pedido rápido”</td>
-      <td>😐 Neutral</td>
-      <td>No hay sistema centralizado</td>
-      <td>Recordatorios automáticos</td>
-    </tr>
-    <tr>
-      <td>Registro del pedido</td>
-      <td>Contacta al proveedor (WhatsApp/correo)</td>
-      <td>“Espero no equivocarme en los datos”</td>
-      <td>😕 Estrés</td>
-      <td>Errores manuales</td>
-      <td>Formulario digital guiado</td>
-    </tr>
-    <tr>
-      <td>Confirmación</td>
-      <td>Espera respuesta del proveedor</td>
-      <td>“¿Habrá sido recibido?”</td>
-      <td>😟 Incertidumbre</td>
-      <td>Falta de confirmación inmediata</td>
-      <td>Confirmación automática</td>
-    </tr>
-    <tr>
-      <td>Seguimiento</td>
-      <td>Hace llamadas para saber estado</td>
-      <td>“Necesito saber dónde está”</td>
-      <td>😤 Frustración</td>
-      <td>No hay tracking</td>
-      <td>Seguimiento en tiempo real</td>
-    </tr>
-    <tr>
-      <td>Recepción</td>
-      <td>Recibe el combustible</td>
-      <td>“Espero que llegue a tiempo”</td>
-      <td>🙂 Alivio</td>
-      <td>Retrasos inesperados</td>
-      <td>Alertas de entrega</td>
-    </tr>
-    <tr>
-      <td>Post-servicio</td>
-      <td>Registra o revisa el pedido</td>
-      <td>“Necesito llevar control”</td>
-      <td>😐 Neutral</td>
-      <td>Datos desorganizados</td>
-      <td>Historial automático</td>
-    </tr>
-  </tbody>
-</table>
+En la situación As-Is, Carlos enfrenta un flujo de trabajo manual y poco estructurado: detecta necesidades sin apoyo de alertas, busca proveedores de manera informal, realiza pedidos mediante canales como WhatsApp o correo y da seguimiento a través de llamadas constantes. Esto genera desorden en la información, falta de trazabilidad, retrasos y una alta dependencia de la comunicación manual.
 
+El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución que centralice la información, automatice el registro de pedidos y permita el seguimiento en tiempo real.
+
+ <img src="assets/chapter-2/journeyCarlos.png" alt="userJourney de Carlos"/>
 
 -Segmento 2: Proveedores de Combustible
 
+El User Journey Mapping de Andrea representa el recorrido actual que experimenta como coordinadora en una empresa distribuidora de combustible, encargada de gestionar múltiples pedidos, coordinar entregas y asegurar el cumplimiento logístico. El mapa ilustra el proceso end-to-end, desde la recepción de pedidos hasta la evaluación del desempeño operativo.
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Etapa</th>
-      <th>Acciones</th>
-      <th>Pensamientos</th>
-      <th>Emociones</th>
-      <th>Pain Points</th>
-      <th>Oportunidades</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Recepción de pedido</td>
-      <td>Recibe pedidos por múltiples canales</td>
-      <td>“Tengo demasiados pedidos por revisar”</td>
-      <td>😓 Estrés</td>
-      <td>Desorganización</td>
-      <td>Bandeja centralizada</td>
-    </tr>
-    <tr>
-      <td>Validación</td>
-      <td>Verifica datos del pedido</td>
-      <td>“¿Está todo correcto?”</td>
-      <td>😐 Neutral</td>
-      <td>Errores en información</td>
-      <td>Validación automática</td>
-    </tr>
-    <tr>
-      <td>Planificación</td>
-      <td>Organiza rutas y entregas</td>
-      <td>“Esto toma mucho tiempo”</td>
-      <td>😫 Carga</td>
-      <td>Proceso manual</td>
-      <td>Optimización de rutas</td>
-    </tr>
-    <tr>
-      <td>Comunicación</td>
-      <td>Coordina con clientes</td>
-      <td>“Recibo demasiadas llamadas”</td>
-      <td>😤 Frustración</td>
-      <td>Saturación de comunicación</td>
-      <td>Notificaciones automáticas</td>
-    </tr>
-    <tr>
-      <td>Entrega</td>
-      <td>Realiza despacho</td>
-      <td>“Debe salir todo bien”</td>
-      <td>😬 Tensión</td>
-      <td>Falta de visibilidad</td>
-      <td>Tracking en tiempo real</td>
-    </tr>
-    <tr>
-      <td>Evaluación</td>
-      <td>Revisa desempeño</td>
-      <td>“¿Estamos siendo eficientes?”</td>
-      <td>🤔 Reflexión</td>
-      <td>No hay métricas claras</td>
-      <td>Dashboard analítico</td>
-    </tr>
-  </tbody>
-</table>
+En la situación As-Is, Andrea enfrenta un flujo de trabajo altamente demandante y fragmentado: recibe pedidos por diversos canales, valida información manualmente, organiza rutas sin herramientas automatizadas y mantiene comunicación constante con clientes mediante llamadas y mensajes. Esto genera sobrecarga operativa, errores en la planificación, saturación en la comunicación y limitada visibilidad de métricas clave.
+
+El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución tecnológica que centralice pedidos, automatice la planificación logística y mejore la visibilidad operativa mediante indicadores y dashboards.
 
 
+ <img src="assets/chapter-2/journeyAndrea.png" alt="UserJourney de Andrea"/>
 
 
 ### 2.3.4 Empathy Mapping
 
+Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y observaciones recolectadas durante el análisis de los User Persona. Se colocó al centro de cada mapa al usuario correspondiente (Carlos y Andrea) y se respondieron las preguntas claves sobre su entorno, emociones, comportamientos y necesidades.
 
 -Segmento 1: Empresas solicitantes de combustible
 
 
+ <img src="assets/chapter-2/empathyCarlos.png" alt="empathyMapping de Carlos"/>
+
 
 -Segmento 2: Proveedores de Combustible
 
+ <img src="assets/chapter-2/empathyAndrea.png" alt="empathyMapping de Andrea"/>
 
 
 ## 2.4 Big Picture Event Storming
 
 
 ## 2.5 Ubiquitous Language
+
+In this project, whose main objective is to improve efficiency, traceability, and communication in the management and distribution of fuel through a web platform, the following ubiquitous language has been defined to ensure clarity and consistency among users, developers, and stakeholders:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fuel Request</td>
+      <td>Order generated by a client company specifying type, quantity, and delivery details of fuel.</td>
+    </tr>
+    <tr>
+      <td>Client Company</td>
+      <td>Organization that requires fuel for its operations and uses the platform to place and track orders.</td>
+    </tr>
+    <tr>
+      <td>Fuel Supplier</td>
+      <td>Company responsible for receiving, validating, and fulfilling fuel requests.</td>
+    </tr>
+    <tr>
+      <td>Order Status</td>
+      <td>Current stage of a request (e.g., pending, validated, scheduled, in delivery, completed).</td>
+    </tr>
+    <tr>
+      <td>Order Tracking</td>
+      <td>Real-time monitoring of the progress and location of a fuel delivery.</td>
+    </tr>
+    <tr>
+      <td>Delivery Scheduling</td>
+      <td>Process of assigning date, time, and logistics resources to fulfill a fuel request.</td>
+    </tr>
+    <tr>
+      <td>Centralized Dashboard</td>
+      <td>Main interface where users visualize orders, metrics, and operational status.</td>
+    </tr>
+    <tr>
+      <td>Notification</td>
+      <td>Automated message informing users about updates or changes in their fuel requests.</td>
+    </tr>
+    <tr>
+      <td>Order History</td>
+      <td>Record of past fuel requests, including details and outcomes.</td>
+    </tr>
+    <tr>
+      <td>Logistics Planning</td>
+      <td>Organization and optimization of routes, deliveries, and operational resources.</td>
+    </tr>
+    <tr>
+      <td>Validation Process</td>
+      <td>Step where the supplier confirms availability, accuracy, and feasibility of a request.</td>
+    </tr>
+    <tr>
+      <td>Integrated Communication</td>
+      <td>Built-in chat or messaging system enabling direct interaction between clients and suppliers.</td>
+    </tr>
+    <tr>
+      <td>Operational Metrics</td>
+      <td>Indicators such as delivery time, efficiency, and error rates used for performance evaluation.</td>
+    </tr>
+    <tr>
+      <td>Report</td>
+      <td>Generated document or dashboard summarizing fuel consumption, deliveries, and performance data.</td>
+    </tr>
+    <tr>
+      <td>Session</td>
+      <td>Authenticated period in which a user accesses the platform with secure credentials.</td>
+    </tr>
+    <tr>
+      <td>Roles and Permissions</td>
+      <td>Access controls that define what actions each type of user (client or supplier) can perform.</td>
+    </tr>
+  </tbody>
+</table>
+
+Expected benefits of the ubiquitous language:
+
+- Facilitates communication among developers, users, and system stakeholders.
+- Improves understanding of the system's core processes and functionalities.
+- Reduces ambiguity and misinterpretation during design and development.
+- Ensures consistency across documentation, interfaces, and implementation.
