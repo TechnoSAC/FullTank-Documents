@@ -452,6 +452,34 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 
 ## 2.4 Big Picture Event Storming
 
+Para comprender a profundidad el dominio del negocio de **Prime Fuel** y alinear la visión tecnológica con las operaciones reales de compraventa y distribución de combustible, el equipo llevó a cabo una sesión de **Event Storming**. Esta técnica colaborativa nos permitió identificar los hitos clave del sistema sin adelantarnos a detalles técnicos.
+
+### Step 1 – Free Exploration (Exploración Libre)
+
+En esta primera etapa, el equipo realizó una lluvia de ideas desestructurada para capturar todos los **Eventos de Dominio** relevantes de la operativa logística y comercial. Utilizando notas de color naranja (*post-its*), registramos hechos que ya ocurrieron en el negocio, redactados estrictamente en tiempo pasado (ej. *Fuel request created*, *Fuel dispatched*). 
+
+El objetivo principal fue plasmar sobre el lienzo la realidad del negocio, desde el registro de usuarios hasta el despacho físico en las cisternas, priorizando la cantidad de eventos sobre el orden cronológico o la jerarquía.
+
+<div align="center">
+  <img src="assets/chapter-2/step1.png" alt="Step 1 - Unstructured Exploration" width="100%"/>
+  <p><em>Figura X: Step 1 - Exploración libre de eventos de dominio.</em></p>
+</div>
+
+### Step 2 – Structured Organization (Líneas de Tiempo)
+
+Tras listar los eventos de dominio, procedimos a organizar el caos inicial estructurando los *post-its* en un flujo lógico de negocio de izquierda a derecha. Agrupamos los eventos en cuatro grandes bloques temporales que reflejan el ciclo de vida real de una operación de abastecimiento de combustible:
+
+1. **Onboarding & Contracting:** Abarca el registro de las empresas y la formalización de los contratos de exclusividad.
+2. **Order Management:** Contiene el núcleo transaccional administrativo, desde la creación de la solicitud y envío de cotizaciones, hasta la confirmación y validación financiera.
+3. **Logistics & Dispatch:** Refleja la operativa física, incluyendo la asignación de cisternas (*Tanker assigned to order*), actualización de inventarios y la entrega del combustible.
+4. **Monitoring & Analytics:** Agrupa los eventos asíncronos de valor agregado, como el envío de notificaciones, alertas de precios y reportes de consumo.
+
+Esta estructura temporal nos ayudó a identificar claramente las áreas críticas donde la digitalización eliminará los actuales cuellos de botella del sector.
+
+<div align="center">
+  <img src="assets/chapter-2/step2.png" alt="Step 2 - Structured Organization" width="100%"/>
+  <p><em>Figura Y: Step 2 - Organización temporal por flujos de negocio.</em></p>
+</div>
 
 ## 2.5 Ubiquitous Language
 
