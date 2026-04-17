@@ -280,6 +280,23 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 
 ### 2.2.3 Análisis de entrevistas
 
+En esta sección se presenta un análisis de los datos recopilados de las entrevistas. Por cada segmento objetivo, se detallan gráficamente los hallazgos obtenidos 
+
+-Segmento 1: Empresas solicitantes de combustible
+
+
+-Segmento 2: Proveedores de Combustible
+
+Análisis de Características Objetivas y Subjetivas: Los datos confirman una gestión operativa basada en herramientas no especializadas. El 100% utiliza correos y llamadas como medio principal de coordinación, el 75% complementa la gestión con Excel, el 50% presenta problemas de trazabilidad en el proceso y el 25% menciona dificultades específicas como errores en registros o falta de comunicación con proveedores. Subjetivamente, el 100% considera importante la centralización de la información, el 75% destaca la necesidad de mejoras en la facilidad de uso y seguimiento del sistema, el 75% valora la incorporación de alertas automáticas y el 100% considera relevante el acceso a información histórica para la toma de decisiones. En conjunto, los resultados evidencian una alta dependencia de procesos manuales y una clara demanda por una solución digital integrada que mejore la trazabilidad, el control y la eficiencia operativa.
+
+
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="assets/chapter-2/segmento2-grafico1.png" alt="Gráfico 1 Segmento 2" style="max-width: 45%;"/>
+  <img src="assets/chapter-2/segmento2-grafico2.png" alt="Gráfico 2 Segmento 2" style="max-width: 45%;"/>
+</div>
+
+
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
 
