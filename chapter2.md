@@ -212,6 +212,15 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
   <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA6kFOl51ZHR64XnqKoMLX5AZqcLey9f3T7M8bFaGsdJZA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kvkkFZ</p>
 </div>
 
+- Entrevista 4:
+  - Nombre: Betsabe Maldonado Estrella
+  - Edad: 52 años
+  - Distrito: Pueblo Libre, Lima
+<div allign="center">
+<img src="assets/chapter-2/Betsabe.png" alt="Captura tercero entrevistado"/>
+  
+  <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAvW2r-wC31SpLubqvPvDwNAe1JTnjc7D4vw0fs_U2dIRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cdaTPq</p>
+</div>
 
 **2. Segmento 2: Proveedores de combustible**
 - Entrevista 1:
@@ -230,6 +239,24 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 <div allign="center">
 <img src="assets/chapter-2/Samuel.png" alt="Captura entrevistado Samuel"/>
 <p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCHmDhpE9SeS79-7cpkvvj4ARv-HzcyTjlnuszQWkBofBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DSF66n</p>
+</div>
+
+- Entrevista 3:
+  - Nombre: Carlos Mendoza
+  - Edad: 50 años
+  - Distrito: San Martin de Porres, Lima
+<div align="center">
+<img src="assets/chapter-2/CarlosEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
+<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4?e=fdVXa8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
+</div>
+
+- Entrevista 4:
+  - Nombre: Lucia Fernandez
+  - Edad: 21 años
+  - Distrito: Villa el Salvador, Lima
+<div align="center">
+<img src="assets/chapter-2/LuciaEntrevista.png" alt="Captura entrevistado Carlos" style="width: 30%; max-width: 300px; height: auto;"/>
+<p>Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4?e=X46Kf3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>
 </div>
 
 ### 2.2.3 Análisis de entrevistas
@@ -469,9 +496,21 @@ In this project, whose main objective is to improve efficiency, traceability, an
   </tbody>
 </table>
 
-Expected benefits of the ubiquitous language:
 
-- Facilitates communication among developers, users, and system stakeholders.
-- Improves understanding of the system's core processes and functionalities.
-- Reduces ambiguity and misinterpretation during design and development.
-- Ensures consistency across documentation, interfaces, and implementation.
+
+
+### 2.3.4 Empathy Mapping
+
+
+-Segmento 1: Empresas solicitantes de combustible
+
+
+
+-Segmento 2: Proveedores de Combustible
+
+
+
+## 2.4 Big Picture Event Storming
+
+
+## 2.5 Ubiquitous Language
