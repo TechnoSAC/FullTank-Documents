@@ -164,7 +164,7 @@ Para el desarrollo de la Startup, utilizamos el enfoque Lean UX, que nos permite
 
 #### 1.2.2.4 Lean UX Canvas
 
-<img src="assets/chapter-1/l.png" alt="Lean UX Canvas">
+<img src="../assets/chapter-1/lean-ux-canvas.png" alt="Lean UX Canvas">
 
 ## 1.3 Segmentos objetivos
 
