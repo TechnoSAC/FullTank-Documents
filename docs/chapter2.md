@@ -16,10 +16,10 @@ En el mercado existen diversas soluciones digitales enfocadas en la gestión de 
   </tr>
   <tr>
     <td colspan="2"><strong></strong></td>
-    <td><strong>FullTank</strong><br><img src="./assets/chapter-2/logo-FullTank.png" height="100"/></td>
-    <td><strong>Zavgar</strong><br><img src="./assets/chapter-2/logo-zavgar.jpg" height="100"/></td>
-    <td><strong>FuelCloud</strong><br><img src="./assets/chapter-2/logo-fuelcloud.jpg" height="100"/></td>
-    <td><strong>Wialon</strong><br><img src="./assets/chapter-2/logo-wialon.jpg" height="100"/></td>
+    <td><strong>FullTank</strong><br><img src="../assets/chapter-2/logo-FullTank.png" height="100"/></td>
+    <td><strong>Zavgar</strong><br><img src="../assets/chapter-2/logo-zavgar.jpg" height="100"/></td>
+    <td><strong>FuelCloud</strong><br><img src="../assets/chapter-2/logo-fuelcloud.jpg" height="100"/></td>
+    <td><strong>Wialon</strong><br><img src="../assets/chapter-2/logo-wialon.jpg" height="100"/></td>
   </tr>
 
   <tr>
@@ -193,7 +193,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCKV9lpC3LTSYq8V0HBefpVAS_fcsy2aqA-XEwNtES_c3g |
-| **Foto entrevista**    | <img src="assets/chapter-2/kevyn.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/kevyn.png" width="150"/> |
 | **Resumen**           | Empresa con consumo constante de combustible para operaciones. La gestión actual depende de coordinación manual con proveedores, generando riesgos de desabastecimiento. Se valora especialmente la trazabilidad y la continuidad operativa. |
 
 ### - Entrevista 2:
@@ -206,7 +206,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQA6kFOl51ZHR64XnqKoMLX5AZqcLey9f3T7M8bFaGsdJZA |
-| **Foto entrevista**    | <img src="assets/chapter-2/Alessandro.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/Alessandro.png" width="150"/> |
 | **Resumen**           | El entrevistado participa en la gestión logística de pedidos de combustible, enfrentando problemas como desorganización, errores en pedidos y falta de visibilidad. Considera clave contar con información clara y en tiempo real. |
 
 ### - Entrevista 3:
@@ -219,7 +219,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAvW2r-wC31SpLubqvPvDwNAe1JTnjc7D4vw0fs_U2dIRg |
-| **Foto entrevista**    | <img src="assets/chapter-2/Betsabe.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/Betsabe.png" width="150"/> |
 | **Resumen**           | La entrevistada evidencia la necesidad de mejorar la planificación y el control del abastecimiento. Los procesos actuales son manuales y poco eficientes, lo que genera demoras y posibles errores en la gestión. |
 
 ---
@@ -236,7 +236,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQDS2Yop64CbRLtW82ISOuc4AU56u40anOCvBotRFMydvE4 |
-| **Foto entrevista**    | <img src="assets/chapter-2/Francesco.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/Francesco.png" width="150"/> |
 | **Resumen**           | Se encarga de la gestión comercial de pedidos, utilizando herramientas básicas como Excel y WhatsApp. Identifica problemas de desorganización y falta de integración, mostrando interés en soluciones digitales centralizadas. |
 
 ### - Entrevista 2:
@@ -249,7 +249,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQCHmDhpE9SeS79-7cpkvvj4ARv-HzcyTjlnuszQWkBofBQ |
-| **Foto entrevista**    | <img src="assets/chapter-2/Samuel.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/Samuel.png" width="150"/> |
 | **Resumen**           | Gestiona operaciones de suministro con procesos tradicionales. Señala dificultades en la coordinación, seguimiento y control de pedidos, resaltando la necesidad de automatización y mejor visibilidad. |
 
 ### - Entrevista 3:
@@ -262,7 +262,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAc_YdFgDxbSIN6wUPQrIZ-ARLL0hIcgJwoS9AJHEcnpD4 |
-| **Foto entrevista**    | <img src="assets/chapter-2/CarlosEntrevista.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/CarlosEntrevista.png" width="150"/> |
 | **Resumen**           | Responsable de operaciones logísticas con alto volumen de pedidos. Destaca problemas de trazabilidad, integración de sistemas y dependencia de procesos manuales, valorando soluciones digitales integradas. |
 
 ### - Entrevista 4:
@@ -275,7 +275,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Inicio del video**   | 00:00 |
 | **Fin del video**      | — |
 | **Link del video**     | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQAVGJhcIxtqRpfX4RZjsRWyASN4B5-P0T-EiUi1238xlu4 |
-| **Foto entrevista**    | <img src="assets/chapter-2/LuciaEntrevista.png" width="150"/> |
+| **Foto entrevista**    | <img src="../assets/chapter-2/LuciaEntrevista.png" width="150"/> |
 | **Resumen**           | Participa en ventas y operaciones, con procesos altamente manuales y dependientes de comunicación informal. Identifica problemas de pérdida de información y errores, mostrando interés en herramientas simples y centralizadas. |
 
 ### 2.2.3 Análisis de entrevistas
@@ -287,8 +287,8 @@ En esta sección se presenta un análisis de los datos recopilados de las entrev
 El análisis del segmento de empresas solicitantes de combustible revela un ecosistema operativo con una dependencia del 100% en canales de comunicación informal como llamadas y correos, donde el 75% utiliza herramientas no especializadas como Excel para su gestión. Esta precariedad se traduce en que el 50% de los usuarios enfrente problemas críticos de trazabilidad y un 25% sufra errores de registro que ponen en riesgo la continuidad operativa. En el plano subjetivo, existe una demanda unánime (100%) por la centralización de la información y el acceso a reportes históricos para la toma de decisiones, mientras que un 75% considera indispensable la implementación de alertas automáticas y mayor transparencia en los procesos para mitigar la incertidumbre en el suministro.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/chapter-2/Caracteristicas Objetivas Segmento 1.png" alt="Gráfico 1 Segmento 1" style="max-width: 45%;"/>
-  <img src="assets/chapter-2/Caracteristicas Subjetivas Segemento 1.png" alt="Gráfico 2 Segmento 1" style="max-width: 45%;"/>
+  <img src="../assets/chapter-2/Caracteristicas Objetivas Segmento 1.png" alt="Gráfico 1 Segmento 1" style="max-width: 45%;"/>
+  <img src="../assets/chapter-2/Caracteristicas Subjetivas Segemento 1.png" alt="Gráfico 2 Segmento 1" style="max-width: 45%;"/>
 </div>
 
 -Segmento 2: Proveedores de Combustible
@@ -296,8 +296,8 @@ El análisis del segmento de empresas solicitantes de combustible revela un ecos
 Análisis de Características Objetivas y Subjetivas: Los datos confirman una gestión operativa basada en herramientas no especializadas. El 100% utiliza correos y llamadas como medio principal de coordinación, el 75% complementa la gestión con Excel, el 50% presenta problemas de trazabilidad en el proceso y el 25% menciona dificultades específicas como errores en registros o falta de comunicación con proveedores. Subjetivamente, el 100% considera importante la centralización de la información, el 75% destaca la necesidad de mejoras en la facilidad de uso y seguimiento del sistema, el 75% valora la incorporación de alertas automáticas y el 100% considera relevante el acceso a información histórica para la toma de decisiones. En conjunto, los resultados evidencian una alta dependencia de procesos manuales y una clara demanda por una solución digital integrada que mejore la trazabilidad, el control y la eficiencia operativa.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/chapter-2/segmento2-grafico1.png" alt="Gráfico 1 Segmento 2" style="max-width: 45%;"/>
-  <img src="assets/chapter-2/segmento2-grafico2.png" alt="Gráfico 2 Segmento 2" style="max-width: 45%;"/>
+  <img src="../assets/chapter-2/segmento2-grafico1.png" alt="Gráfico 1 Segmento 2" style="max-width: 45%;"/>
+  <img src="../assets/chapter-2/segmento2-grafico2.png" alt="Gráfico 2 Segmento 2" style="max-width: 45%;"/>
 </div>
 
 #### Análisis Comparativo
@@ -305,7 +305,7 @@ Análisis de Características Objetivas y Subjetivas: Los datos confirman una ge
 La contrastación de ambos segmentos revela una convergencia crítica en la ineficiencia comunicativa, donde el 100% de las interacciones dependen de canales informales, generando en las empresas solicitantes una incertidumbre del 50% sobre la trazabilidad de sus pedidos y en los proveedores un riesgo constante de pérdida de información operativa. Mientras que las empresas demandan transparencia y acceso a historiales para asegurar su continuidad (100%), los proveedores requieren una centralización de cotizaciones que elimine el caos administrativo actual, validando que el valor real de la solución radica en actuar como una fuente única de verdad que resuelva la asimetría de información detectada en las entrevistas. Esta alineación de necesidades demuestra que el éxito de la plataforma depende de ofrecer una trazabilidad bidireccional que transforme la desconfianza del solicitante en eficiencia administrativa para el proveedor.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="assets/chapter-2/ContrastaciónDeSegmentos.png" alt="Contrastación De Segmentos" style="max-width: 45%;"/>
+  <img src="../assets/chapter-2/ContrastaciónDeSegmentos.png" alt="Contrastación De Segmentos" style="max-width: 45%;"/>
 </div>
 
 ## 2.3 Needfinding
@@ -315,11 +315,11 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 -Segmento 1: Empresas solicitantes de combustible
 
- <img src="assets/chapter-2/userCarlos.png" alt="userPersona de Carlos"/>
+ <img src="../assets/chapter-2/userCarlos.png" alt="userPersona de Carlos"/>
 
 -Segmento 2: Proveedores de Combustible
 
- <img src="assets/chapter-2/userAndrea.png" alt="userPersona de Andrea"/>
+ <img src="../assets/chapter-2/userAndrea.png" alt="userPersona de Andrea"/>
 
 ### 2.3.2 User Task Matrix
 
@@ -432,7 +432,7 @@ En la situación As-Is, Carlos enfrenta un flujo de trabajo manual y poco estruc
 
 El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución que centralice la información, automatice el registro de pedidos y permita el seguimiento en tiempo real.
 
- <img src="assets/chapter-2/journeyCarlos.png" alt="userJourney de Carlos"/>
+ <img src="../assets/chapter-2/journeyCarlos.png" alt="userJourney de Carlos"/>
 
 -Segmento 2: Proveedores de Combustible
 
@@ -443,7 +443,7 @@ En la situación As-Is, Andrea enfrenta un flujo de trabajo altamente demandante
 El Journey busca evidenciar los puntos críticos de su experiencia actual, identificando emociones, tareas, fricciones y oportunidades de mejora a lo largo de cada etapa (Awareness, Data Collection, Daily Management, Communication, Reporting y Evaluation). Este análisis servirá como base para diseñar una solución tecnológica que centralice pedidos, automatice la planificación logística y mejore la visibilidad operativa mediante indicadores y dashboards.
 
 
- <img src="assets/chapter-2/journeyAndrea.png" alt="UserJourney de Andrea"/>
+ <img src="../assets/chapter-2/journeyAndrea.png" alt="UserJourney de Andrea"/>
 
 
 ### 2.3.4 Empathy Mapping
@@ -453,17 +453,17 @@ Para la elaboración de los Empathy Maps, el equipo partió del conocimiento y o
 -Segmento 1: Empresas solicitantes de combustible
 
 
- <img src="assets/chapter-2/empathyCarlos.png" alt="empathyMapping de Carlos"/>
+ <img src="../assets/chapter-2/empathyCarlos.png" alt="empathyMapping de Carlos"/>
 
 
 -Segmento 2: Proveedores de Combustible
 
- <img src="assets/chapter-2/empathyAndrea.png" alt="empathyMapping de Andrea"/>
+ <img src="../assets/chapter-2/empathyAndrea.png" alt="empathyMapping de Andrea"/>
 
 
 ## 2.4 Big Picture Event Storming
 
-Para comprender a profundidad el dominio del negocio de **Prime Fuel** y alinear la visión tecnológica con las operaciones reales de compraventa y distribución de combustible, el equipo llevó a cabo una sesión de **Event Storming**. Esta técnica colaborativa nos permitió identificar los hitos clave del sistema sin adelantarnos a detalles técnicos.
+Para comprender a profundidad el dominio del negocio de **TechnoSAC** y alinear la visión tecnológica con las operaciones reales de compraventa y distribución de combustible, el equipo llevó a cabo una sesión de **Event Storming**. Esta técnica colaborativa nos permitió identificar los hitos clave del sistema sin adelantarnos a detalles técnicos.
 
 ### Step 1 – Free Exploration (Exploración Libre)
 
@@ -472,7 +472,7 @@ En esta primera etapa, el equipo realizó una lluvia de ideas desestructurada pa
 El objetivo principal fue plasmar sobre el lienzo la realidad del negocio, desde el registro de usuarios hasta el despacho físico en las cisternas, priorizando la cantidad de eventos sobre el orden cronológico o la jerarquía.
 
 <div align="center">
-  <img src="assets/chapter-2/step1.png" alt="Step 1 - Unstructured Exploration" width="100%"/>
+  <img src="../assets/chapter-2/step1.png" alt="Step 1 - Unstructured Exploration" width="100%"/>
   <p><em>Figura X: Step 1 - Exploración libre de eventos de dominio.</em></p>
 </div>
 
@@ -488,7 +488,7 @@ Tras listar los eventos de dominio, procedimos a organizar el caos inicial estru
 Esta estructura temporal nos ayudó a identificar claramente las áreas críticas donde la digitalización eliminará los actuales cuellos de botella del sector.
 
 <div align="center">
-  <img src="assets/chapter-2/step2.png" alt="Step 2 - Structured Organization" width="100%"/>
+  <img src="../assets/chapter-2/step2.png" alt="Step 2 - Structured Organization" width="100%"/>
   <p><em>Figura Y: Step 2 - Organización temporal por flujos de negocio.</em></p>
 </div>
 
