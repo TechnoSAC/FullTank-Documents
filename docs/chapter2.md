@@ -308,6 +308,18 @@ La contrastación de ambos segmentos revela una convergencia crítica en la inef
   <img src="../assets/chapter-2/ContrastaciónDeSegmentos.png" alt="Contrastación De Segmentos" style="max-width: 45%;"/>
 </div>
 
+### Conclusiones y Definición de Arquetipos
+Basado en el análisis de las entrevistas realizadas, se definen los siguientes perfiles para los User Personas:
+
+User Persona Empresa Solicitante (“El Gestor de Abastecimiento”)<br>
+* Rasgo clave: Busca control, visibilidad y confiabilidad en el proceso de abastecimiento.<br>
+* Sustento: El 100% utiliza correo y llamadas, y la mayoría trabaja con Excel. Existe una alta demanda de centralización y trazabilidad.
+
+User Persona Proveedor (“El Operador Comercial”)<br>
+* Rasgo clave: Necesita orden, eficiencia operativa y mejor gestión de la información comercial.<br>
+* Sustento: El 100% usa herramientas manuales como Excel, correo y teléfono. Se evidencia necesidad de centralización y acceso a datos históricos.
+
+
 ## 2.3 Needfinding
 ### 2.3.1 User Personas
 
