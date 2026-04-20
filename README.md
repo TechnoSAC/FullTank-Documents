@@ -128,6 +128,33 @@
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
+**Reporte de colaboración de la entrega del TB1**
+
+En nuestro primer avance de la elaboración del informe, el grupo de FullTank se encargó de desarrollar las principales características iniciales del proyecto. Cada integrante intervino activamente en la elaboración de la documentación, organizándose y distribuyendo el trabajo por secciones clave, lo que permitió abordar de manera ordenada el desarrollo de la propuesta tecnológica.
+
+
+**Asto Jacome Jose Gustavo**
+
+Jose Asto se encargó de la elaboración del Lean UX Process (capítulo 1), el cual permitió hallar las suposiciones de los usuarios y elaborar las hipótesis. Además, recopiló todo ello en un Lean UX Canvas. 
+
+
+**Milenko Rubén Cayanchi Avila**
+
+
+Milenko realizó la investigación a los competidores de la startup y realizó un Análisis Competitivo (capítulo 2), el objetivo es comparar nuestra startup con los competidores y realizar estrategias. 
+
+**Mathias Andree Cardenas Huaman**
+
+Mathias analizó las entrevistas (capítulo 2) y filtró el contenido más relevante para nuestra startup. Con esos datos averiguamos qué es lo que buscan nuestros clientes.
+
+**Enrique Manuel Mantilla Maldonado**
+
+Enrique elaboró el User Task Matrix (capítulo 2), donde elaboró los hábitos que deberían tener nuestros User Persona. Además, se encargó de elaborar el User Journey Mapping (capítulo 2), el cual nos permite analizar cómo los usuarios ideales deberían interactuar con nuestra plataforma
+
+**Brayan Alexis Corvacho Damian**
+
+Brayan realizó una revisión y transcripción del Event Storming (capítulo 2). Luego de que el equipo hiciera el Event Storming, se pasó a documentar y redactar sobre los procesos que haría una compañía de entrega de combustible
+
 **Participación por miembro**
 
 A continuación, se muestra un gráfico de barras con la cantidad de commits realizados por cada integrante del equipo:
