@@ -101,8 +101,50 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 
 
 ## 4.2 Information Architecture
+
+Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
+
 ### 4.2.1 Organization Systems
 ### 4.2.2 Labeling Systems
+En Full-Tank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
+
+1. **Landing Page Labels**
+Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hacia la propuesta de valor y la conversión:
+
+- **Home**: Representa la página principal y el resumen de la propuesta de valor.
+
+- **About Us**: Agrupa la información sobre la misión, visión y el equipo detrás de Prime Fuel.
+
+- **Frecuency Asked Questions**: Agrupa las preguntas frecuentes sobre el servicio.
+
+- **Pricing**: Agrupa los planes de suscripción y costos del servicio SaaS.
+
+- **Contact Us**: Indica el espacio para canales de comunicación directa (correo, teléfono).
+  
+2. **Web Application Labels (Dashboard & Navigation)**
+Las etiquetas dentro de la aplicación están diseñadas para que perfiles como Carlos o Andrea encuentren las funcionalidades operativas sin esfuerzo:
+
+- **Dashboard**: Representa el panel principal con los KPIs y métricas clave resumidas.
+
+- **Orders**: Etiqueta general que agrupa tanto el historial como la creación de nuevos pedidos de combustible.
+
+- **Fleet / Vehicles**: Agrupa la gestión de las cisternas y conductores asignados para los despachos.
+
+- **Reports**: Asocia las funcionalidades de descarga de documentos en PDF, gráficos de consumo y análisis de ventas.
+
+- **Settings**: Representa las configuraciones de perfil de usuario, seguridad y preferencias de la cuenta.
+
+3. **Status Labels (Estados de Pedido)**
+Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las siguientes etiquetas de estado:
+
+- **Pending**: Pedido creado pero aún no revisado/aprobado por el proveedor.
+
+- **Approved**: Pagos validados y pedido aceptado.
+
+- **In Transit**: El vehículo con el combustible ha sido despachado.
+
+- **Completed**: El cliente ha confirmado la recepción satisfactoria del combustible.
+
 ### 4.2.3 SEO Tags and Meta Tags
 ### 4.2.4 Searching Systems
 ### 4.2.5 Navigation Systems
