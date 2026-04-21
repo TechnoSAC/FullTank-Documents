@@ -159,6 +159,16 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 ### 4.4.3 Web Applications Mock-ups
 ### 4.4.4 Web Applications User Flow Diagrams
 
+User Goal 1: El usuario registrado desea iniciar sesión en la aplicación para acceder a su cuenta y gestionar sus pedidos de combustible.
+
+User Personas: Solicitante / Proveedor.
+
+Happy Path
+En esta ruta esperada, el usuario ya cuenta con un registro previo en el sistema. El flujo inicia cuando el usuario se encuentra en la pantalla de "Login". Al ingresar sus credenciales válidas (correo electrónico y contraseña) y hacer clic en el botón de iniciar sesión, el sistema autentica los datos y redirige al usuario exitosamente a la vista principal (Dashboard), dándole acceso completo a las funciones de su rol.
+
+Unhappy Paths
+Estas rutas alternas contemplan los escenarios donde el usuario no logra autenticarse debido a errores en el ingreso de datos. Puede ocurrir que el usuario ingrese una contraseña incorrecta, un correo no registrado, o que intente enviar el formulario con campos vacíos. En estos casos, el flujo se interrumpe y el sistema se mantiene en la vista actual, mostrando un mensaje de validación o alerta visual para que el usuario corrija la información.
+
 ## 4.5 Web Applications Prototyping
 
 ## 4.6 Domain-Driven Software Architecture
