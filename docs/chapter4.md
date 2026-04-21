@@ -105,6 +105,44 @@ Los estándares de interacción definen cómo responde el sistema a las acciones
 Esta sección describe los aspectos clave de la estructura y el etiquetado del aplicativo.
 
 ### 4.2.1 Organization Systems
+En la plataforma Full-Tank, se emplean distintos sistemas de organización del contenido con el objetivo de optimizar la navegación y facilitar la gestión de pedidos de combustible tanto para solicitantes como para proveedores. Estos sistemas permiten estructurar la información de manera clara, asegurando que los usuarios puedan interactuar con la plataforma de forma eficiente. A continuación, se describen los enfoques utilizados:
+
+#### Organización Visual del Contenido
+
+**Jerárquica (Visual Hierarchy):**
+La organización jerárquica se aplica en secciones clave como el dashboard, formularios de registro de pedidos y paneles de gestión. Se priorizan visualmente elementos como estados de pedidos, KPIs y botones de acción (por ejemplo, “Registrar pedido” o “Aprobar pedido”), utilizando tamaños de texto, colores y distribución espacial para guiar la atención del usuario hacia las acciones más relevantes.
+
+**Secuencial (Step-by-Step to Accomplish):**
+En procesos que requieren múltiples pasos, como el registro de empresas, la creación de pedidos o la asignación logística (vehículo y conductor), se utiliza un flujo secuencial. Esto permite que los usuarios completen cada etapa de forma ordenada, reduciendo errores y asegurando la correcta ejecución de las operaciones dentro del sistema.
+
+#### Esquemas de Categorización de Contenido
+
+**Por Audiencia (Roles de Usuario):**
+Full-Tank distingue principalmente entre dos tipos de usuarios: solicitantes y proveedores.
+
+- Los solicitantes tienen acceso a funcionalidades como registro de pedidos, seguimiento de estado, historial y pagos.
+- Los proveedores gestionan pedidos, validan pagos, asignan recursos logísticos y generan reportes.
+
+La interfaz y navegación se adaptan según el rol, mostrando únicamente las opciones relevantes para cada tipo de usuario, lo que mejora la usabilidad y reduce la complejidad.
+
+**Por Tópicos:**
+El contenido también se organiza por categorías funcionales dentro de la plataforma, tales como:
+
+- Gestión de pedidos
+- Logística y despacho
+- Reportes y analytics
+- Soporte y contacto
+
+Esto permite a los usuarios localizar rápidamente las herramientas o información que necesitan, especialmente en módulos como soporte o reportes.
+
+#### Implementación en la Interfaz
+
+La organización jerárquica y secuencial se refleja en dashboards estructurados, formularios progresivos y vistas detalladas de pedidos, donde la información se presenta de forma clara y priorizada.
+
+Por otro lado, la categorización por audiencia y por tópicos se implementa mediante menús de navegación dinámicos, paneles diferenciados por rol y secciones claramente delimitadas. El uso de componentes visuales como tarjetas, tablas y estados (pendiente, aprobado, despachado, etc.) permite una lectura rápida y eficiente del sistema.
+
+Este enfoque garantiza que la experiencia en Full-Tank sea intuitiva, escalable y alineada con las necesidades operativas de cada tipo de usuario, facilitando tanto la gestión como la toma de decisiones dentro de la plataforma.
+
 ### 4.2.2 Labeling Systems
 En Full-Tank, el sistema de etiquetado ha sido diseñado priorizando la simplicidad y la reducción de la carga cognitiva de los operadores logísticos y proveedores. Se han seleccionado etiquetas descriptivas de una o dos palabras para evitar confusión y agilizar la navegación.
 
@@ -155,11 +193,11 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 **Desktop Web Browser Wireframe**
 <div align="center">
-  <img src="./../assets/chapter-4/landingPage_wireframe.png" alt="Wireframe" width="100%"/>
+  <img src="./../assets/chapter-4/Wireframe1.png" alt="Wireframe" width="100%"/>
 </div>
 
 * **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
-* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de TankMaster a la derecha.
+* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de Full-Tank a la derecha.
 * **Body Sections:**
     * **How it works:** Se organiza secuencialmente en 3 o 4 columnas, mostrando los pasos del flujo operativo.
     * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
