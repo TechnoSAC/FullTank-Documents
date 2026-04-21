@@ -253,6 +253,72 @@ El wireframe del Historial de Pedidos cierra la experiencia del comprador median
   <img src="./../assets/chapter-4/Wireframe10.png" alt="Estilos" width="700"/>
 </div>
 
+
+### **Mobile**
+**Wireframe 1**
+
+La adaptación móvil de la página principal prioriza la jerarquía vertical para asegurar una navegación fluida en pantallas pequeñas. La arquitectura de información reorganiza el menú en un componente de "hamburguesa" y transforma las tarjetas de planes y beneficios en una disposición de columna única. Los botones de llamado a la acción se han redimensionado para ocupar el ancho de la pantalla, facilitando la interacción táctil y guiando al usuario directamente hacia el registro o inicio de sesión.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Prinicpial Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 2**
+
+Los wireframes de Inicio de Sesión y Recuperación de Contraseña se han simplificado al máximo para evitar la fatiga visual. En la versión móvil, los campos de entrada de datos son los protagonistas absolutos, utilizando etiquetas claras y botones de gran escala. El diseño inclusivo se evidencia en el espaciado entre elementos, optimizado para evitar errores de pulsación y garantizar un acceso rápido incluso para operarios en entornos de alta movilidad.
+
+<div align="center">
+  <img src="./../assets/chapter-4/o Registro para Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 3**
+
+El wireframe de Compradores Mobile adapta la experiencia web a un formato de scroll vertical infinito, optimizando el espacio mediante el apilamiento de módulos para una gestión eficiente a una sola mano.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 4**
+
+Este wireframe adapta el flujo de compra a una secuencia vertical que guía al usuario de manera lineal desde la configuración hasta la liquidación del pedido. La arquitectura de información se organiza en tres secciones clave: un bloque superior con el resumen detallado de la solicitud de combustible, un carrusel central para la selección de la información de proveedores, y un módulo final dedicado al método de pago.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile pt2 _ Solicitud de Combustible.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 5**
+
+Este wireframe presenta el perfil detallado del socio logístico seleccionado, diseñado para fortalecer la transparencia en la cadena de suministro. La arquitectura de información sitúa en la parte superior los datos institucionales y de contacto del proveedor, seguidos de un componente visual de gran formato que representa la ubicación geográfica de sus sedes o estaciones de servicio.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Compradores Mobile pt3 _ Información del Proveedor.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 6**
+
+El wireframe 6 condensa las herramientas de gestión en una interfaz de alto rendimiento diseñada para la operatividad en campo. La arquitectura de información se organiza verticalmente mediante tres bloques modulares: un Resumen Operativo en la parte superior con tarjetas de métricas clave (ventas, pedidos y flota), seguido de una sección de Pedidos Recientes presentada en filas simplificadas para una validación rápida, y finalmente un carrusel horizontal para el Directorio de Clientes.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 7**
+
+Este wireframe adapta el proceso de vinculación de recursos a una estructura de stacking vertical, permitiendo que el proveedor coordine el transporte de manera secuencial y ordenada.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile pt2.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 8**
+
+Este último wireframe móvil consolida las funciones administrativas de cierre y auditoría en una interfaz simplificada y de fácil navegación. La arquitectura de información mantiene las métricas de resumen en la parte superior para dar contexto antes de proceder a la gestión documental, donde se sitúa un área central de previsualización para los registros de operaciones mensuales.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Proveedores Mobile pt3.png" alt="Estilos" width="200"/>
+</div>
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 
 El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma FullTank, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
