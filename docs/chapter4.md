@@ -169,6 +169,15 @@ En esta ruta esperada, el usuario ya cuenta con un registro previo en el sistema
 Unhappy Paths
 Estas rutas alternas contemplan los escenarios donde el usuario no logra autenticarse debido a errores en el ingreso de datos. Puede ocurrir que el usuario ingrese una contraseña incorrecta, un correo no registrado, o que intente enviar el formulario con campos vacíos. En estos casos, el flujo se interrumpe y el sistema se mantiene en la vista actual, mostrando un mensaje de validación o alerta visual para que el usuario corrija la información.
 
+User Goal 2: El visitante desea crear una cuenta nueva en la plataforma para poder acceder a los servicios como solicitante o proveedor de combustible.
+
+User Personas: Visitante (Futuro Solicitante / Futuro Proveedor).
+
+Happy Path
+En esta ruta esperada, el flujo se centra en el proceso de creación de una cuenta nueva. El usuario inicia en la pantalla de "Registro" (a la cual puede llegar desde la página de Inicio o desde la vista de Login). El usuario completa todos los campos requeridos del formulario (por ejemplo: nombre, correo electrónico, contraseña y selección de rol: Solicitante o Proveedor). Al hacer clic en el botón "Registrarse", el sistema valida que los datos sean correctos, crea la cuenta de forma exitosa y redirige al usuario a su respectivo Dashboard de bienvenida (o a la pantalla de Inicio de Sesión para confirmar sus credenciales).
+
+Unhappy Paths
+Estas rutas alternas toman en cuenta los escenarios donde el usuario ingresa información que no pasa las verificaciones del sistema o no completa los espacios obligatorios. Los errores más comunes incluyen: intentar registrar un correo electrónico que ya existe en la base de datos, ingresar contraseñas que no coinciden en el campo de confirmación, o dejar campos vitales en blanco. En estos casos, la creación de la cuenta se bloquea y el usuario permanece en la pantalla de Registro, donde el sistema despliega alertas visuales o mensajes de error específicos debajo de cada campo afectado para que pueda corregirlos.
 ## 4.5 Web Applications Prototyping
 
 ## 4.6 Domain-Driven Software Architecture
