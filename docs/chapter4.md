@@ -151,6 +151,22 @@ Para evitar confusiones en el seguimiento en tiempo real, se estandarizan las si
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
+En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *Full-Tank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
+
+**Desktop Web Browser Wireframe**
+<div align="center">
+  <img src="./../assets/chapter-4/landingPage_wireframe.png" alt="Wireframe" width="100%"/>
+</div>
+
+* **Header (Navegación):** Se utiliza una organización horizontal fija con el logotipo a la izquierda, los enlaces de navegación centralizados (*Home, How it works, Benefits, Pricing, Testimonials, Contact) y el botón principal de *Call to Action (*"Request a Demo"*) resaltado a la derecha para incentivar la conversión inmediata.
+* **Hero Section (Home):** Ocupa la primera vista con un título de propuesta de valor centrado, un subtítulo descriptivo y un botón primario de "Request a Demo", acompañado de un placeholder (caja gris) para una imagen representativa del dashboard de TankMaster a la derecha.
+* **Body Sections:**
+    * **How it works:** Se organiza secuencialmente en 3 o 4 columnas, mostrando los pasos del flujo operativo.
+    * **Benefits & Testimonials:** Se estructuran de forma matricial para facilitar la lectura de características clave y generar confianza al mostrar los casos de éxito de otras empresas.
+    * **Pricing:** Presentado mediante tablas comparativas para destacar claramente los planes de suscripción.
+* **Footer:** Contiene los enlaces legales obligatorios (Términos y Condiciones), información de contacto y enlaces a redes sociales, cumpliendo con la ética y responsabilidad exigida en el proyecto.
+
+
 ### 4.3.2 Landing Page Mock-up
 
 ## 4.4 Web Applications UX/UI Design
