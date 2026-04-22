@@ -912,7 +912,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **DISPATCH:** asignación de recursos a una orden (`id_dispatch`, `id_order` FK, `id_transport` FK, `id_driver` FK, `assigned_at`, `status`).
 
 <div allign="center">
-  <img src="../assets/chapter-4/baseDatos_Fullfillment.png" alt="tablas de fullfilment"/>
+  <img src="../assets/chapter-4/baseDatos_fullfillment.png" alt="tablas de fullfilment"/>
 </div>
 
 ### Notification — Base de datos
@@ -922,7 +922,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **NOTIFICATION:** notificación asociada a un usuario (`id_notification`, `id_user` FK, `id_order` FK, `type`, `message`, `is_read`, `created_at`).
 
 <div allign="center">
-  <img src="../assets/chapter-4/baseDatos_Notification.png" alt="tablas de fullfilment"/>
+  <img src="../assets/chapter-4/baseDatos_notification.png" alt="tablas de fullfilment"/>
 </div>
 
 ### Reporting & Analytics — Base de datos
