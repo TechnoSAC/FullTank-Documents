@@ -686,7 +686,13 @@ De esta manera, los component diagrams permiten entender cómo la arquitectura s
 </div>
 
 ## 4.7 Software Object-Oriented Design
+En esta sección se presenta el diseño orientado a objetos del sistema, el cual desarrolla con mayor detalle la implementación interna de los componentes identificados en los diagramas C4 del apartado 4.6. A partir de los contenedores y componentes definidos (Landing Page, Web Application, API y Database), se derivan diagramas de clases específicos para cada bounded context del dominio, con el objetivo de mostrar:
 
+- Cómo se modelan las entidades, agregados, servicios, repositorios y controladores en el backend para cada contexto.
+- Cómo se estructuran los componentes de presentación, lógica de aplicación y acceso a datos en el frontend.
+- Cómo se reflejan estos modelos en el diseño de la base de datos relacional, identificando qué tablas pertenecen a cada bounded context.
+
+De esta forma, el diseño orientado a objetos enlaza el nivel arquitectónico (C4 Model) con el nivel de implementación, permitiendo verificar la coherencia entre bounded contexts, responsabilidades de cada módulo y decisiones de diseño técnico, como el uso de interfaces de servicio, repositorios, ensambladores y value objects por contexto.
 ### 4.7.1 Class Diagrams
 
 ## 4.8 Database Design
