@@ -597,9 +597,9 @@ El bounded context Reporting & Analytics se encarga de la generación y visualiz
 
 
 ### 4.6.2 Software Architecture Context Diagram
-En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software TankMaster Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software FullTank Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
 
-El context diagram muestra al TankMaster Platform como un recuadro central, rodeado por los principales actores y sistemas con los que se comunica:
+El context diagram muestra al FullTank Platform como un recuadro central, rodeado por los principales actores y sistemas con los que se comunica:
 
 Visitor: usuario anónimo que navega la landing page para conocer la plataforma, revisar sus beneficios y registrarse en el sistema.
 
@@ -613,7 +613,7 @@ Cloud Storage: sistema externo utilizado para almacenar comprobantes de pago (vo
 
 PDF Generator Service: sistema externo encargado de generar reportes en formato PDF, como resúmenes de consumo y ventas.
 
-En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con TankMaster, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
+En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con FullTank, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
 
 <div allign="center">
   <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
@@ -622,6 +622,30 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 ### 4.6.3 Software Architecture Container Diagrams
 
 
+En el nivel de contenedores, la atención se centra en cómo se organiza internamente el sistema en aplicaciones y fuentes de datos. El container diagram muestra los elementos principales de la arquitectura de FullTank, sus responsabilidades y la forma en que se comunican entre sí y con sistemas externos.
+
+La arquitectura lógica de FullTank se estructura en los siguientes contenedores:
+
+Landing Page: aplicación web estática que presenta la propuesta de valor del sistema, incluyendo secciones como descripción del servicio, beneficios, testimonios, precios, preguntas frecuentes y contacto. Está desarrollada con HTML, CSS y JavaScript, y orientada a usuarios no autenticados.
+
+FullTank Web Application (SPA): aplicación web principal desarrollada en Angular. Es utilizada por clientes y proveedores para interactuar con el sistema. Contiene módulos como autenticación, gestión de solicitudes, pagos, inventario, logística, reportes, notificaciones y perfiles de usuario.
+
+FullTank API: backend desarrollado en Spring Boot que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en distintos bounded contexts del dominio (Identity, Catalog, Ordering, Payment, Fulfillment, Notification y Reporting).
+
+MySQL Database: base de datos relacional donde se almacena toda la información estructurada del sistema, incluyendo usuarios, solicitudes, órdenes, pagos, inventario, flota, notificaciones y reportes.
+
+En el diagrama se observa que:
+
+Los usuarios acceden inicialmente a la Landing Page, desde donde pueden registrarse o ingresar a la aplicación principal.
+La Web Application (SPA) se comunica exclusivamente con la API mediante peticiones HTTP/HTTPS utilizando formato JSON.
+La API persiste y consulta datos en la base de datos MySQL mediante mecanismos de acceso como JPA/JDBC.
+La API se integra con sistemas externos: Email Service para correos, Cloud Storage para almacenamiento de vouchers y PDF Generator Service para la generación de reportes.
+
+Esta vista permite entender la distribución de responsabilidades entre la capa de presentación (Landing Page y SPA), la capa de lógica de negocio (API) y la capa de persistencia (Database), así como las principales decisiones tecnológicas adoptadas.
+
+<div align="center">
+  <img src="./../assets/chapter-4/containerDiagram.png" alt="Container diagram" width="500"/>
+</div>
 
 ### 4.6.4 Software Architecture Components Diagrams
 
