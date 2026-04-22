@@ -476,16 +476,22 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 ### 4.4.3 Web Applications Mock-ups
 ### 4.4.4 Web Applications User Flow Diagrams
 
-User Goal 1: El usuario registrado desea iniciar sesión en la aplicación para acceder a su cuenta y gestionar sus pedidos de combustible.
+User Goal 1: El usuario registrado desea iniciar sesión para acceder a su cuenta y gestionar sus pedidos.
 
 User Personas: Solicitante / Proveedor.
 
 Happy Path
-En esta ruta esperada, el usuario ya cuenta con un registro previo en el sistema. El flujo inicia cuando el usuario se encuentra en la pantalla de "Login". Al ingresar sus credenciales válidas (correo electrónico y contraseña) y hacer clic en el botón de iniciar sesión, el sistema autentica los datos y redirige al usuario exitosamente a la vista principal (Dashboard), dándole acceso completo a las funciones de su rol.
+En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario completa su información de cuenta ingresando credenciales válidas (correo corporativo y contraseña). Al presionar "Ingresar", el sistema lo autentica y accede exitosamente a la "Sección Dashboard", donde puede gestionar sus solicitudes.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 2-Happy path.png" height="200"/>
+</div>
 
 Unhappy Paths
-Estas rutas alternas contemplan los escenarios donde el usuario no logra autenticarse debido a errores en el ingreso de datos. Puede ocurrir que el usuario ingrese una contraseña incorrecta, un correo no registrado, o que intente enviar el formulario con campos vacíos. En estos casos, el flujo se interrumpe y el sistema se mantiene en la vista actual, mostrando un mensaje de validación o alerta visual para que el usuario corrija la información.
-
+En esta ruta, el usuario completa su información de cuenta erróneamente. Al presionar "Ingresar", el sistema bloquea el acceso y despliega una alerta visual ("Usuario y/o contraseña incorrectos"). El flujo se interrumpe y el usuario debe introducir correctamente sus credenciales en la misma pantalla para volver a intentarlo.
+<div align="center">
+<img src="../assets/chapter-4/User Goal 2-Unhappy path.png" height="200"/>
+</div>
 User Goal 2: El visitante desea crear una cuenta nueva en la plataforma para poder acceder a los servicios como solicitante o proveedor de combustible.
 
 User Personas: Visitante (Futuro Solicitante / Futuro Proveedor).
@@ -501,7 +507,7 @@ User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta solicit
 User Personas: Usuario Registrado (Solicitante / Proveedor).
 
 Happy Path
-En esta ruta esperada, el flujo inicia cuando el usuario, al no poder acceder a su cuenta, selecciona la opción "¿Olvidaste tu contraseña?" en la pantalla de Inicio de Sesión. Esto lo redirige a la vista de Recuperación, donde debe ingresar el correo electrónico asociado a su cuenta. Al presionar el botón de enviar, el sistema valida el correo y muestra un mensaje confirmando el envío de un enlace de recuperación. El usuario interactúa con dicho enlace (simulado en el flujo) y es dirigido a la pantalla de "Restablecer Contraseña", donde ingresa su nueva contraseña y la confirma. Al guardar, el sistema actualiza las credenciales exitosamente y redirige al usuario de vuelta al Login.
+En esta ruta esperada, el flujo inicia cuando el usuario, al no poder acceder a su cuenta, selecciona la opción "¿Olvidaste tu contraseña?" en la pantalla de Inicio de Sesión. Esto lo redirige a la vista de Recuperación, donde debe ingresar el correo electrónico asociado a su cuenta corporativa. Al presionar el botón de "Enviar Código", el sistema valida la existencia del correo y envía un código de verificación numérico . Simultáneamente, la interfaz de la misma página se actualiza dinámicamente, habilitando nuevos campos de entrada. El usuario revisa su correo, obtiene el código y lo escribe en el campo correspondiente en esa misma vista, junto con su nueva contraseña y la confirmación de la misma. Al completar los datos y presionar "Restablecer Contraseña", el sistema verifica la validez del código y la coincidencia de contraseñas, actualiza las credenciales exitosamente y redirige al usuario de vuelta a la vista de Login con un mensaje de confirmación.
 
 Unhappy Paths
 Estas rutas alternas contemplan los fallos de validación en dos momentos distintos del proceso. El primer escenario ocurre si el usuario ingresa un correo electrónico que no existe en la base de datos o si deja el campo en blanco; en este caso, el sistema bloquea el envío del correo y muestra un mensaje de error indicando que la cuenta no está registrada. El segundo escenario de error se da en la pantalla de restablecimiento: si el usuario digita una nueva contraseña pero falla al confirmarla (los campos no coinciden) o no cumple con los caracteres mínimos requeridos, el botón de guardado se deshabilita o el sistema arroja una alerta visual solicitando la corrección antes de proceder.
