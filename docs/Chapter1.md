@@ -26,35 +26,35 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="assets/chapter-1/foto-a.png" alt="nombre" width="80"></td>
+      <td><img src="../assets/chapter-1/foto-a.png" alt="nombre" width="80"></td>
       <td>Jose Gustavo Asto Jacome</td>
       <td>u20241c630</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/milenko-foto.png" alt="nombre" width="100"></td>
+      <td><img src="../assets/chapter-1/milenko-foto.png" alt="nombre" width="100"></td>
       <td>Milenko Rubén Cayanchi Avila</td>
       <td>u202312566</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de Ingeniería de Software, enfocado en el desarrollo de soluciones tecnológicas innovadoras para la mejora de la calidad de vida. Poseo conocimientos básicos en Python y conocimientos básicos/intermedios en C++. Mi objetivo es adquirir conocimientos avanzados en inteligencia artificial y desarrollo de aplicaciones de salud, con el fin de mejorar mis habilidades y contribuir en el campo de la salud tecnológica.</td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/foto.png" alt="nombre" width="80"></td>
+      <td><img src="../assets/chapter-1/foto.png" alt="nombre" width="80"></td>
       <td>Mathias Andree Cardenas Huaman</td>
       <td>u202316353</td>
       <td>Ingeniería de Software</td>
       <td>Actualmente estoy cursando el sexto ciclo de la carrera de Ingeniería de Software. Soy proactivo y comunicativo, tengo habilidades para el trabajo en equipo y la resolución de problemas. También me gusta plantearme objetivos desafiantes para mejorar. Me encanta el curso y mi meta es completarlo con la máxima nota posible. </td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/enrique-foto.jpg" alt="nombre" width="80"></td>
+      <td><img src="../assets/chapter-1/enrique-foto.jpg" alt="nombre" width="80"></td>
       <td>Enrique Manuel Mantilla Maldonado</td>
       <td>u20231b842</td>
       <td>Ingeniería de Software</td>
       <td>Estudiante de la carrera de Ingeniería de Software en la UPC. Manejo algunos lenguajes de programación como Python y C++. Busco adquirir distintos tipos de conocimientos relacionados al software y hardware con el fin de servir de apoyo a distintas empresas.</td>
     </tr>
     <tr>
-      <td><img src="assets/chapter-1/Brayan.png" alt="nombre" width="80"></td>
+      <td><img src="../assets/chapter-1/Brayan.png" alt="nombre" width="80"></td>
       <td>Brayan Alexis Corvacho Damian</td>
       <td>u20231a257</td>
       <td>Ingeniería de Software</td>
