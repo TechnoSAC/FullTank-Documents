@@ -484,23 +484,23 @@ Happy Path
 En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario completa su información de cuenta ingresando credenciales válidas (correo corporativo y contraseña). Al presionar "Ingresar", el sistema lo autentica y accede exitosamente a la "Sección Dashboard", donde puede gestionar sus solicitudes.
 
 <div align="center">
-<img src="../assets/chapter-4/User Goal 2-Happy path.png" height="200"/>
+<img src="../assets/chapter-4/User Goal 1-Happy path.png" height="200"/>
 </div>
 
 Unhappy Paths
 En esta ruta, el usuario completa su información de cuenta erróneamente. Al presionar "Ingresar", el sistema bloquea el acceso y despliega una alerta visual ("Usuario y/o contraseña incorrectos"). El flujo se interrumpe y el usuario debe introducir correctamente sus credenciales en la misma pantalla para volver a intentarlo.
 <div align="center">
-<img src="../assets/chapter-4/User Goal 2-Unhappy path.png" height="200"/>
+<img src="../assets/chapter-4/User Goal 1-Unhappy path.png" height="200"/>
 </div>
-User Goal 2: El visitante desea crear una cuenta nueva en la plataforma para poder acceder a los servicios como solicitante o proveedor de combustible.
+User Goal 2: El visitante desea crear una cuenta corporativa nueva en la plataforma para acceder a los servicios.
 
 User Personas: Visitante (Futuro Solicitante / Futuro Proveedor).
 
 Happy Path
-En esta ruta esperada, el flujo se centra en el proceso de creación de una cuenta nueva. El usuario inicia en la pantalla de "Registro" (a la cual puede llegar desde la página de Inicio o desde la vista de Login). El usuario completa todos los campos requeridos del formulario (por ejemplo: nombre, correo electrónico, contraseña y selección de rol: Solicitante o Proveedor). Al hacer clic en el botón "Registrarse", el sistema valida que los datos sean correctos, crea la cuenta de forma exitosa y redirige al usuario a su respectivo Dashboard de bienvenida (o a la pantalla de Inicio de Sesión para confirmar sus credenciales).
+En esta ruta esperada, el flujo inicia en la "Sección de inicio" (Login). El usuario presiona el enlace "Regístrate aquí" y es redirigido a la "Sección de registro de cuenta". Allí, el usuario completa los espacios requeridos con información válida (Nombre de la empresa, correo corporativo y contraseña). Al presionar "Registrarse", el sistema crea la cuenta exitosamente y lo redirige de vuelta a la "Sección de inicio" para que pueda iniciar sesión con sus nuevas credenciales.
 
 Unhappy Paths
-Estas rutas alternas toman en cuenta los escenarios donde el usuario ingresa información que no pasa las verificaciones del sistema o no completa los espacios obligatorios. Los errores más comunes incluyen: intentar registrar un correo electrónico que ya existe en la base de datos, ingresar contraseñas que no coinciden en el campo de confirmación, o dejar campos vitales en blanco. En estos casos, la creación de la cuenta se bloquea y el usuario permanece en la pantalla de Registro, donde el sistema despliega alertas visuales o mensajes de error específicos debajo de cada campo afectado para que pueda corregirlos.
+Estas rutas alternas contemplan dos escenarios de error durante el registro. El primero ocurre si el usuario completa erróneamente algún campo (por ejemplo, formato de correo incorrecto). El segundo ocurre si olvida completar uno o varios espacios obligatorios. En ambos casos, al presionar "Registrarse", el sistema bloquea la acción y se mantiene en la misma pantalla, desplegando alertas visuales rojas ("Campos inválidos" o "Complete todos los campos") exigiendo que el usuario corrija la información para poder continuar.
 
 User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta solicitando un enlace para cambiar su contraseña olvidada.
 
