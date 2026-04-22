@@ -649,7 +649,44 @@ Esta vista permite entender la distribución de responsabilidades entre la capa 
 
 ### 4.6.4 Software Architecture Components Diagrams
 
+En el nivel de componentes se detalla la descomposición interna de los contenedores, enfocándose principalmente en el contenedor FullTank API, donde reside la lógica de negocio del sistema.
+
+El component diagram organiza la arquitectura interna siguiendo los bounded contexts definidos en el dominio. Cada uno representa un módulo backend con responsabilidades específicas:
+
+- Identity & Access Backend: gestiona el registro de usuarios (clientes y proveedores), autenticación, autorización, emisión de tokens (JWT), recuperación de contraseñas y administración de perfiles.
+
+- Catalog Backend: administra el inventario de combustible de los proveedores, incluyendo stock disponible y precio por tipo de combustible.
+
+- Ordering Backend: orquesta el ciclo de vida completo de las órdenes, desde la creación de solicitudes hasta su cierre, incluyendo validaciones, aprobaciones, rechazos, despacho y confirmación de entrega.
+
+- Payment Backend: gestiona el registro de pagos mediante comprobantes, valida montos y asegura que las órdenes cuenten con respaldo financiero antes de ser aprobadas.
+
+- Fulfillment Backend: administra los recursos logísticos, como vehículos y conductores, y se encarga de asignarlos a órdenes aprobadas para su despacho.
+
+- Notification Backend: genera notificaciones dentro del sistema en respuesta a eventos relevantes, como cambios en el estado de las órdenes, y permite a los usuarios marcarlas como leídas.
+
+- Reporting & Analytics Backend: procesa información histórica de órdenes cerradas para generar reportes de consumo y ventas, incluyendo la generación de archivos PDF descargables.
+
+En el diagrama se refleja cómo:
+
+La Web Application consume los servicios de cada componente backend mediante endpoints REST organizados por contexto.
+Cada bounded context accede a la base de datos para gestionar la información correspondiente a su dominio.
+Existen interacciones entre contextos, por ejemplo:
+Ordering depende de Payment para validar pagos antes de aprobar órdenes.
+Ordering interactúa con Fulfillment para coordinar despachos.
+Ordering actualiza el inventario en Catalog al cerrar órdenes.
+Notification reacciona a cambios de estado en órdenes.
+Reporting consume datos de órdenes cerradas.
+Algunos componentes se integran con sistemas externos, como Identity con el servicio de correo, Payment con almacenamiento en la nube y Reporting con el generador de PDFs.
+
+De esta manera, los component diagrams permiten entender cómo la arquitectura se organiza internamente en módulos coherentes con el dominio, cómo se relacionan entre sí y cómo colaboran para implementar la funcionalidad completa de FullTank.
+
+<div allign="center">
+  <img src="./../assets/chapter-4/componentDiagram.png" alt="Component diagram" width="500"/>
+</div>
+
 ## 4.7 Software Object-Oriented Design
+
 ### 4.7.1 Class Diagrams
 
 ## 4.8 Database Design
