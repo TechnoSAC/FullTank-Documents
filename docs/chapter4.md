@@ -530,8 +530,73 @@ Estas rutas alternas se presentan cuando las condiciones financieras del pedido 
 
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
+
+Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
+
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVGgOzeI4=/?share_link_id=580201872614
+
+<div align="center">
+  <img src="./../assets/chapter-4/miro.jpg" alt="imagen de lo realizado en miro" width="500"/>
+</div>
+
+1. Bounded Context IAM
+   El bounded context IAM (Identity and Access Management) se encarga de la autenticación, autorización y gestión de credenciales dentro del sistema. Administra procesos como el registro de clientes y proveedores, inicio de sesión, recuperación de contraseñas y asignación de permisos según el rol. Su propósito es garantizar accesos seguros y controlados, asegurando que cada usuario interactúe únicamente con las funcionalidades que le corresponden dentro de la plataforma.
+<div align="center">
+  <img src="./../assets/chapter-4/IAM.png" alt="Bounded context IAM" width="500"/>
+</div>
+
+2. Bounded Context Catalog
+El bounded context Catalog se encarga de la gestión del catálogo de productos e inventario disponible en el sistema. Administra procesos como la creación, actualización y eliminación de ítems, así como la actualización de stock. Su propósito es mantener información precisa y actualizada sobre los recursos disponibles, permitiendo que los proveedores ofrezcan combustible y que los clientes consulten la disponibilidad antes de realizar una solicitud.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Catalog.png" alt="Bounded context Catalog" width="500"/>
+</div>
+
+3. Bounded Context Ordering
+El bounded context Ordering se encarga de la gestión del ciclo de vida de las solicitudes y órdenes realizadas por los clientes. Administra procesos como la creación de solicitudes, validación, aceptación o rechazo por parte del proveedor, generación de órdenes, despacho, confirmación de entrega y cierre del pedido. Su propósito es orquestar el flujo principal del negocio, asegurando que cada pedido siga un proceso claro, trazable y consistente desde su inicio hasta su finalización.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Ordering.png" alt="Bounded context Ordering" width="500"/>
+</div>
+
+
+4. Bounded Context Fulfillment
+El bounded context Fulfillment se encarga de la gestión logística necesaria para cumplir con las órdenes generadas. Administra procesos como el registro de transportes y conductores, asignación de recursos a pedidos y ejecución del despacho. Su propósito es garantizar que la entrega del combustible se realice de manera eficiente, coordinando los recursos logísticos involucrados en la distribución.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Fullfillment.png" alt="Bounded context Fullfilment" width="500"/>
+</div>
+
+
+5. Bounded Context Payment
+El bounded context Payment se encarga de la gestión de los pagos asociados a las órdenes. Administra procesos como la solicitud de pago, registro de transacciones y aprobación del pago. Su propósito es asegurar que las operaciones económicas se realicen de manera confiable, validando que los pedidos cuenten con el respaldo financiero necesario antes de su ejecución o finalización.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Payment.png" alt="Bounded context Payment" width="500"/>
+</div>
+
+6. Bounded Context Notification
+El bounded context Notification se encarga de la generación y gestión de notificaciones dentro del sistema. Administra procesos como la creación de notificaciones y el seguimiento de su estado (leídas o no leídas). Su propósito es mantener informados a los usuarios sobre eventos relevantes, como cambios en el estado de pedidos, pagos o entregas, mejorando la comunicación dentro de la plataforma.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Notification.png" alt="Bounded context Notification" width="500"/>
+</div>
+
+7. Bounded Context Reporting & Analytics
+El bounded context Reporting & Analytics se encarga de la generación y visualización de reportes basados en la información del sistema. Administra procesos como la elaboración de reportes de ventas, consumo y métricas operativas. Su propósito es proporcionar información clave para la toma de decisiones, permitiendo analizar el comportamiento del negocio y optimizar sus procesos.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Reporting.png" alt="Bounded context Reporting and Analytics" width="500"/>
+</div>
+
+
 ### 4.6.2 Software Architecture Context Diagram
+
+
 ### 4.6.3 Software Architecture Container Diagrams
+
+
+
 ### 4.6.4 Software Architecture Components Diagrams
 
 ## 4.7 Software Object-Oriented Design
