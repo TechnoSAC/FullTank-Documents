@@ -481,6 +481,7 @@ User Goal 1: El usuario registrado desea iniciar sesión para acceder a su cuent
 User Personas: Solicitante / Proveedor.
 
 Happy Path
+
 En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario completa su información de cuenta ingresando credenciales válidas (correo corporativo y contraseña). Al presionar "Ingresar", el sistema lo autentica y accede exitosamente a la "Sección Dashboard", donde puede gestionar sus solicitudes.
 
 <div align="center">
@@ -488,19 +489,31 @@ En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario co
 </div>
 
 Unhappy Paths
+
 En esta ruta, el usuario completa su información de cuenta erróneamente. Al presionar "Ingresar", el sistema bloquea el acceso y despliega una alerta visual ("Usuario y/o contraseña incorrectos"). El flujo se interrumpe y el usuario debe introducir correctamente sus credenciales en la misma pantalla para volver a intentarlo.
 <div align="center">
 <img src="../assets/chapter-4/User Goal 1-Unhappy path.png" height="200"/>
 </div>
+
 User Goal 2: El visitante desea crear una cuenta corporativa nueva en la plataforma para acceder a los servicios.
 
 User Personas: Visitante (Futuro Solicitante / Futuro Proveedor).
 
 Happy Path
+
 En esta ruta esperada, el flujo inicia en la "Sección de inicio" (Login). El usuario presiona el enlace "Regístrate aquí" y es redirigido a la "Sección de registro de cuenta". Allí, el usuario completa los espacios requeridos con información válida (Nombre de la empresa, correo corporativo y contraseña). Al presionar "Registrarse", el sistema crea la cuenta exitosamente y lo redirige de vuelta a la "Sección de inicio" para que pueda iniciar sesión con sus nuevas credenciales.
 
+<div align="center">
+<img src="../assets/chapter-4/User Goal 2-Happy path.png" height="200"/>
+</div>
+
 Unhappy Paths
+
 Estas rutas alternas contemplan dos escenarios de error durante el registro. El primero ocurre si el usuario completa erróneamente algún campo (por ejemplo, formato de correo incorrecto). El segundo ocurre si olvida completar uno o varios espacios obligatorios. En ambos casos, al presionar "Registrarse", el sistema bloquea la acción y se mantiene en la misma pantalla, desplegando alertas visuales rojas ("Campos inválidos" o "Complete todos los campos") exigiendo que el usuario corrija la información para poder continuar.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 2-Unhappy path.png" height="300"/>
+</div>
 
 User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta solicitando un enlace para cambiar su contraseña olvidada.
 
