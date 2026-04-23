@@ -474,6 +474,39 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 </div>
 
 ### 4.4.3 Web Applications Mock-ups
+
+En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
+
+**Login – Techno ZAC**
+
+Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
+
+<img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
+
+**Inicio de sesión – Techno ZAC**
+
+Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
+
+<img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
+
+**Registro – Techno ZAC**
+
+Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
+
+<img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
+
+**Solicitud de combustible – Techno ZAC**
+
+Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
+
+<img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
+
+**Registro de órdenes – Techno ZAC**
+
+Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
+
+<img src="../assets/chapter-4/mockup-principal-proveedor.PNG" height="600"/>
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 User Goal 1: El usuario registrado desea iniciar sesión para acceder a su cuenta y gestionar sus pedidos.
