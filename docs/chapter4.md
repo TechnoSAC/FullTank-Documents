@@ -515,15 +515,25 @@ Estas rutas alternas contemplan dos escenarios de error durante el registro. El 
 <img src="../assets/chapter-4/User Goal 2-Unhappy path.png" height="300"/>
 </div>
 
-User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta solicitando un enlace para cambiar su contraseña olvidada.
+User Goal 3: El usuario registrado desea recuperar el acceso a su cuenta mediante un código de verificación para actualizar su contraseña olvidada.
 
 User Personas: Usuario Registrado (Solicitante / Proveedor).
 
 Happy Path
-En esta ruta esperada, el flujo inicia cuando el usuario, al no poder acceder a su cuenta, selecciona la opción "¿Olvidaste tu contraseña?" en la pantalla de Inicio de Sesión. Esto lo redirige a la vista de Recuperación, donde debe ingresar el correo electrónico asociado a su cuenta corporativa. Al presionar el botón de "Enviar Código", el sistema valida la existencia del correo y envía un código de verificación numérico . Simultáneamente, la interfaz de la misma página se actualiza dinámicamente, habilitando nuevos campos de entrada. El usuario revisa su correo, obtiene el código y lo escribe en el campo correspondiente en esa misma vista, junto con su nueva contraseña y la confirmación de la misma. Al completar los datos y presionar "Restablecer Contraseña", el sistema verifica la validez del código y la coincidencia de contraseñas, actualiza las credenciales exitosamente y redirige al usuario de vuelta a la vista de Login con un mensaje de confirmación.
+
+En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario presiona el enlace "¿Olvidaste tu contraseña?" y es redirigido a la vista "Recuperar contraseña". Allí, completa el campo con su correo corporativo y presiona "Enviar Código". La interfaz se actualiza a la pantalla "Restablecer contraseña", donde el usuario llena los campos con el código recibido, su nueva contraseña y la confirmación. El proceso finaliza exitosamente al presionar "Actualizar Contraseña".
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
+</div>
 
 Unhappy Paths
-Estas rutas alternas contemplan los fallos de validación en dos momentos distintos del proceso. El primer escenario ocurre si el usuario ingresa un correo electrónico que no existe en la base de datos o si deja el campo en blanco; en este caso, el sistema bloquea el envío del correo y muestra un mensaje de error indicando que la cuenta no está registrada. El segundo escenario de error se da en la pantalla de restablecimiento: si el usuario digita una nueva contraseña pero falla al confirmarla (los campos no coinciden) o no cumple con los caracteres mínimos requeridos, el botón de guardado se deshabilita o el sistema arroja una alerta visual solicitando la corrección antes de proceder.
+
+En esta ruta alterna, el usuario intenta iniciar la recuperación pero coloca un correo no registrado en el sistema. Al presionar "Enviar Código", la acción se bloquea y la pantalla se mantiene en "Recuperar contraseña - correo inválido", desplegando un mensaje de alerta en rojo ("Correo no registrado ingrese un correo válido"). El flujo se interrumpe hasta que el usuario proporcione información correcta.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
+</div>
 
 User Goal 4: El usuario desea registrar un nuevo pedido especificando el tipo y la cantidad de combustible para que el proveedor lo procese.
 
