@@ -13,7 +13,7 @@ El logotipo de Full-Tank es el eje central de nuestra identidad.
   
 - **Identidad Visual:** El diseño utiliza líneas geométricas sólidas para transmitir robustez y confiabilidad, características esenciales para un sistema que gestiona recursos críticos en sectores como minería y construcción.
   
-<div align="center">
+<div allign="center">
   <img src="./../assets/chapter-4/logo_FullTank.png" alt="Logo FullTank" width="310"/>
 </div>
 
@@ -672,7 +672,7 @@ PDF Generator Service: sistema externo encargado de generar reportes en formato 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con FullTank, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
 
 <div allign="center">
-  <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
+  <img src="./../assets/chapter-4/ContextDiagram.png" alt="Context diagram" width="500"/>
 </div>
 
 ### 4.6.3 Software Architecture Container Diagrams
