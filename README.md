@@ -115,13 +115,13 @@
 
 
 **Link del repositorio de la Landing Page:**  
-
+https://github.com/TechnoSAC/Landing_Page
 
 **Link del repositorio del fronted:**  
-
+https://github.com/TechnoSAC/frontend
 
 **Link del repositorio del backend:**  
-
+https://github.com/TechnoSAC/backend
 
 **Link de los repositorios de la organización:**  https://github.com/TechnoSAC
 
@@ -234,6 +234,17 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 5
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+
+
 <table border>
   <thead>
     <tr>
@@ -248,16 +259,16 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
                         proporcionar liderazgo en 
                         forma conjunta </b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>Milenko Rubén</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Lideró la elaboración del Lean UX Process y el Lean UX Canvas, coordinando con el equipo para validar los assumptions e hipótesis planteadas.<br>
+        <b>Milenko Rubén Cayanchi Avila</b><br>
+        TB1: Dirigió el análisis competitivo de la startup, orientando al equipo en la definición de estrategias frente a los competidores identificados.<br>
         <b>Brayan Alexis Corvacho Damian</b><br>
-        TB1: .<br>
-        <b>Enrique Mantilla</b><br>
-        TB1: .<br>
-        <b>Mathias Cardenas</b><br>
-        TB1: .
+        TB1: Lideró la sesión de Event Storming junto al equipo, coordinando la documentación de los procesos del negocio y el Ubiquitous Language.<br>
+        <b>Enrique Manuel Mantilla Maldonado</b><br>
+        TB1: Guió al equipo en la construcción del User Task Matrix y el User Journey Mapping, promoviendo el análisis conjunto del comportamiento de los usuarios.<br>
+        <b>Mathias Andree Cardenas Huaman</b><br>
+        TB1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.
       </td>
       <td>
         El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.
@@ -268,16 +279,16 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
                 inclusivo, establece metas, 
                 planifica tareas y cumple objetivos. </b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>Milenko Rubén</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Planificó y organizó las secciones del capítulo 1 relacionadas al Solution Profile, estableciendo metas claras para la entrega y asegurando su cumplimiento dentro del plazo acordado.<br>
+        <b>Milenko Rubén Cayanchi Avila</b><br>
+        TB1: Estableció un plan de investigación colaborativo para el análisis de competidores, distribuyendo subtareas entre los miembros e integrando los aportes en un documento unificado.<br>
         <b>Brayan Alexis Corvacho Damian</b><br>
-        TB1: .<br>
-        <b>Enrique Mantilla</b><br>
-        TB1: .<br>
-        <b>Mathias Cardenas</b><br>
-        TB1: .
+        TB1: Fomentó un ambiente inclusivo durante el Event Storming, asegurando que todos los integrantes participaran en la identificación de eventos y procesos clave del negocio.<br>
+        <b>Enrique Manuel Mantilla Maldonado</b><br>
+        TB1: Organizó las tareas del Needfinding junto al equipo, estableciendo objetivos concretos para el User Task Matrix y el User Journey Mapping y verificando su cumplimiento.<br>
+        <b>Mathias Andree Cardenas Huaman</b><br>
+        TB1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.
       </td>
       <td>
         El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.
