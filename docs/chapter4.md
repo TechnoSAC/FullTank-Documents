@@ -405,7 +405,7 @@ Vista de detalles de una solicitud de combustible específica. Mantiene la barra
   <img src="../assets/chapter-4/Request Details View.png" alt="Request Details View" width="700"/>
 </div>
 
-**Wireframe 15**
+**Wireframe 13**
 
 Este wireframe muestra una pantalla de gestión de inventario, cuyo propósito es visualizar y controlar los productos disponibles, permitiendo revisar existencias y realizar acciones sobre cada ítem de forma organizada.
 
@@ -413,7 +413,7 @@ Este wireframe muestra una pantalla de gestión de inventario, cuyo propósito e
   <img src="../assets/chapter-4/wireframe-supplierInventory.png" alt="Estilos" width="700"/>
 </div>
 
-**Wireframe 16**
+**Wireframe 14**
 
 Este wireframe muestra una pantalla de gestión de órdenes, enfocada en visualizar, organizar y dar seguimiento a pedidos, combinando una tabla principal con detalles y un panel lateral para información o acciones rápidas.
 
@@ -423,13 +423,13 @@ Este wireframe muestra una pantalla de gestión de órdenes, enfocada en visuali
 
 Este wireframe muestra una pantalla de detalle de una orden, cuyo propósito es visualizar toda la información específica de un pedido, incluyendo su estado, datos relacionados y posibles acciones, en una vista más completa y organizada.
 
-**Wireframe 17**
+**Wireframe 15**
 
 <div align="center">
   <img src="../assets/chapter-4/wireframe-supplierOrder2.png" alt="Estilos" width="700"/>
 </div>
 
-**Wireframe 18**
+**Wireframe 16**
 
 Este wireframe muestra una pantalla para gestionar solicitudes entrantes de proveedores, donde el usuario puede revisar y tomar acciones sobre pedidos de forma rápida, usando filtros y una tabla con las solicitudes
 
@@ -437,13 +437,46 @@ Este wireframe muestra una pantalla para gestionar solicitudes entrantes de prov
   <img src="../assets/chapter-4/wireframe-supplierRequest.png" alt="Estilos" width="700"/>
 </div>
 
-**Wireframe 19**
+**Wireframe 17**
 
 El wireframe representa un dashboard para la gestión operativa de una plataforma logística o de suministro de combustible, cuyo propósito es centralizar información clave para la toma de decisiones.
 
 <div align="center">
   <img src="../assets/chapter-4/wireframe-supplierDashboard.png" alt="Estilos" width="700"/>
 </div>
+
+**Wireframe 18**
+
+El wireframe representa una pantalla de la cuenta, donde puede verificar los datos de su cuenta, su seguridad y ver las notificaciones
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierAccount.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 19**
+
+El wireframe representa una pantalla de fletes, donde se puede revisar el costo de los fletes y revisar que conductor será el más apropiado
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierFleet.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 20**
+
+El wireframe representa una pantalla para gestionar reportes, donde se puede revisar las ventas que fueron concluidas y las ventas actuales. Por otra parte, existen los filtos para este tipo de imagenes que les sera útil ya que permite buscar la informacion más rápido.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierReport.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 21**
+
+El wireframe representa una pantalla de gestion de reportes, aqui se pueden revisar las estadisticas de la empresa como la cantidad de clientes o las órdenes activas. Además, se puede revisar que sector está invirtiendo más en combustible
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierReport2.png" alt="Estilos" width="700"/>
+</div>
+
 
 
 ### **Mobile**
