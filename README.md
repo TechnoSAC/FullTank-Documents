@@ -3,9 +3,9 @@
   <h2>Informe de Trabajo Final</h2>
   <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
   <p><strong>Ciclo:</strong> 2026-10</p>
-  <p><strong>Curso:</strong> Desarrollo de Aplicaciones Open Source</p>
-  <p><strong>Sección:</strong> 1ASI0729-2610-11959</p>
-  <p><strong>Profesor:</strong> Hugo Allan Mori Paiva</p>
+  <p><strong>Curso:</strong> Aplicaciones Web</p>
+  <p><strong>Sección:</strong> 1ASI0730-2610-12206</p>
+  <p><strong>Profesor:</strong> Angel Augusto Velasquez Nuñez</p>
 </div>
 
 <h2 align="center">Relación de Integrantes:</h2>
@@ -54,24 +54,53 @@
   </thead>
   <tbody>
     <tr>
-      <td>TB1</td>
-      <td>30/04/2026</td>
+      <td>1.0.0</td>
+      <td>13/04/2025</td>
       <td>
         - Asto Jacome Jose Gustavo <br>
-        - Mathias Andree Cardenas Huaman <br>
-        - Enrique Manuel Mantilla Maldonado <br>
-        - 
       </td>
       <td>
-        Se incluyeron los siguientes capítulos: <br>
-        • Estructura del informe <br>
-        • Capítulo I: Introducción <br>
-        • Capítulo II: Requirements Elicitation & Analysis <br>
-        • Capítulo III: Requirements Specification <br>
-        • Capítulo IV: Product Design <br>
-        • Capítulo V: Product Implementation, Validation & Deployment <br>
-        • Configuración inicial del repositorio y de la Landing Page <br>
-        • Aplicación de GitFlow y conventional commits
+        Se redactó todo el apartado de Solution Profile en el capítulo 1, marcando los antecedentes y la problemática. Además, se elaboró el Lean UX Process para hallar los assumptions de nuestros usuarios y elaborar nuestras hipótesis. Finalmente se unio todo lo recopilado en el Lean UX Canvas.
+      </td>
+    </tr>
+    <tr>
+      <td>1.0.2</td>
+      <td>13/04/2025</td>
+      <td>
+        - Milenko Rubén Cayanchi Avila <br>
+      </td>
+      <td>
+        Se investigó sobre los competidores de nuestra startup FullTank y se redactó en el capítulo 2. Para desarrollar el análisis se hizo un análisis competitivo para poder comparar a los competidores con nuestra startup. Ademas, se planearon estrategias frente a nuestros competidores.
+      </td>
+    </tr>
+    <tr>
+      <td>1.0.3</td>
+      <td>14/04/2025</td>
+      <td>
+        - Enrique Manuel Mantilla Maldonado <br>
+      </td>
+      <td>
+        Se planteó el User Task Matrix y el User Journey Mapping en el capítulo 2. En este proceso, se examina los comportamientos de nuestros User Persona. Estos datos nos permiten desarrollar el Journey Mapping que nos permitirá visualizar cómo nuestros usuarios interactuarán con nuestra plataforma
+      </td>
+    </tr>
+    <tr>
+      <td>1.0.4</td>
+      <td>15/04/2025</td>
+      <td>
+        - Mathias Andree Cardenas Huaman <br>
+      </td>
+      <td>
+        Se detalló el análisis de las entrevistas y elaboró el User Persona del capítulo 2. Se analizó las entrevistas que nos permitirán recopilar información valiosa para el desarrollo de nuestra plataforma. Además en base a nuestros entrevistados se elaboró el User Persona.
+      </td>
+    </tr>
+    <tr>
+      <td>1.0.5</td>
+      <td>15/04/2025</td>
+      <td>
+        - Brayan Alexis Corvacho Damian <br>
+      </td>
+      <td>
+        Se redactó el Event Storming y el Ubiquitous Language en el capítulo 2. El equipo realizó un Event Storming para verificar los procesos realizados por una compañía de entrega de combustible. Todo ello terminó siendo documentado en el capítulo 2. Además, se incluyó la terminología que puede ser complicada para los usuarios
       </td>
     </tr>
     <tr>
@@ -82,22 +111,49 @@
 
 ## Project Report Collaboration Insights
 
-**Link del repositorio del informe:**  
+**Link del repositorio del informe:**  https://github.com/TechnoSAC/FullTank-Documents
 
 
 **Link del repositorio de la Landing Page:**  
-
+https://github.com/TechnoSAC/Landing_Page
 
 **Link del repositorio del fronted:**  
-
+https://github.com/TechnoSAC/frontend
 
 **Link del repositorio del backend:**  
+https://github.com/TechnoSAC/backend
 
-
-**Link de los repositorios de la organización:**  
+**Link de los repositorios de la organización:**  https://github.com/TechnoSAC
 
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
+
+**Reporte de colaboración de la entrega del TB1**
+
+En nuestro primer avance de la elaboración del informe, el grupo de FullTank se encargó de desarrollar las principales características iniciales del proyecto. Cada integrante intervino activamente en la elaboración de la documentación, organizándose y distribuyendo el trabajo por secciones clave, lo que permitió abordar de manera ordenada el desarrollo de la propuesta tecnológica.
+
+
+**Asto Jacome Jose Gustavo**
+
+Jose Asto se encargó de la elaboración del Lean UX Process (capítulo 1), el cual permitió hallar las suposiciones de los usuarios y elaborar las hipótesis. Además, recopiló todo ello en un Lean UX Canvas. 
+
+
+**Milenko Rubén Cayanchi Avila**
+
+
+Milenko realizó la investigación a los competidores de la startup y realizó un Análisis Competitivo (capítulo 2), el objetivo es comparar nuestra startup con los competidores y realizar estrategias. 
+
+**Mathias Andree Cardenas Huaman**
+
+Mathias analizó las entrevistas (capítulo 2) y filtró el contenido más relevante para nuestra startup. Con esos datos averiguamos qué es lo que buscan nuestros clientes.
+
+**Enrique Manuel Mantilla Maldonado**
+
+Enrique elaboró el User Task Matrix (capítulo 2), donde elaboró los hábitos que deberían tener nuestros User Persona. Además, se encargó de elaborar el User Journey Mapping (capítulo 2), el cual nos permite analizar cómo los usuarios ideales deberían interactuar con nuestra plataforma
+
+**Brayan Alexis Corvacho Damian**
+
+Brayan realizó una revisión y transcripción del Event Storming (capítulo 2). Luego de que el equipo hiciera el Event Storming, se pasó a documentar y redactar sobre los procesos que haría una compañía de entrega de combustible
 
 **Participación por miembro**
 
@@ -178,6 +234,17 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 5
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+
+
 <table border>
   <thead>
     <tr>
@@ -188,35 +255,43 @@ El siguiente gráfico muestra una línea de tiempo con la evolución semanal de 
   </thead>
   <tbody>
     <tr>
-      <td width="25%"><b>Comunica oralmente con efectividad a rangos de audiencia</b></td>
+      <td width="25%"><b>Trabaja en equipo para 
+                        proporcionar liderazgo en 
+                        forma conjunta </b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>Milenko Rubén</b><br>
-        TB1: .<br>
-        <b>A</b><br>
-        TB1: .<br>
-        <b>Enrique Mantilla</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Lideró la elaboración del Lean UX Process y el Lean UX Canvas, coordinando con el equipo para validar los assumptions e hipótesis planteadas.<br>
+        <b>Milenko Rubén Cayanchi Avila</b><br>
+        TB1: Dirigió el análisis competitivo de la startup, orientando al equipo en la definición de estrategias frente a los competidores identificados.<br>
+        <b>Brayan Alexis Corvacho Damian</b><br>
+        TB1: Lideró la sesión de Event Storming junto al equipo, coordinando la documentación de los procesos del negocio y el Ubiquitous Language.<br>
+        <b>Enrique Manuel Mantilla Maldonado</b><br>
+        TB1: Guió al equipo en la construcción del User Task Matrix y el User Journey Mapping, promoviendo el análisis conjunto del comportamiento de los usuarios.<br>
+        <b>Mathias Andree Cardenas Huaman</b><br>
+        TB1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.
       </td>
       <td>
-        Consideramos que la comunicación oral fue aplicada de manera clara y estratégica, logrando exponer hallazgos, transmitir insights y sostener discusiones con efectividad frente a diferentes audiencias. Gracias a ello, se alcanzó una comprensión común del problema y se sentaron bases sólidas para proponer soluciones innovadoras en el marco del Lean UX Process.
+        El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.
       </td>
     </tr>
     <tr>
-      <td width="25%"><b>Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
+      <td width="25%"><b>Crea un entorno colaborativo e 
+                inclusivo, establece metas, 
+                planifica tareas y cumple objetivos. </b></td>
       <td>
-        <b>Jose Asto</b><br>
-        TB1: .<br>
-        <b>Milenko Rubén</b><br>
-        TB1: .<br>
-        <b>Mathias Cardenas</b><br>
-        TB1: .<br>
-        <b>Enrique Mantilla</b><br>
-        TB1: .<br>
+        <b>Jose Asto Jacome</b><br>
+        TB1: Planificó y organizó las secciones del capítulo 1 relacionadas al Solution Profile, estableciendo metas claras para la entrega y asegurando su cumplimiento dentro del plazo acordado.<br>
+        <b>Milenko Rubén Cayanchi Avila</b><br>
+        TB1: Estableció un plan de investigación colaborativo para el análisis de competidores, distribuyendo subtareas entre los miembros e integrando los aportes en un documento unificado.<br>
+        <b>Brayan Alexis Corvacho Damian</b><br>
+        TB1: Fomentó un ambiente inclusivo durante el Event Storming, asegurando que todos los integrantes participaran en la identificación de eventos y procesos clave del negocio.<br>
+        <b>Enrique Manuel Mantilla Maldonado</b><br>
+        TB1: Organizó las tareas del Needfinding junto al equipo, estableciendo objetivos concretos para el User Task Matrix y el User Journey Mapping y verificando su cumplimiento.<br>
+        <b>Mathias Andree Cardenas Huaman</b><br>
+        TB1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.
       </td>
       <td>
-        La comunicación escrita se utilizó de forma clara y estratégica, adaptando el nivel de detalle y el lenguaje según la audiencia. Esto permitió documentar hallazgos, explicar la problemática y presentar propuestas de manera efectiva, logrando que toda la información fuera comprendida y validada en el marco del Lean UX Process.
+        El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.
       </td>
     </tr>
   </tbody>
