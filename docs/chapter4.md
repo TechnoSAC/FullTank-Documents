@@ -521,9 +521,11 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 * Flujo de Compradores: Diseñado bajo principios de eficiencia y transparencia, este camino permite al solicitante monitorear su consumo mensual, registrar nuevos pedidos mediante la carga de comprobantes de pago, realizar el seguimiento de su suministro en tiempo real y consultar su historial transaccional.
 
 <div align="center">
-  <img src="./../assets/chapter-4/Diagram.png" alt="Estilos" width="1000"/>
+  <img src="./../assets/chapter-4/wireflow1.png" alt="Estilos" width="1000"/>
 </div>
-
+<div align="center">
+  <img src="./../assets/chapter-4/wireflow2.png" alt="Estilos" width="1000"/>
+</div>
 ### 4.4.3 Web Applications Mock-ups
 
 En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
