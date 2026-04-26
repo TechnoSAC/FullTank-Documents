@@ -474,6 +474,8 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 </div>
 
 ### 4.4.3 Web Applications Mock-ups
+
+
 ### 4.4.4 Web Applications User Flow Diagrams
 
 User Goal 1: El usuario registrado desea iniciar sesión para acceder a su cuenta y gestionar sus pedidos.
