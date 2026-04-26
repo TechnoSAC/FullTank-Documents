@@ -335,7 +335,7 @@ Mantiene la misma estructura de pantalla dividida y contenedor gráfico a la der
 Conserva la consistencia estructural de los anteriores. El formulario central, bajo el título "Reset Password", incluye tres campos de entrada de texto y un botón de acción primaria.
 
 <div align="center">
-  <img src="../assets/chapter-4/Reset password.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Reset Password.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 5**
