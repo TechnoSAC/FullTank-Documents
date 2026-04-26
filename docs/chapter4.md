@@ -13,7 +13,7 @@ El logotipo de Full-Tank es el eje central de nuestra identidad.
   
 - **Identidad Visual:** El diseño utiliza líneas geométricas sólidas para transmitir robustez y confiabilidad, características esenciales para un sistema que gestiona recursos críticos en sectores como minería y construcción.
   
-<div align="center">
+<div allign="center">
   <img src="./../assets/chapter-4/logo_FullTank.png" alt="Logo FullTank" width="310"/>
 </div>
 
@@ -316,84 +316,27 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
 
 **Wireframe 2**
 
-El wireframe de Inicio de Sesión y Registro establece un punto de control centralizado diseñado para identificar al usuario y derivarlo de manera eficiente a su panel de control correspondiente. La arquitectura de información prioriza la funcionalidad sobre cualquier otro elemento, disponiendo de forma secuencial los campos de captura de credenciales, el acceso a la recuperación de cuenta y el disparador para la creación de nuevos perfiles. Este esquema garantiza que el usuario recorra el camino mínimo necesario para la autenticación, reduciendo la carga cognitiva al segmentar claramente las acciones primarias de las secundarias.
-
 <div align="center">
-  <img src="./../assets/chapter-4/Inicio.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Login.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 3**
 
-El primer wireframe para proveedores, denominado Resumen Operativo, establece una arquitectura de información de alta prioridad que condensa la salud del negocio en tres indicadores clave: ventas mensuales, pedidos pendientes y vehículos en ruta.
-
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe2.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Create account.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 4**
 
-El wireframe de Gestión de Pedidos Entrantes estructura la información mediante una tabla funcional que centraliza las solicitudes nuevas, permitiendo al proveedor procesar múltiples órdenes desde una sola vista. La arquitectura de información se organiza en columnas que detallan datos críticos como el cliente, el tipo de combustible y la cantidad, situando los botones de acción en el extremo derecho para facilitar una respuesta rápida de aprobación o rechazo.
-
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe3.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/Reset password.png" alt="Estilos" width="700"/>
 </div>
 
 **Wireframe 5**
 
-El wireframe de Directorio de Clientes utiliza un sistema de tarjetas (cards) para organizar el perfil detallado de cada empresa, permitiendo al proveedor acceder a la información de contacto y preferencias de compra de manera individualizada. La arquitectura de información se segmenta visualmente mediante el uso de listas de verificación e iconos, lo que facilita el escaneo rápido de los servicios contratados o requisitos específicos por cliente.
-
 <div align="center">
-  <img src="./../assets/chapter-4/Wireframe4.png" alt="Estilos" width="700"/>
+  <img src="/assets/chapter-4/.png" alt="Estilos" width="700"/>
 </div>
-
-**Wireframe 6**
-
-El wireframe de Asignación de Despacho presenta una arquitectura de información dividida en dos paneles estratégicos para facilitar la coordinación logística del proveedor. El panel izquierdo concentra los campos de entrada para la selección de pedidos y la vinculación de unidades de transporte, incluyendo un contenedor específico para la validación de documentos o firmas digitales, lo que asegura que cada despacho cumpla con los requisitos administrativos.
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe5.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 7**
-
-El wireframe de Reportes y Documentación cierra el panel de proveedores con una arquitectura de información orientada a la auditoría y el control administrativo. La interfaz dispone de un área central de visualización para previsualizar registros operativos, acompañada de un botón de acción principal para la generación y descarga de documentos legales o reportes de ventas.
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe6.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 8**
-
-El primer wireframe del panel de Compradores introduce la vista de Consumo General, diseñada para ofrecer una arquitectura de información centrada en el control financiero y operativo del solicitante. La interfaz utiliza una disposición horizontal de tres tarjetas de métricas que permiten al usuario monitorear, de forma inmediata, su gasto total mensual, el volumen de consumo acumulado y la cantidad de pedidos que se encuentran actualmente en estado pendiente.
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe7.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 9**
-
-El wireframe de Solicitud de Combustible y Procedimiento de Pago funciona como una interfaz de formulario estructurada para guiar al comprador a través del registro de una nueva orden. La arquitectura de información divide el proceso en dos bloques lógicos: la especificación técnica del pedido (tipo de combustible y cantidad) y la carga de la evidencia de pago necesaria para la validación del proveedor. Al presentar los campos de manera simétrica y clara dentro de un contenedor enfocado, se minimiza el riesgo de errores en el ingreso de datos, asegurando que el flujo desde la solicitud hasta la confirmación del depósito sea fluido y cumpla con los requisitos operativos del sistema.
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe8.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 10**
-
-El wireframe de Seguimiento del Pedido se centra en proporcionar transparencia y tranquilidad al comprador mediante una arquitectura de información que destaca el progreso del suministro en tiempo real. El elemento principal de esta interfaz es una barra de estado dinámica que permite visualizar de forma gráfica en qué etapa se encuentra el pedido (solicitado, aprobado, en tránsito o entregado), eliminando la incertidumbre del usuario. 
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe9.png" alt="Estilos" width="700"/>
-</div>
-
-**Wireframe 11**
-
-El wireframe del Historial de Pedidos cierra la experiencia del comprador mediante una arquitectura de información que facilita la consulta de transacciones pasadas para fines de auditoría y control de inventarios. La interfaz organiza los pedidos anteriores en una cuadrícula de tarjetas (cards), donde cada una presenta un resumen de la transacción, incluyendo fechas y volúmenes, acompañada de un botón de acción para acceder a detalles específicos o descargar comprobantes.
-
-<div align="center">
-  <img src="./../assets/chapter-4/Wireframe10.png" alt="Estilos" width="700"/>
-</div>
-
 
 ### **Mobile**
 **Wireframe 1**
@@ -475,6 +418,37 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 
 ### 4.4.3 Web Applications Mock-ups
 
+En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
+
+**Login – Techno ZAC**
+
+Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
+
+<img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
+
+**Inicio de sesión – Techno ZAC**
+
+Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
+
+<img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
+
+**Registro – Techno ZAC**
+
+Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
+
+<img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
+
+**Solicitud de combustible – Techno ZAC**
+
+Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
+
+<img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
+
+**Registro de órdenes – Techno ZAC**
+
+Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
+
+<img src="../assets/chapter-4/mockup-principal-proveedor.PNG" height="600"/>
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
@@ -544,8 +518,16 @@ User Persona: Solicitante.
 Happy Path
 En esta ruta esperada, el flujo representa la funcionalidad principal del sistema. El usuario (Solicitante), habiendo iniciado sesión, se encuentra en su Dashboard o panel principal. Desde allí, selecciona la opción para "Crear Nuevo Pedido". El sistema le presenta un formulario donde ingresa los datos requeridos (tipo de combustible, cantidad en galones, y dirección o tanque de destino). Al completar correctamente la información y hacer clic en "Enviar Pedido" (o "Registrar"), el sistema procesa la solicitud, la guarda en la base de datos con un estado inicial de "Pendiente" y redirige al usuario a una pantalla de confirmación de éxito o al listado de sus pedidos recientes.
 
+<div align="center">
+<img src="../assets/chapter-4/User Goal 4 - HappyPath.png" height="150"/>
+</div>
+
 Unhappy Paths
 Estas rutas alternas ocurren cuando el usuario comete errores al intentar registrar su solicitud de combustible, lo que impide que el pedido se envíe al proveedor. Esto puede suceder si el usuario deja campos obligatorios vacíos (como olvidar seleccionar el tipo de combustible) o si ingresa valores inválidos (por ejemplo, una cantidad de galones igual o menor a cero, o que exceda el límite permitido por el sistema). Al intentar enviar el formulario con estas inconsistencias, el sistema bloquea la acción, permanece en la vista del formulario y resalta los campos afectados con mensajes de advertencia, indicando al usuario que debe corregir las cantidades o completar la información para poder continuar.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 4 - UnHappyPath.png" height="150"/>
+</div>
 
 User Goal 5: El usuario proveedor desea revisar un pedido pendiente y aprobarlo tras validar que los depósitos realizados a sus cuentas bancarias cubren el monto total.
 
@@ -554,8 +536,16 @@ User Persona: Proveedor.
 Happy Path
 En esta ruta esperada, el flujo se ejecuta desde la perspectiva de la administración del negocio. El usuario (Proveedor) inicia en su Dashboard y accede a la sección de "Pedidos Pendientes". Selecciona un pedido específico de la lista para acceder a sus detalles completos. Allí, el proveedor verifica que el solicitante haya registrado correctamente la información del pago y que los depósitos cubran el costo total del combustible solicitado. Al validar esta información, el usuario presiona el botón "Aprobar Pedido". El sistema procesa la acción, cambia el estado del pedido a "Aprobado" y muestra una notificación de éxito, devolviendo al usuario al listado actualizado.
 
+<div align="center">
+<img src="../assets/chapter-4/User Goal 5 - HappyPath.png" height="150"/>
+</div>
+
 Unhappy Paths
 Estas rutas alternas se presentan cuando las condiciones financieras del pedido no se cumplen. El proveedor revisa los detalles del pedido, pero identifica que los depósitos registrados por el solicitante son inválidos, inexistentes o el monto ingresado es insuficiente para cubrir la totalidad del pedido. Si el proveedor intenta hacer clic en "Aprobar" bajo estas condiciones (o selecciona una opción explícita de "Rechazar/Observar"), el sistema bloquea el cambio a estado "Aprobado". En su lugar, se despliega una alerta visual o un mensaje de error indicando que el pedido no cuenta con el pago completo, manteniendo el estado en pendiente o pausado hasta que el cliente regularice la situación.
+
+<div align="center">
+<img src="../assets/chapter-4/User Goal 5 - UnHappyPath.png" height="150"/>
+</div>
 
 ## 4.5 Web Applications Prototyping
 
@@ -641,7 +631,7 @@ PDF Generator Service: sistema externo encargado de generar reportes en formato 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con FullTank, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
 
 <div allign="center">
-  <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
+  <img src="./../assets/chapter-4/ContextDiagram.png" alt="Context diagram" width="500"/>
 </div>
 
 ### 4.6.3 Software Architecture Container Diagrams
