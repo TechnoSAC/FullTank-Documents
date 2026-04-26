@@ -274,6 +274,12 @@ El sistema de búsqueda está integrado dentro de cada módulo relevante mediant
 
 ### 4.2.5 Navigation Systems
 
+Navegación Global: La barra de navegación en el encabezado proporciona acceso principal a las secciones de la página de inicio. El menú de hamburguesa en dispositivos móviles asegura que esta navegación sea siempre accesible.
+
+Navegación Contextual: Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
+
+Navegación Secundaria: Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
+
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
 En esta sección se presentan los esquemas estructurales (wireframes) de baja fidelidad para la Landing Page de *Full-Tank*, diseñados en Figma. Estos diagramas establecen la jerarquía visual, la distribución de contenido y el comportamiento responsivo antes de aplicar el estilo visual final, asegurando que la interfaz cumpla con nuestros objetivos de negocio.
