@@ -151,7 +151,7 @@ Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hac
 
 - **Home**: Representa la página principal y el resumen de la propuesta de valor.
 
-- **About Us**: Agrupa la información sobre la misión, visión y el equipo detrás de Prime Fuel.
+- **About Us**: Agrupa la información sobre la misión, visión y el equipo detrás de TechnoSAC.
 
 - **Frecuency Asked Questions**: Agrupa las preguntas frecuentes sobre el servicio.
 

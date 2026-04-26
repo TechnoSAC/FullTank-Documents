@@ -125,6 +125,8 @@ https://github.com/TechnoSAC/backend
 
 **Link de los repositorios de la organización:**  https://github.com/TechnoSAC
 
+**Link del figma:**
+
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, empleando GitFlow y Conventional Commits. Cada miembro del equipo ha contribuido con commits y ramas durante el desarrollo del proyecto.
 
