@@ -590,6 +590,109 @@ Estas rutas alternas se presentan cuando las condiciones financieras del pedido 
 
 ## 4.5 Web Applications Prototyping
 
+La sección de Web Applications Prototyping presenta los prototipos interactivos de **FullTank** para versión Desktop y Mobile Web. Estos prototipos simulan cómo los usuarios solicitan combustible, gestionan pedidos y realizan seguimiento en tiempo real.
+
+Las decisiones de diseño se basan en:
+
+- **Simplicidad** para facilitar el uso de la plataforma  
+- **Rapidez** en el acceso a funciones críticas  
+- **Consistencia** en toda la experiencia de usuario  
+
+
+
+### Criterios de diseño
+
+#### Arquitectura enfocada en el usuario
+Se priorizaron las funcionalidades principales:
+
+- Solicitud de combustible  
+- Seguimiento de pedidos  
+- Historial de órdenes  
+- Proveedores disponibles  
+- Notificaciones  
+
+Estos elementos se ubicaron en accesos rápidos para reducir la cantidad de pasos.
+
+---
+
+#### Navegación clara
+Se definió una navegación simple:
+
+- **Desktop:** menú superior con secciones principales  
+- **Mobile:** tab-bar inferior para acciones frecuentes y menú hamburguesa para opciones secundarias  
+
+---
+
+#### Patrones de interacción conocidos
+Para mejorar la usabilidad:
+
+- Tarjetas para pedidos y proveedores  
+- Tablas para historial  
+- Íconos simples (pedido, alerta, ubicación)  
+- Flujo directo sin elementos innecesarios  
+
+---
+
+#### Diseño accesible
+Se consideraron:
+
+- Tipografía clara y legible  
+- Botones grandes en dispositivos móviles  
+- Interfaz limpia y ordenada  
+
+---
+
+### Prototipos UI – Versión Desktop
+
+La versión desktop está orientada a la gestión completa de pedidos:
+
+- **Dashboard principal**  
+  Vista general de pedidos activos, estados y alertas  
+
+- **Navegación superior**  
+  Acceso a Home, Orders, Suppliers, Tracking y Settings  
+
+- **Secciones organizadas**  
+  Información dividida en bloques como pedidos, historial y seguimiento  
+
+---
+
+### Prototipos UI – Versión Mobile
+
+La versión mobile prioriza rapidez y facilidad de uso:
+
+- **Inicio simplificado**  
+  Resumen inmediato del estado de pedidos  
+
+- **Tab-Bar inferior**  
+  Accesos a:
+  - Home  
+  - Orders  
+  - Tracking  
+  - Profile  
+
+- **Menú hamburguesa**  
+  Incluye opciones secundarias como configuración o historial completo  
+
+- **Interacción táctil optimizada**  
+  Botones grandes, navegación fluida y scroll continuo  
+
+---
+
+### Relación con User Flow Diagrams
+
+Los prototipos respetan los flujos definidos, asegurando que:
+
+- Solicitar combustible sea rápido  
+- El seguimiento de pedidos sea claro  
+- No existan pasos innecesarios  
+
+Esto permite completar las tareas principales de manera eficiente dentro de la plataforma.
+
+![Prototype](../assets/chapter-4/prototype.png)
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc_edu_pe/IQD-R7UX2DcKRJNLtZjqQtj5ASvmAemq4_ar5XNntIFluHs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qn4iaM
+
 ## 4.6 Domain-Driven Software Architecture
 ### 4.6.1 Design-Level Event Storming
 

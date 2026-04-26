@@ -845,3 +845,7 @@ A partir de estos impactos se definieron los Deliverables que la plataforma Full
     </tr>
   </tbody>
 </table>
+
+Link del Trello: https://trello.com/invite/b/69e2fd01ee5b055b2d967a45/ATTI05a9ebca4c1da02108fc92fa76bfa07e412172F6/fulltank
+
+![alt text](../assets/chapter-3/trello.png)
