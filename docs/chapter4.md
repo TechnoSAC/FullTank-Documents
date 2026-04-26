@@ -332,11 +332,46 @@ Hacia el final de la navegación, se presenta una sección de planes y suscripci
   <img src="../assets/chapter-4/Reset password.png" alt="Estilos" width="700"/>
 </div>
 
-**Wireframe 5**
+**Wireframe 15**
+
+Este wireframe muestra una pantalla de gestión de inventario, cuyo propósito es visualizar y controlar los productos disponibles, permitiendo revisar existencias y realizar acciones sobre cada ítem de forma organizada.
 
 <div align="center">
-  <img src="/assets/chapter-4/.png" alt="Estilos" width="700"/>
+  <img src="../assets/chapter-4/wireframe-supplierInventory.png" alt="Estilos" width="700"/>
 </div>
+
+**Wireframe 16**
+
+Este wireframe muestra una pantalla de gestión de órdenes, enfocada en visualizar, organizar y dar seguimiento a pedidos, combinando una tabla principal con detalles y un panel lateral para información o acciones rápidas.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierOrder.png" alt="Estilos" width="700"/>
+</div>
+
+Este wireframe muestra una pantalla de detalle de una orden, cuyo propósito es visualizar toda la información específica de un pedido, incluyendo su estado, datos relacionados y posibles acciones, en una vista más completa y organizada.
+
+**Wireframe 17**
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierOrder2.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 18**
+
+Este wireframe muestra una pantalla para gestionar solicitudes entrantes de proveedores, donde el usuario puede revisar y tomar acciones sobre pedidos de forma rápida, usando filtros y una tabla con las solicitudes
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierRequest.png" alt="Estilos" width="700"/>
+</div>
+
+**Wireframe 19**
+
+El wireframe representa un dashboard para la gestión operativa de una plataforma logística o de suministro de combustible, cuyo propósito es centralizar información clave para la toma de decisiones.
+
+<div align="center">
+  <img src="../assets/chapter-4/wireframe-supplierDashboard.png" alt="Estilos" width="700"/>
+</div>
+
 
 ### **Mobile**
 **Wireframe 1**
