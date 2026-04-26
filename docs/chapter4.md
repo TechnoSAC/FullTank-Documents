@@ -544,6 +544,38 @@ Este último wireframe móvil consolida las funciones administrativas de cierre 
   <img src="./../assets/chapter-4/Proveedores Mobile pt3.png" alt="Estilos" width="200"/>
 </div>
 
+**Wireframe 9**
+
+Este wireframe muestra la sala principal. Además de mostrar una barra de progreso de los fleets, tambien se puede visualizar lo que queda de combustible y revisar el historial de ordenes
+
+<div align="center">
+  <img src="./../assets/chapter-4/wireframe-buyerDashboardMobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 10**
+
+Este wireframe muestra la gestión del equipamiento. Se encarga de verificar de que ninguna de sus maquinas se quede combustible, ya que cuando esta bajo de combustible se busca comprar lo antes posible
+
+<div align="center">
+  <img src="./../assets/chapter-4/wireframe-buyerEquipmentMobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 11**
+
+Este wireframe se encarga de enviar reportes de actividad. una función importante es que puede generar un reporte de cuanto combustible queda en sus maquinas y cuando le falta poco o nada de combustible.
+
+<div align="center">
+  <img src="./../assets/chapter-4/wireframe-buyerReportMobile.png" alt="Estilos" width="200"/>
+</div>
+
+**Wireframe 12**
+
+Este wireframe se encarga de la gestión de los contactos. Además, tienes la opción de pedir un envio de combustible con un solo boton
+
+<div align="center">
+  <img src="./../assets/chapter-4/wireframe-buyerSupplyMobile.png" alt="Estilos" width="200"/>
+</div>
+
 ### 4.4.2 Web Applications Wireflow Diagrams
 
 El diagrama de Wireflow presentado a continuación ilustra la navegación lógica y la interacción entre las diversas interfaces de la plataforma FullTank, detallando el recorrido que realizan tanto proveedores como compradores desde el primer contacto hasta la culminación de sus objetivos operativos. 
