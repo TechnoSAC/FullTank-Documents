@@ -591,39 +591,102 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 <div align="center">
   <img src="./../assets/chapter-4/wireflow2.png" alt="Estilos" width="1000"/>
 </div>
+
 ### 4.4.3 Web Applications Mock-ups
 
 En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
 
-**Login – Techno ZAC**
+**Login – Techno SAC**
 
 Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
 
 <img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
 
-**Inicio de sesión – Techno ZAC**
+**Inicio de sesión – Techno SAC**
 
 Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
 
 <img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
 
-**Registro – Techno ZAC**
+**Registro – Techno SAC**
 
 Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
 
 <img src="../assets/chapter-4/mockup-registro.PNG" height="400"/>
 
-**Solicitud de combustible – Techno ZAC**
 
-Página que permite ver tus gastos mensuales y principalmente se puede hacer pedidos a los proveedores desde la misma página. Por otra parte, se puede hacer seguimiento a los pedidos
+**Mock ups del proveedor**
 
-<img src="../assets/chapter-4/mockup-principal-solicitante.PNG" height="600"/>
+En esta sección se presentan los mock-ups de alta fidelidad para la aplicación web orientada al segmento de Proveedores de Combustible. El diseño ha sido elaborado utilizando Figma, tomando como base nuestro Sistema de Diseño, enfocado en reducir la carga operativa y brindar visibilidad en tiempo real de la logística y los pedidos.
 
-**Registro de órdenes – Techno ZAC**
 
-Página que informa a los proveedores de los pedidos que le hacen los solicitantes con opción de aceptar o rechazar el pedido. Además, se brinda facilidades para escoger al repartidor e imprimir resúmenes.
+<img src="../assets/chapter-4/SupplierDashboard.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Clients Reports.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Fleet.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Incoming Requests.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Inventory.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Order Detail.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Orders in Progress.png" height="400"/>
+<img src="../assets/chapter-4/Supplier - Reports.png" height="400"/>
+<img src="../assets/chapter-4/Supplier- Profile Settings.png" height="800"/>
 
-<img src="../assets/chapter-4/mockup-principal-proveedor.PNG" height="600"/>
+**Mock ups del comprador**
+
+En esta sección se presentan los mock-ups de alta fidelidad para la aplicación web orientada al segmento de Empresas Solicitantes de Combustible (representado por nuestro User Persona, Carlos Ramírez Torres). El diseño ha sido elaborado utilizando Figma, tomando como base el Sistema de Diseño del proyecto. El enfoque principal para este perfil es simplificar la creación de solicitudes, centralizar la información de los equipos y ofrecer una trazabilidad absoluta de las entregas.
+
+<img src="../assets/chapter-4/Buyer - Create Request.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Dashboard.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Equipment View.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Profile Settings.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Reports (1).png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Request Detail.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Requests List (1).png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Supplier Recommendation.png" height="400"/>
+<img src="../assets/chapter-4/Buyer - Suppliers List (1).png" height="400"/>
+
+**Web Applications Mock-ups (Versión Móvil - Segmento Proveedor)**
+En esta sección se presentan los mock-ups de alta fidelidad para la versión móvil de la aplicación, diseñada bajo un enfoque de Responsive Web Design. Esta versión está optimizada para que el proveedor pueda gestionar la operativa logística desde dispositivos móviles con la misma eficiencia que en la versión de escritorio, facilitando el monitoreo en campo.
+
+<img src="../assets/chapter-4/Supplier_Dashboard.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_1.png" height="400"/>
+
+<img src="../assets/chapter-4/Supplier_2.png" height="400"/>
+
+<img src="../assets/chapter-4/Supplier_3.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_4.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_5.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_6.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_7.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_8.png" height="400"/>
+
+<img src="../assets/chapter-4/ultima_mockup.png" height="400"/>
+
+
+**Web Applications Mock-ups (Versión Móvil - Segmento Comprador)**
+En esta sección se presentan los mock-ups de alta fidelidad para la versión móvil de la aplicación web dirigida a las Empresas Solicitantes (User Persona: Carlos Ramírez Torres). Aplicando el principio de Mobile-First y Responsive Web Design, esta interfaz está pensada para un usuario que frecuentemente se encuentra en campo (ej. obras de construcción o plantas industriales) y necesita solicitar combustible o verificar el estado de una entrega de forma rápida desde su smartphone.
+
+<img src="../assets/chapter-4/Plantilla_Buyer_1.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Dashboard.png" height="400"/>
+
+<img src="../assets/chapter-4/Plantilla_Buyer_2.png" height="400"/>
+
+<img src="../assets/chapter-4/Report-buyer.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Requests.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Request Detail.png" height="400"/>
+
+<img src="../assets/chapter-4/Suppliers_Sections.png" height="400"/>
+
+<img src="../assets/chapter-4/Buyer-Create Request.png" height="400"/>
+
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
