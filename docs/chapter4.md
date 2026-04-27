@@ -300,6 +300,26 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 ### 4.3.2 Landing Page Mock-up
 
+**Hero de nuestra landing:** El hero de nuestra plataforma FullTank presenta una grafica principal relacionada con la gestión eficiente de combustible en entornos industriales, transmitiendo control, tecnología y optimización. Incluye un título claro: "Leave the chaos. behind. Manage fuel like a pro". Una breve descripción resume la propuesta de valor, destacando la automatización del proceso de compra y distribución. Un botón de llamado a la acción "Comenzar ahora" invita a los usuarios a iniciar su experiencia. En la parte superior, una barra de navegación permite acceder fácilmente a todas las secciones, garantizando una experiencia fluida e intuitiva.
+
+![alt text](../assets/chapter-4/landing1.png)
+
+
+**Features:** La sección de "Features" muestra las funcionalidades clave de FullTank. El diseño sigue una forma de cards para la facil lectura
+
+![alt text](../assets/chapter-4/landing2.png)
+
+**About Us:** La sección "About Us" presenta a TechnoSAC, la empresa detrás de FullTank. Aquí compartimos nuestra misión de digitalizar la gestión de combustible y nuestros valores de innovación, eficiencia y confiabilidad. 
+![alt text](../assets/chapter-4/landing3.png)
+
+**Plans:** En la sección "Plans", detallamos los planes de suscripción disponibles. Las tarjetas incluyen opciones como "Plan Starter" y "Plan Pro", mostrando precios, características y beneficios. También se ofrece la opción de visualizar precios mensuales o anuales, facilitando la elección según las necesidades del cliente.
+
+![alt text](../assets/chapter-4/landing4.png)
+
+**Footer:**El Footer de la landing page contiene enlaces útiles y recursos adicionales. 
+
+![alt text](../assets/chapter-4/landing5.png)
+
 ## 4.4 Web Applications UX/UI Design
 
 Los wireframes y mockups aquí presentados muestran la estructura inicial de las vistas principales, priorizando la jerarquía visual, la simplicidad de navegación, la accesibilidad, la escalabilidad futura y la claridad en la presentación de información crítica como rutas, paraderos, notificaciones y configuraciones del usuario.
