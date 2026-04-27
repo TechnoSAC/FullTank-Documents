@@ -192,7 +192,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 00:04 |
 | **Fin del video**      | 07:02 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/kevyn.png" width="150"/> |
 | **Resumen**           | <p>El señor Kevyn Anthony Asto Jacome se desempeña como analista senior en Goodyear. Señala que cuenta con 2 años de experiencia en el área logística, mientras que su trayectoria en funciones operativas se remonta al año 2017. En cuanto al consumo, la empresa registra un uso aproximado de entre 20,000 y 21,000 metros cúbicos de combustible de manera mensual.</p><p>En relación con las herramientas tecnológicas, actualmente la comunicación con el proveedor se realiza principalmente a través de correos electrónicos y llamadas telefónicas, lo que evidencia un manejo tradicional de la gestión.</p><p>Respecto a los criterios de compra, destaca que los aspectos más relevantes son el tiempo de entrega y el cumplimiento por parte del proveedor. Asimismo, el factor precio tiene un peso importante en la toma de decisiones, motivo por el cual se encuentran evaluando un posible cambio de proveedor ante costos que consideran elevados.</p><p>En cuanto al producto y la gestión de pedidos, manifiesta interés en contar con visibilidad sobre el estado de los mismos y sus tiempos estimados de llegada. Finalmente, indica que no existirían mayores inconvenientes para la implementación de la solución propuesta, lo que sugiere una disposición favorable hacia la adopción de mejoras en sus procesos.</p> |
 
@@ -205,7 +205,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 07:03 |
 | **Fin del video**      | 11:15 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/Alessandro.png" width="150"/> |
 | **Resumen**           | <p>El señor Alessando Daniel Bravo Castillo se desempeña como analista en el área de logística de la empresa. Indica que la gestión de compras se realiza de manera coordinada, apoyándose en reportes elaborados en Excel, mientras que la comunicación con los proveedores se lleva a cabo principalmente a través de correo electrónico.</p> <p>En cuanto a la operativa actual, menciona que existen dificultades para comparar precios entre proveedores, así como errores en los registros y una limitada visibilidad de la información en tiempo real. Estas situaciones generan incertidumbre y complican la selección de la mejor alternativa, impactando en los costos.</p> <p>Respecto a sus necesidades, considera clave contar con mayor trazabilidad en los procesos para agilizar la gestión y mejorar el control. Para sus actividades diarias, utilizan computadoras de escritorio, laptops y dispositivos móviles como soporte para la coordinación.</p> <p>Finalmente, señala que los principales criterios de decisión son el precio, la disponibilidad y la confiabilidad del proveedor. Asimismo, considera que una solución que mejore la visibilidad de la información sería útil para la toma de decisiones, aunque podrían surgir desafíos como la resistencia al cambio del personal y los costos asociados a su implementación.</p> |
 
@@ -218,7 +218,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 11:16 |
 | **Fin del video**      | 15:01 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/Betsabe.png" width="150"/> |
 | **Resumen**           | <p>La señora Betsabe Maldonado Estrella se desempeña como parte del área logística y abastecimiento de la empresa. Señala que la gestión y coordinación con los proveedores se realiza principalmente a través de correos electrónicos y llamadas, complementando el control de la información mediante el uso de hojas de cálculo en Excel.</p> <p>En relación con la operativa actual, indica que existen deficiencias en la comunicación con el proveedor, así como una falta de trazabilidad en los procesos. Esta situación dificulta el seguimiento adecuado de las operaciones y limita la visibilidad de la información.</p> <p>Asimismo, menciona que estas limitaciones generan desconfianza y complican la comparación de precios con otras empresas, lo que impacta en la toma de decisiones. En ese sentido, considera que una mejor planificación permitiría reducir la incertidumbre en la gestión.</p> <p>Para el desarrollo de sus actividades, utiliza equipos como computadoras de escritorio, laptops y dispositivos móviles. Finalmente, destaca que los principales criterios al momento de trabajar con proveedores son la confiabilidad, el precio y el tiempo de entrega, y considera que una solución orientada a mejorar estos aspectos sería de gran utilidad.</p> |
 
@@ -235,7 +235,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 15:05 |
 | **Fin del video**      | 20:52 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/Francesco.png" width="150"/> |
 | **Resumen**           | <p>El señor Franchesco LLerenas Alva se desempeña como asistente comercial en la empresa. En el desarrollo de sus funciones, indica que la comunicación con los clientes se realiza principalmente a través de WhatsApp y correo electrónico, mientras que el registro y control de la información se gestiona mediante hojas de cálculo en Excel.</p> <p>En cuanto a la operativa actual, señala que se presentan errores derivados de información incompleta o mal registrada, así como dificultades relacionadas con la trazabilidad y la falta de claridad en los procesos de entrega. Estas limitaciones afectan el seguimiento adecuado de las operaciones y generan desorden en la gestión.</p> <p>Respecto a sus necesidades, identifica la importancia de contar con una aplicación que sea fácil de usar, que centralice la información y que permita revisar el estado de los pedidos en tiempo real. Considera que una herramienta con estas características sería de gran utilidad para mejorar el orden, el control y la eficiencia en sus procesos. Asimismo, destaca que su implementación contribuiría a brindar mayor transparencia, optimizar la organización y proyectar una gestión más profesional.</p> <p>Finalmente, menciona que disponer de datos históricos de transacciones permitiría analizar el comportamiento de los clientes y mejorar la planificación comercial, fortaleciendo la toma de decisiones a futuro.</p> |
 
@@ -248,7 +248,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 20:54 |
 | **Fin del video**      | 28:28 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/Samuel.png" width="150"/> |
 | **Resumen**           | <p>El señor Samuel Roca Rey se desempeña como supervisor de logística y operaciones en la empresa, participando en la gestión, coordinación y seguimiento de los procesos operativos. Indica que actualmente la comunicación se realiza principalmente mediante correo electrónico y teléfono, mientras que el registro de información se apoya en hojas de cálculo en Excel.</p> <p>En cuanto a la operativa actual, señala que existen dificultades relacionadas con la falta de trazabilidad y errores de tipeo en el registro de datos. Estas situaciones afectan la precisión de la información y limitan el adecuado seguimiento de los procesos logísticos y operativos.</p> <p>Respecto a sus necesidades, considera relevante la implementación de una aplicación que permita centralizar la información, de manera que todo se encuentre disponible en un solo lugar y sea más fácil de gestionar. Asimismo, destaca la importancia de contar con una solución que mejore el orden, la accesibilidad de los datos y el control operativo.</p> <p>Finalmente, menciona que los datos históricos de transacciones son un aspecto importante, ya que permitirían un mejor análisis de la información y contribuirían a una toma de decisiones más informada, especialmente en la planificación y gestión de operaciones.</p> |
 
@@ -261,7 +261,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 28:30 |
 | **Fin del video**      | 33:10 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/CarlosEntrevista.png" width="150"/> |
 | **Resumen**           | <p>El señor Carlos Mendoza se desempeña como jefe de logística y operaciones comerciales en la empresa. Indica que la gestión de contratos se realiza principalmente a través de correo electrónico y que actualmente utilizan un sistema ERP como soporte para sus operaciones.</p> <p>En cuanto a la situación actual, señala que existen dificultades relacionadas con la falta de trazabilidad y procesos de carácter burocrático dentro de la empresa. Estas condiciones complican la agilidad operativa y el seguimiento adecuado de las actividades.</p> <p>Respecto a sus necesidades, considera importante la implementación de una aplicación que permita la integración de los procesos y la generación de alertas automáticas. Asimismo, destaca que sería valioso que los clientes puedan realizar el seguimiento de sus productos de manera directa, mejorando la visibilidad del proceso.</p> <p>En relación con la gestión de la información, enfatiza que es necesario centralizar los procesos, ya que el seguimiento actual resulta complejo y poco eficiente. Además, menciona que el acceso a datos históricos de transacciones es fundamental, ya que permite conocer el nivel de consumo de los clientes y mejorar la toma de decisiones comerciales y logísticas.</p> |
 
@@ -274,7 +274,7 @@ Si bien **TechnoSAC** está inicialmente orientada a empresas locales, el modelo
 | **Departamento**       | Lima |
 | **Inicio del video**   | 33:12 |
 | **Fin del video**      | 37:56 |
-| **Link del video**     | https://shorturl.at/iAcdG |
+| **Link del video**     | https://shorturl.at/WWcXM |
 | **Foto entrevista**    | <img src="../assets/chapter-2/LuciaEntrevista.png" width="150"/> |
 | **Resumen**           | <p>La señora Lucia Fernandez se desempeña como gerente de ventas, participando también en la revisión de operaciones y procesos de cobranza dentro de la empresa. Indica que actualmente la comunicación se realiza principalmente a través de correo electrónico y teléfono, mientras que la gestión de la información se apoya en hojas de cálculo en Excel, ya que no cuentan con un software propio para la administración de pedidos.</p> <p>En cuanto a la situación actual, menciona que existen errores de tipeo en el manejo de Excel, lo que puede afectar la precisión de los registros y la correcta gestión de la información operativa y comercial.</p> <p>Respecto a sus necesidades, considera importante contar con una solución o aplicación sencilla, rápida y con una interfaz de pocos botones que facilite su uso diario. Asimismo, destaca la necesidad de una herramienta que permita centralizar la información, ya que actualmente los datos se encuentran dispersos entre distintos canales y formatos.</p> <p>Adicionalmente, señala que la empresa trabaja con líneas de crédito, por lo que el control adecuado de la información es relevante para la gestión financiera y comercial. Finalmente, menciona que contar con datos históricos de transacciones es importante, ya que permite mejorar la capacidad de negociación de precios y tomar decisiones más informadas en el ámbito comercial.</p> |
 
