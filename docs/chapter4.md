@@ -316,7 +316,7 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 ![alt text](../assets/chapter-4/landing4.png)
 
-**Footer:**El Footer de la landing page contiene enlaces útiles y recursos adicionales. 
+**Footer:** El Footer de la landing page contiene enlaces útiles y recursos adicionales. 
 
 ![alt text](../assets/chapter-4/landing5.png)
 
