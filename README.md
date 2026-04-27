@@ -3,8 +3,8 @@
   <h2>Informe de Trabajo Final</h2>
   <p><strong>Universidad:</strong> Universidad Peruana de Ciencias Aplicadas</p>
   <p><strong>Ciclo:</strong> 2026-10</p>
-  <p><strong>Curso:</strong> Aplicaciones Web</p>
-  <p><strong>Sección:</strong> 1ASI0730-2610-12206</p>
+  <p><strong>Curso:</strong> 1ASI0730-2610- Aplicaciones Web</p>
+  <p><strong>Sección:</strong> 12206</p>
   <p><strong>Profesor:</strong> Angel Augusto Velasquez Nuñez</p>
 </div>
 
