@@ -694,7 +694,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Módulo Inventory</td>
         <td>CRUD completo de productos y catálogo de combustibles usando PrimeVue y conexión con json-server.</td>
         <td>6 horas</td>
-        <td>Brayan Corvacho</td>
+        <td>Ruben Milenko</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -704,7 +704,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Lista de Solicitudes</td>
         <td>Visualización de solicitudes pendientes y estados de órdenes desde el módulo Ordering.</td>
         <td>5 horas</td>
-        <td>Jose Asto</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -714,7 +714,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Aprobación de Pedidos</td>
         <td>Implementación de acciones para aprobar pedidos y actualizar estados operativos.</td>
         <td>4 horas</td>
-        <td>Jose Asto</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -724,7 +724,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Rechazo de Pedidos</td>
         <td>Implementación de flujo para rechazo de pedidos y actualización de estado.</td>
         <td>3 horas</td>
-        <td>Jose Asto</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -734,7 +734,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Despacho de Pedidos</td>
         <td>Actualización de estados de órdenes a “Despachado” desde el detalle operativo.</td>
         <td>3 horas</td>
-        <td>Jose Asto</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -744,7 +744,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Cierre Operativo</td>
         <td>Implementación del cierre de pedidos luego de la confirmación de entrega.</td>
         <td>3 horas</td>
-        <td>Jose Asto</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -754,7 +754,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Módulo Vehículos</td>
         <td>CRUD completo para la gestión de vehículos disponibles para despacho.</td>
         <td>5 horas</td>
-        <td>Jose Asto</td>
+        <td>Brayan Corvacho</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -764,7 +764,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Módulo Conductores</td>
         <td>CRUD completo de conductores y control de disponibilidad operativa.</td>
         <td>5 horas</td>
-        <td>Jose Asto</td>
+        <td>Brayan Corvacho</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -774,7 +774,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Analytics de Ventas</td>
         <td>Implementación de gráficos estadísticos usando Chart.js para visualizar ventas mensuales.</td>
         <td>4 horas</td>
-        <td>Enrique Mantilla</td>
+        <td>Jose Asto</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -784,7 +784,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Distribución por Sector</td>
         <td>Visualización analítica de ventas segmentadas por sector industrial.</td>
         <td>4 horas</td>
-        <td>Enrique Mantilla</td>
+        <td>Jose Asto</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -794,7 +794,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Portafolio de Clientes</td>
         <td>Listado interactivo de empresas solicitantes y visualización de información comercial.</td>
         <td>4 horas</td>
-        <td>Enrique Mantilla</td>
+        <td>Jose Asto</td>
         <td>Done</td>
     </tr>
 </table>
