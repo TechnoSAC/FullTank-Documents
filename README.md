@@ -304,11 +304,3 @@ del ABET – EAC - Student Outcome 5.
     </tr>
   </tbody>
 </table>
-
-<br>
-
-
-
-
-# Capítulo I: Introducción
-
