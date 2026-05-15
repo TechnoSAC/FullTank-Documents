@@ -40,8 +40,6 @@
       <td>Estudiante de Ingeniería de Software, enfocado en el desarrollo de soluciones tecnológicas innovadoras para la mejora de la calidad de vida. Poseo conocimientos básicos en Python y conocimientos básicos/intermedios en C++. Mi objetivo es adquirir conocimientos avanzados en inteligencia artificial y desarrollo de aplicaciones de salud, con el fin de mejorar mis habilidades y contribuir en el campo de la salud tecnológica.</td>
     </tr>
     <tr>
-      <td><img src="../assets/chapter-1/foto.png" alt="nombre" width="80"></td>
-    <tr>
       <td><img src="../assets/chapter-1/enrique-foto.jpg" alt="nombre" width="80"></td>
       <td>Enrique Manuel Mantilla Maldonado</td>
       <td>u20231b842</td>
