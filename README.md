@@ -25,10 +25,6 @@
       <td>Milenko Rubén Cayanchi Avila</td>
     </tr>
     <tr>
-      <td>u202316353</td>
-      <td>Mathias Andree Cardenas Huaman</td>
-    </tr>
-    <tr>
       <td>u20231b842</td>
       <td>Enrique Manuel Mantilla Maldonado</td>
     </tr>
@@ -74,7 +70,7 @@
     <tr>
       <td>1.0.4</td>
       <td>15/04/2025</td>
-      <td>- Mathias Andree Cardenas Huaman</td>
+      <td>- Enrique Manuel Mantilla Maldonado</td>
       <td>Se detalló el análisis de las entrevistas y elaboró el User Persona del capítulo 2. Se analizó las entrevistas que nos permitirán recopilar información valiosa para el desarrollo de nuestra plataforma. Además en base a nuestros entrevistados se elaboró el User Persona.</td>
     </tr>
     <tr>
@@ -104,7 +100,7 @@
     <tr>
       <td>1.3.1</td>
       <td>21/04/2025</td>
-      <td>- Brayan Alexis Corvacho Damian (BralexCD)<br>- Mathias Andree Cardenas Huaman (Usuario353)</td>
+      <td>- Brayan Alexis Corvacho Damian (BralexCD)<br>
       <td>Se añadieron los User Flow Diagrams (User Goals 1 al 5) con sus imágenes correspondientes, wireframes web y móviles, y wireflows en el capítulo 4.</td>
     </tr>
     <tr>
@@ -156,9 +152,8 @@ Jose Asto se encargó de la elaboración del Lean UX Process (capítulo 1), el c
 
 Milenko realizó la investigación a los competidores de la startup y realizó un Análisis Competitivo (capítulo 2), el objetivo es comparar nuestra startup con los competidores y realizar estrategias. Para la entrega actual, se encargó de documentar las secciones de Style Guidelines, Information Architecture (Organization Systems, SEO Tags y Searching Systems), Software Architecture (Context, Container y Components Diagrams), Class Diagrams y Database Diagrams en el capítulo 4.
 
-**Mathias Andree Cardenas Huaman**
 
-Mathias analizó las entrevistas (capítulo 2) y filtró el contenido más relevante para nuestra startup. Con esos datos averiguamos qué es lo que buscan nuestros clientes. Para la entrega actual, contribuyó al capítulo 4 añadiendo los wireframes de la versión móvil y las imágenes de los User Flow Diagrams correspondientes a los Goals 4 y 5.
+
 
 **Enrique Manuel Mantilla Maldonado**
 
@@ -273,7 +268,7 @@ del ABET – EAC - Student Outcome 5.
       <td width="25%"><b>Trabaja en equipo para 
                         proporcionar liderazgo en 
                         forma conjunta </b></td>
-      <td>
+      <td>- Enrique Manuel Mantilla Maldonado</td>
         <b>Jose Asto Jacome</b><br>
         AV1: Lideró la elaboración del Lean UX Process y el Lean UX Canvas, coordinando con el equipo para validar los assumptions e hipótesis planteadas.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
@@ -282,10 +277,9 @@ del ABET – EAC - Student Outcome 5.
         AV1: Lideró la sesión de Event Storming junto al equipo, coordinando la documentación de los procesos del negocio y el Ubiquitous Language.<br>
         <b>Enrique Manuel Mantilla Maldonado</b><br>
         AV1: Guió al equipo en la construcción del User Task Matrix y el User Journey Mapping, promoviendo el análisis conjunto del comportamiento de los usuarios.<br>
-        <b>Mathias Andree Cardenas Huaman</b><br>
         AV1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.
       </td>
-      <td>
+      <td>- Enrique Manuel Mantilla Maldonado</td>
         El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.
       </td>
     </tr>
@@ -293,7 +287,7 @@ del ABET – EAC - Student Outcome 5.
       <td width="25%"><b>Crea un entorno colaborativo e 
                 inclusivo, establece metas, 
                 planifica tareas y cumple objetivos. </b></td>
-      <td>
+      <td>- Enrique Manuel Mantilla Maldonado</td>
         <b>Jose Asto Jacome</b><br>
         AV1: Planificó y organizó las secciones del capítulo 1 relacionadas al Solution Profile, estableciendo metas claras para la entrega y asegurando su cumplimiento dentro del plazo acordado.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
@@ -302,10 +296,9 @@ del ABET – EAC - Student Outcome 5.
         AV1: Fomentó un ambiente inclusivo durante el Event Storming, asegurando que todos los integrantes participaran en la identificación de eventos y procesos clave del negocio.<br>
         <b>Enrique Manuel Mantilla Maldonado</b><br>
         AV1: Organizó las tareas del Needfinding junto al equipo, estableciendo objetivos concretos para el User Task Matrix y el User Journey Mapping y verificando su cumplimiento.<br>
-        <b>Mathias Andree Cardenas Huaman</b><br>
         AV1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.
       </td>
-      <td>
+      <td>- Enrique Manuel Mantilla Maldonado</td>
         El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.
       </td>
     </tr>
@@ -313,3 +306,9 @@ del ABET – EAC - Student Outcome 5.
 </table>
 
 <br>
+
+
+
+
+# Capítulo I: Introducción
+

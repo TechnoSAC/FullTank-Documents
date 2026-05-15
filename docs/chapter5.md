@@ -265,7 +265,7 @@ Flujo Gitflow:
         <td>Sección How it works?</td>
         <td>Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades</td>
         <td>5 horas</td>
-        <td>Mathias Cardenas</td>
+        <td>Enrique Mantilla</td>
         <td>Done</td>
     </tr>
     <tr align="center">
@@ -315,7 +315,7 @@ Flujo Gitflow:
         <td>Idioma</td>
         <td>Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español</td>
         <td>8 horas</td>
-        <td>Mathias Cardenas</td>
+        <td>Enrique Mantilla</td>
         <td>In Process</td>
     </tr>
 </table>
@@ -429,7 +429,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>main</td>
     <td>172f37d</td>
     <td>fix: update team description with creative focus</td>
-    <td>Autor: Mathias Cardenas - Ajuste de contenido del equipo</td>
+    <td>Autor: Enrique Mantilla - Ajuste de contenido del equipo</td>
     <td>26/04/2026</td>
   </tr>
   <tr>
@@ -437,7 +437,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>main</td>
     <td>ddba9ff</td>
     <td>UI: Improves the style of several sections</td>
-    <td>Autor: Mathias Cardenas - Mejora de estilos visuales</td>
+    <td>Autor: Enrique Mantilla - Mejora de estilos visuales</td>
     <td>26/04/2026</td>
   </tr>
   <tr>
@@ -445,7 +445,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>main</td>
     <td>a4c9c91</td>
     <td>feat: add video redirect to team action button</td>
-    <td>Autor: Mathias Cardenas - Nueva funcionalidad en botón</td>
+    <td>Autor: Enrique Mantilla - Nueva funcionalidad en botón</td>
     <td>26/04/2026</td>
   </tr>
   <tr>
@@ -453,7 +453,7 @@ Durante el Sprint 1, nuestro equipo culminó la implementación de la Landing Pa
     <td>main</td>
     <td>ff0b02d</td>
     <td>fix: correction of spelling errors</td>
-    <td>Autor: Mathias Cardenas - Corrección de textos</td>
+    <td>Autor: Enrique Mantilla - Corrección de textos</td>
     <td>26/04/2026</td>
   </tr>
   <tr>
@@ -542,6 +542,314 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
   <li>Google Meet (reuniones de planificación de sprint)</li>
 </ul>
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2.
+
+<table border>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>27/04/2026</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>15:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Meet / Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Milenko Cayanchi</td>
+    </tr>
+    <tr align="center">
+        <td>Attendees (to planning meeting)</td>
+        <td>
+          Milenko Rubén Cayanchi Avila<br>
+          Jose Gustavo Asto Jacome<br>
+          Enrique Manuel Mantilla Maldonado<br>
+          Brayan Alexis Corvacho Damian
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>Se logró desplegar con éxito la Landing Page en GitHub Pages. El feedback general fue positivo y los estilos fueron consistentes.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El equipo trabajó de forma coordinada, pero identificamos que necesitamos definir la arquitectura inicial del proyecto Frontend en Vue antes de avanzar a múltiples vistas.</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+        <td align="center">Sprint 2 Goal</td>
+        <td>Construir y estabilizar la Web Application (Frontend) funcional de FullTank, implementando la navegación principal, vistas operativas y conectándolas a una API mock (json-server) desplegada en Render para simular el flujo de negocio: inventario, solicitudes, órdenes, despacho, flota, conductores, dashboard y reportes. (Nota: IAM/Login queda pendiente).<br><br>
+        Esto se confirmará cuando los usuarios puedan navegar fluidamente y realizar simulaciones operativas desde la Web App desplegada en Firebase.
+        </td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Velocity</td>
+        <td>15</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>21</td>
+    </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Frontend Core / Structure</th>
+      <th>Frontend Modules / UI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Milenko Rubén Cayanchi Avila</td>
+      <td>MaxghZZ</td>
+      <td>L</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Jose Gustavo Asto Jacome</td>
+      <td>DhudsQ</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Enrique Manuel Mantilla Maldonado</td>
+      <td>enrique-mantilla</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Brayan Alexis Corvacho Damian</td>
+      <td>BralexCD</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    </tbody>
+</table>
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+<table border>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 2</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-09</td>
+        <td>Estructura Frontend</td>
+        <td>W-14</td>
+        <td>Setup Vue, Vite y Mock API</td>
+        <td>Configurar Vue 3, Vite, PrimeVue y conectar con json-server (Render API). Setup de Layout base.</td>
+        <td>4 horas</td>
+        <td>Milenko Cayanchi</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-10</td>
+        <td>Módulo Dashboard</td>
+        <td>W-15</td>
+        <td>Desarrollo Dashboard</td>
+        <td>Vista principal con KPIs (Chart.js) de combustible vendido y tendencias de órdenes.</td>
+        <td>5 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-11</td>
+        <td>Módulo de Inventario</td>
+        <td>W-16</td>
+        <td>Catálogo e Inventario</td>
+        <td>Gestión de productos y catálogo con tablas, registro, edición y eliminación de datos.</td>
+        <td>6 horas</td>
+        <td>Brayan Corvacho</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-12</td>
+        <td>Módulo Reporting</td>
+        <td>W-17</td>
+        <td>Reportes para Proveedor</td>
+        <td>Entidades, APIs de ventas/clientes y portafolio interactivo con KPIs.</td>
+        <td>6 horas</td>
+        <td>Enrique Mantilla</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-41</td>
+        <td>Módulos Ordering & Fulfillment</td>
+        <td>W-18</td>
+        <td>Gestión Operativa</td>
+        <td>Listas de solicitudes y despachos con gestión de vehículos, órdenes y estados de entrega.</td>
+        <td>8 horas</td>
+        <td>Jose Asto / Milenko</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-42</td>
+        <td>Soporte Internacional</td>
+        <td>W-19</td>
+        <td>i18n Locales</td>
+        <td>Implementar configuración vue-i18n en inglés y español.</td>
+        <td>4 horas</td>
+        <td>Enrique Mantilla</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo se enfocó en el repositorio `frontend`. El desarrollo se construyó sobre **Vue 3.5**, **Vite 8**, y el ecosistema **PrimeVue 4.5** con PrimeFlex. Para el manejo de estados usamos **Pinia**, consumo de APIs vía **Axios** conectado a un **json-server** de prueba y gráficas con **Chart.js**. El proyecto además incluyó traducciones (`locales/es.json`, `en.json`) usando vue-i18n.
+
+<table border>
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>ea05c79</td>
+    <td>feature(inventory): render product form with PrimeVue components.</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>4be7a68</td>
+    <td>feat(ordering): added vue components and solved shared problems with ordering</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>8f26e18</td>
+    <td>feat(fulfillment): added dispatch view</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>d4e438b</td>
+    <td>feat(dashboard): added dashboard page</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>ff997c7</td>
+    <td>feat(reporting): added graphics and db.json information for reporting</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>0d34f20</td>
+    <td>fix(dashboard): fixed bug in showing the bar graph</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>1c48057</td>
+    <td>fix(reporting): changed titles and added db.json information</td>
+  </tr>
+  <tr>
+    <td>TechnoSAC/frontend</td>
+    <td>main</td>
+    <td>658cf6a</td>
+    <td>fix(shared): fixed bug in shared, double selection in inventory</td>
+  </tr>
+</tbody>
+</table>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En este sprint se implementaron las siguientes pantallas y módulos clave:
+
+* **Dashboard Principal:** Vista principal con KPIs de combustible, tendencia de ventas usando Chart.js y sidebar de navegación compartida.
+![Dashboard View](../assets/chapter-5/dashboard.png)
+
+* **Inventario (Inventory):** Lista de productos/combustibles en tabla PrimeVue con acciones CRUD integradas.
+![Inventory View](../assets/chapter-5/inventory.png)
+
+* **Gestión de Órdenes (Ordering):** Visualización de solicitudes y detalle de órdenes donde el usuario puede aprobar, rechazar o cambiar estado a despachado.
+![Ordering View](../assets/chapter-5/ordering.png)
+
+* **Despacho y Flota (Vehículos):** Gestión de la flota de vehículos con filtros por disponibilidad y registro CRUD completo.
+![Vehicles View](../assets/chapter-5/fulfillment-vehicles.png)
+
+* **Despacho y Flota (Conductores):** Control del registro de conductores autorizados y asignación de estados operativos.
+![Drivers View](../assets/chapter-5/fulfillment-drivers.png)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 2 utilizamos un **Mock API local (json-server)** expuesto en Render (`https://json-server-1-1uka.onrender.com`) para habilitar la simulación de todas las pantallas operativas sin depender del equipo backend en C#. La implementación real del RESTful Web API con ASP.NET Core y documentación en Swagger será el objetivo principal de los próximos Sprints.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+<p>
+    <strong>Resumen:</strong><br>
+    Se logró el despliegue automático de la aplicación Frontend en la nube utilizando Firebase Hosting. El proyecto está configurado a través del archivo `firebase.json` en el workspace `full-tank-964e2`.
+</p>
+
+<h4>Detalles del Despliegue:</h4>
+<ul>
+  <li><strong>URL del Frontend App:</strong> <a href="https://full-tank-964e2.web.app/" target="_blank">https://full-tank-964e2.web.app/</a></li>
+  <li><strong>URL Alternativa:</strong> <a href="https://full-tank-964e2.firebaseapp.com/" target="_blank">https://full-tank-964e2.firebaseapp.com/</a></li>
+  <li><strong>Repositorio Frontend:</strong> <a href="https://github.com/TechnoSAC/frontend" target="_blank">https://github.com/TechnoSAC/frontend</a></li>
+</ul>
+
+<h4>Evidencia de Despliegue:</h4>
+
+![Frontend Firebase Deployment](../assets/chapter-5/firebase-deploy.png)
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint. 
+
+<p>
+    <strong>Resumen:</strong><br>
+    La colaboración se estructuró dividiendo los componentes de Vue según los módulos del negocio: <b>Milenko</b> estructuró las bases, layout, router y Pinia config; <b>Jose Asto</b> integró dashboards, dispatch view y resolvió bugs de layout; <b>Enrique Mantilla</b> lideró el módulo reporting; <b>Brayan Corvacho</b> conectó UI con PrimeVue y consumo Axios.
+</p>
+
+<h4>Evidencia de Colaboración (GitHub Frontend):</h4>
+<ul>
+  <li>Captura de los Contribuidores del repositorio Frontend en GitHub.</li>
+</ul>
+
+![Frontend Contributors](../assets/chapter-5/frontend-contributors.png)
+
+<br>
+
 **Conclusiones**
 
 Al finalizar el ciclo de desarrollo y validación de la solución FullTank, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
@@ -593,6 +901,9 @@ No obstante, se identificó que ofrecer únicamente información resumida no es 
 - Vernon, V. (s.f.). Domain-Driven Design Reference. Recuperado de https://domainlanguage.com/ddd/reference/
 
 Anexos:
+
+**Videos de Exposiciones:**
+- **TB1:** [Enlace al video de la exposición del TB1 (Reemplazar con enlace real)](#)
 
 Link del repositorio del informe: https://github.com/TechnoSAC/FullTank-Documents
 
