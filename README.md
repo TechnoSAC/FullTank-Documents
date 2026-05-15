@@ -115,6 +115,30 @@
       <td>- Asto Jacome Jose Gustavo (DhudsQ)</td>
       <td>Se completó el capítulo 5, se actualizó la introducción con los Student Outcomes, y se realizaron correcciones menores de gramática en los capítulos 3 y 4.</td>
     </tr>
+    <tr>
+      <td>1.4.1</td>
+      <td>02/05/2026</td>
+      <td>- Milenko Rubén Cayanchi Avila (MaxghZZ)</td>
+      <td>Actualización de la documentación de Software Architecture para reflejar los patrones y lineamientos técnicos aplicados durante el desarrollo del Sprint 2.</td>
+    </tr>
+    <tr>
+      <td>1.5.0</td>
+      <td>06/05/2026</td>
+      <td>- Brayan Alexis Corvacho Damian (BralexCD)</td>
+      <td>Documentación de la implementación de los flujos de usuario, estructuración del layout base y configuración inicial de Vue.js para el Frontend en el capítulo 5.</td>
+    </tr>
+    <tr>
+      <td>1.5.1</td>
+      <td>10/05/2026</td>
+      <td>- Enrique Manuel Mantilla Maldonado (enrique-mantilla)</td>
+      <td>Integración de evidencias sobre las interfaces operativas finales y depuración general del registro de equipo en el documento para mantener consistencia.</td>
+    </tr>
+    <tr>
+      <td>2.0.0</td>
+      <td>14/05/2026</td>
+      <td>- Asto Jacome Jose Gustavo (DhudsQ)</td>
+      <td>Consolidación del capítulo 5 con evidencias de ejecución del Sprint 2, documentación del despliegue en Firebase y actualización final de los Student Outcomes para el TB1.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -271,16 +295,21 @@ del ABET – EAC - Student Outcome 5.
       <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Lideró la elaboración del Lean UX Process y el Lean UX Canvas, coordinando con el equipo para validar los assumptions e hipótesis planteadas.<br>
+        TB1: Lideró la integración y revisión final de la documentación del capítulo 5, orientando al equipo en la estructuración de las evidencias del Sprint 2.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
         AV1: Dirigió el análisis competitivo de la startup, orientando al equipo en la definición de estrategias frente a los competidores identificados.<br>
+        TB1: Dirigió la estructuración de la arquitectura de la aplicación, definiendo los patrones a seguir en el Software Architecture y Class Diagrams.<br>
         <b>Brayan Alexis Corvacho Damian</b><br>
         AV1: Lideró la sesión de Event Storming junto al equipo, coordinando la documentación de los procesos del negocio y el Ubiquitous Language.<br>
+        TB1: Lideró la diagramación de flujos de usuario (User Flow y Wireflows), estableciendo la pauta visual para la navegación del sistema.<br>
         <b>Enrique Manuel Mantilla Maldonado</b><br>
         AV1: Guió al equipo en la construcción del User Task Matrix y el User Journey Mapping, promoviendo el análisis conjunto del comportamiento de los usuarios.<br>
-        AV1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.
+        AV1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.<br>
+        TB1: Coordinó la revisión de los wireframes web y mock-ups, centralizando los aportes del equipo para garantizar la coherencia visual.
       </td>
       <td>
-        El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.
+        El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.<br><br>
+        <b>TB1:</b> Durante la segunda fase, el liderazgo distribuido permitió al equipo abordar simultáneamente el desarrollo del Frontend y la documentación técnica, garantizando el despliegue a tiempo.
       </td>
     </tr>
     <tr>
@@ -290,16 +319,21 @@ del ABET – EAC - Student Outcome 5.
       <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Planificó y organizó las secciones del capítulo 1 relacionadas al Solution Profile, estableciendo metas claras para la entrega y asegurando su cumplimiento dentro del plazo acordado.<br>
+        TB1: Añadió los assets del capítulo 1, realizó correcciones de gramática en los capítulos 3 y 4, actualizó la introducción y completó la documentación del capítulo 5 cumpliendo con los plazos.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
         AV1: Estableció un plan de investigación colaborativo para el análisis de competidores, distribuyendo subtareas entre los miembros e integrando los aportes en un documento unificado.<br>
+        TB1: Documentó las secciones clave de arquitectura de la información y software, asegurando que todos los miembros comprendan los lineamientos técnicos del proyecto.<br>
         <b>Brayan Alexis Corvacho Damian</b><br>
         AV1: Fomentó un ambiente inclusivo durante el Event Storming, asegurando que todos los integrantes participaran en la identificación de eventos y procesos clave del negocio.<br>
+        TB1: Se encargó de diseñar y estructurar las interfaces iniciales compartiendo sus resultados para permitir que el equipo visualice el producto final.<br>
         <b>Enrique Manuel Mantilla Maldonado</b><br>
         AV1: Organizó las tareas del Needfinding junto al equipo, estableciendo objetivos concretos para el User Task Matrix y el User Journey Mapping y verificando su cumplimiento.<br>
-        AV1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.
+        AV1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.<br>
+        TB1: Aportó al entorno colaborativo documentando el historial de versiones y wireframes de interacción, manteniendo la transparencia del estado del proyecto para el grupo.
       </td>
       <td>
-        El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.
+        El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.<br><br>
+        <b>TB1:</b> Se mantuvo la constancia en el cumplimiento de tareas a pesar de los desafíos técnicos del Frontend, logrando los objetivos mediante reuniones de control cruzado y ayuda mutua.
       </td>
     </tr>
   </tbody>
