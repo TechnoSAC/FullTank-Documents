@@ -989,7 +989,7 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
-El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVGgOzeI4=/?share_link_id=580201872614
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/welcomeonboard/WXBPeXdMZ3lhRkZueE9tRzdWTk5QRnZrUTZDcnFxamRPZDhlS09TR1dRZTRMSms5b0FQQzdyYlF1T3FjY1VHVDRlZy9zbHlXMkF2RkRuM3VXM3dSOUpwVmkzME1xMEgyTFBJZWJtNDNvNVUzSXh0UXdLbDg4UnZrc2FCS1h6WG9NakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=978655609648
 
 <div align="center">
   <img src="./../assets/chapter-4/miro.jpg" alt="imagen de lo realizado en miro" width="500"/>
@@ -1002,7 +1002,7 @@ El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación
 </div>
 
 2. Bounded Context Catalog
-El bounded context Catalog se encarga de la gestión del catálogo de productos e inventario disponible en el sistema. Administra procesos como la creación, actualización y eliminación de ítems, así como la actualización de stock. Su propósito es mantener información precisa y actualizada sobre los recursos disponibles, permitiendo que los proveedores ofrezcan combustible y que los clientes consulten la disponibilidad antes de realizar una solicitud.
+El bounded context Catalog se encarga de gestionar la visualización y consulta de empresas proveedoras y los productos de combustible que ofrecen dentro del sistema. Su propósito es permitir que los solicitantes puedan explorar, comparar y evaluar diferentes opciones de combustible según disponibilidad, características y oferta de cada proveedor, facilitando así la toma de decisiones para seleccionar el producto más adecuado para sus equipos y operaciones.
 
 <div align="center">
   <img src="./../assets/chapter-4/Catalog.png" alt="Bounded context Catalog" width="500"/>
@@ -1045,6 +1045,19 @@ El bounded context Reporting & Analytics se encarga de la generación y visualiz
   <img src="./../assets/chapter-4/Reporting.png" alt="Bounded context Reporting and Analytics" width="500"/>
 </div>
 
+8. Bounded Context Inventory
+El bounded context Inventory se encarga de la gestión de los productos de combustible ofrecidos por los proveedores dentro del sistema. Administra procesos como el registro, actualización y eliminación de productos, así como la modificación de información relacionada con precios, disponibilidad y características del combustible. Su propósito es permitir que los proveedores mantengan actualizado su inventario, asegurando que los solicitantes puedan consultar ofertas vigentes y seleccionar el producto más adecuado para sus necesidades operativas.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Inventory.png" alt="Bounded context Inventory" width="500"/>
+</div>
+
+9. Bounded Context Equipment
+El bounded context Equipment se encarga de la gestión y monitoreo de los equipos pertenecientes a los clientes o solicitantes dentro del sistema. Administra procesos como el registro y actualización de equipos, así como la visualización de su estado operativo y el nivel de combustible disponible en cada uno. Su propósito es permitir a los solicitantes supervisar sus hornos, maquinarias, tanques y otros equipos relacionados, facilitando el control del consumo de combustible y la planificación eficiente de sus operaciones.
+
+<div align="center">
+  <img src="./../assets/chapter-4/Equipment.png" alt="Bounded context Equipment" width="500"/>
+</div>
 
 ### 4.6.2 Software Architecture Context Diagram
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software FullTank Platform como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
@@ -1066,7 +1079,7 @@ PDF Generator Service: sistema externo encargado de generar reportes en formato 
 En el diagrama se representan las relaciones entre estos elementos, destacando que los usuarios (Visitor, Client y Provider) interactúan directamente con FullTank, mientras que el sistema se encarga de orquestar la comunicación con los servicios externos (correo, almacenamiento y generación de reportes). Esta vista permite comprender el alcance del sistema, sus límites de responsabilidad y el ecosistema en el que opera antes de entrar en detalles internos.
 
 <div allign="center">
-  <img src="./../assets/chapter-4/contextDiagram.png" alt="Context diagram" width="500"/>
+  <img src="./../assets/chapter-4/SystemContextDiagram.png" alt="Context diagram" width="500"/>
 </div>
 
 ### 4.6.3 Software Architecture Container Diagrams
