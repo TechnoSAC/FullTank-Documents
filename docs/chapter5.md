@@ -645,6 +645,7 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
     </tbody>
 </table>
 
+
 #### 5.2.2.3. Sprint Backlog 2.
 
 <table border>
@@ -667,61 +668,131 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td><strong>Status</strong></td>
     </tr>
     <tr align="center">
-        <td>US-09</td>
-        <td>Estructura Frontend</td>
+        <td>US-47</td>
+        <td>Ver Dashboard principal del proveedor</td>
         <td>W-14</td>
-        <td>Setup Vue, Vite y Mock API</td>
-        <td>Configurar Vue 3, Vite, PrimeVue y conectar con json-server (Render API). Setup de Layout base.</td>
+        <td>Dashboard Principal</td>
+        <td>Implementación del dashboard con KPIs de combustible vendido, tendencias y navegación operativa.</td>
+        <td>6 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-19</td>
+        <td>Ver resumen de pedidos (Proveedor)</td>
+        <td>W-15</td>
+        <td>KPIs Operativos</td>
+        <td>Visualización de métricas y resumen de pedidos activos, despachados y finalizados.</td>
         <td>4 horas</td>
-        <td>Milenko Cayanchi</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-46</td>
+        <td>Gestionar inventario de combustibles</td>
+        <td>W-16</td>
+        <td>Módulo Inventory</td>
+        <td>CRUD completo de productos y catálogo de combustibles usando PrimeVue y conexión con json-server.</td>
+        <td>6 horas</td>
+        <td>Brayan Corvacho</td>
         <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-10</td>
-        <td>Módulo Dashboard</td>
-        <td>W-15</td>
-        <td>Desarrollo Dashboard</td>
-        <td>Vista principal con KPIs (Chart.js) de combustible vendido y tendencias de órdenes.</td>
+        <td>Ver pedidos pendientes</td>
+        <td>W-17</td>
+        <td>Lista de Solicitudes</td>
+        <td>Visualización de solicitudes pendientes y estados de órdenes desde el módulo Ordering.</td>
         <td>5 horas</td>
         <td>Jose Asto</td>
         <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-11</td>
-        <td>Módulo de Inventario</td>
-        <td>W-16</td>
-        <td>Catálogo e Inventario</td>
-        <td>Gestión de productos y catálogo con tablas, registro, edición y eliminación de datos.</td>
-        <td>6 horas</td>
-        <td>Brayan Corvacho</td>
-        <td>Done</td>
-    </tr>
-    <tr align="center">
-        <td>US-12</td>
-        <td>Módulo Reporting</td>
-        <td>W-17</td>
-        <td>Reportes para Proveedor</td>
-        <td>Entidades, APIs de ventas/clientes y portafolio interactivo con KPIs.</td>
-        <td>6 horas</td>
-        <td>Enrique Mantilla</td>
-        <td>Done</td>
-    </tr>
-    <tr align="center">
-        <td>US-41</td>
-        <td>Módulos Ordering & Fulfillment</td>
+        <td>Aprobar pedido</td>
         <td>W-18</td>
-        <td>Gestión Operativa</td>
-        <td>Listas de solicitudes y despachos con gestión de vehículos, órdenes y estados de entrega.</td>
-        <td>8 horas</td>
-        <td>Jose Asto / Milenko</td>
+        <td>Aprobación de Pedidos</td>
+        <td>Implementación de acciones para aprobar pedidos y actualizar estados operativos.</td>
+        <td>4 horas</td>
+        <td>Jose Asto</td>
         <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-42</td>
-        <td>Soporte Internacional</td>
+        <td>Rechazar pedido</td>
         <td>W-19</td>
-        <td>i18n Locales</td>
-        <td>Implementar configuración vue-i18n en inglés y español.</td>
+        <td>Rechazo de Pedidos</td>
+        <td>Implementación de flujo para rechazo de pedidos y actualización de estado.</td>
+        <td>3 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-12</td>
+        <td>Marcar pedido como despachado</td>
+        <td>W-20</td>
+        <td>Despacho de Pedidos</td>
+        <td>Actualización de estados de órdenes a “Despachado” desde el detalle operativo.</td>
+        <td>3 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-13</td>
+        <td>Cerrar pedido</td>
+        <td>W-21</td>
+        <td>Cierre Operativo</td>
+        <td>Implementación del cierre de pedidos luego de la confirmación de entrega.</td>
+        <td>3 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-44</td>
+        <td>Gestionar vehículos de flota</td>
+        <td>W-22</td>
+        <td>Módulo Vehículos</td>
+        <td>CRUD completo para la gestión de vehículos disponibles para despacho.</td>
+        <td>5 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-45</td>
+        <td>Gestionar conductores</td>
+        <td>W-23</td>
+        <td>Módulo Conductores</td>
+        <td>CRUD completo de conductores y control de disponibilidad operativa.</td>
+        <td>5 horas</td>
+        <td>Jose Asto</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-34</td>
+        <td>Ver gráfico de ventas (Proveedor)</td>
+        <td>W-24</td>
+        <td>Analytics de Ventas</td>
+        <td>Implementación de gráficos estadísticos usando Chart.js para visualizar ventas mensuales.</td>
+        <td>4 horas</td>
+        <td>Enrique Mantilla</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-48</td>
+        <td>Ver distribución de ventas por sector</td>
+        <td>W-25</td>
+        <td>Distribución por Sector</td>
+        <td>Visualización analítica de ventas segmentadas por sector industrial.</td>
+        <td>4 horas</td>
+        <td>Enrique Mantilla</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-31</td>
+        <td>Ver listado de empresas</td>
+        <td>W-26</td>
+        <td>Portafolio de Clientes</td>
+        <td>Listado interactivo de empresas solicitantes y visualización de información comercial.</td>
         <td>4 horas</td>
         <td>Enrique Mantilla</td>
         <td>Done</td>
