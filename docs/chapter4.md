@@ -1078,24 +1078,12 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 
 
 En el nivel de contenedores, la atención se centra en cómo se organiza internamente el sistema en aplicaciones y fuentes de datos. El container diagram muestra los elementos principales de la arquitectura de FullTank, sus responsabilidades y la forma en que se comunican entre sí y con sistemas externos.
-
 La arquitectura lógica de FullTank se estructura en los siguientes contenedores:
-
 Landing Page: aplicación web estática que presenta la propuesta de valor del sistema, incluyendo secciones como descripción del servicio, beneficios, testimonios, precios, preguntas frecuentes y contacto. Está desarrollada con HTML, CSS y JavaScript, y orientada a usuarios no autenticados.
-
-FullTank Web Application (SPA): aplicación web principal desarrollada en Angular. Es utilizada por clientes y proveedores para interactuar con el sistema. Contiene módulos como autenticación, gestión de solicitudes, pagos, inventario, logística, reportes, notificaciones y perfiles de usuario.
-
-FullTank API: backend desarrollado en Spring Boot que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en distintos bounded contexts del dominio (Identity, Catalog, Ordering, Payment, Fulfillment, Notification y Reporting).
-
-MySQL Database: base de datos relacional donde se almacena toda la información estructurada del sistema, incluyendo usuarios, solicitudes, órdenes, pagos, inventario, flota, notificaciones y reportes.
-
-En el diagrama se observa que:
-
-Los usuarios acceden inicialmente a la Landing Page, desde donde pueden registrarse o ingresar a la aplicación principal.
-La Web Application (SPA) se comunica exclusivamente con la API mediante peticiones HTTP/HTTPS utilizando formato JSON.
-La API persiste y consulta datos en la base de datos MySQL mediante mecanismos de acceso como JPA/JDBC.
-La API se integra con sistemas externos: Email Service para correos, Cloud Storage para almacenamiento de vouchers y PDF Generator Service para la generación de reportes.
-
+FullTank Web Application (SPA): aplicación web principal desarrollada en Vue.js 3 con Pinia como gestor de estado y Vue Router para navegación protegida por roles. Es utilizada por clientes y proveedores para interactuar con el sistema. Del lado del cliente contiene módulos como catálogo de proveedores, gestión de equipos, solicitudes, pagos, reportes de consumo y notificaciones. Del lado del proveedor incluye módulos de inventario, gestión de órdenes, flota y despacho, reportes de ventas y listado de clientes.
+FullTank API: backend desarrollado en ASP.NET Core 8 con Entity Framework Core que expone una API REST. Centraliza la lógica de negocio, reglas de validación y orquestación de procesos, organizados en nueve bounded contexts del dominio: Identity & Access, Catalog, Equipment, Inventory, Ordering, Payment, Fulfillment, Notification y Reporting & Analytics.
+MySQL Database: base de datos relacional donde se almacena toda la información estructurada del sistema, incluyendo usuarios, proveedores, productos, equipos, solicitudes, órdenes, pagos, inventario, flota, despachos, notificaciones y reportes.
+En el diagrama se observa que los usuarios acceden inicialmente a la Landing Page, desde donde pueden registrarse o ingresar a la aplicación principal. La Web Application (SPA) se comunica exclusivamente con la API mediante peticiones HTTPS utilizando formato JSON a través de un cliente HTTP centralizado (Axios) con interceptor JWT. La API persiste y consulta datos en la base de datos MySQL mediante Entity Framework Core. Adicionalmente, la API se integra con sistemas externos: Email Service para correos de recuperación de contraseña, Cloud Storage para almacenamiento de comprobantes de pago y PDF Generator Service para la generación de reportes descargables.
 Esta vista permite entender la distribución de responsabilidades entre la capa de presentación (Landing Page y SPA), la capa de lógica de negocio (API) y la capa de persistencia (Database), así como las principales decisiones tecnológicas adoptadas.
 
 <div align="center">
