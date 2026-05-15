@@ -1101,7 +1101,7 @@ En el diagrama se observa que los usuarios acceden inicialmente a la Landing Pag
 Esta vista permite entender la distribución de responsabilidades entre la capa de presentación (Landing Page y SPA), la capa de lógica de negocio (API) y la capa de persistencia (Database), así como las principales decisiones tecnológicas adoptadas.
 
 <div align="center">
-  <img src="./../assets/chapter-4/containerDiagram.png" alt="Container diagram" width="500"/>
+  <img src="./../assets/chapter-4/Containers-dark.png" alt="Container diagram" width="500"/>
 </div>
 
 ### 4.6.4 Software Architecture Components Diagrams
@@ -1133,7 +1133,7 @@ En el diagrama se refleja cómo la Web Application consume los servicios de cada
 De esta manera, los component diagrams permiten entender cómo la arquitectura se organiza internamente en módulos coherentes con el dominio, cómo se relacionan entre sí y cómo colaboran para implementar la funcionalidad completa de FullTank.
 
 <div allign="center">
-  <img src="./../assets/chapter-4/componentDiagram.png" alt="Component diagram" width="500"/>
+  <img src="./../assets/chapter-4/BackendComponents-dark.png" alt="Component diagram" width="500"/>
 </div>
 
 ## 4.7 Software Object-Oriented Design
