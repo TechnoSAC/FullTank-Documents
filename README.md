@@ -268,7 +268,7 @@ del ABET – EAC - Student Outcome 5.
       <td width="25%"><b>Trabaja en equipo para 
                         proporcionar liderazgo en 
                         forma conjunta </b></td>
-      <td>- Enrique Manuel Mantilla Maldonado</td>
+      <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Lideró la elaboración del Lean UX Process y el Lean UX Canvas, coordinando con el equipo para validar los assumptions e hipótesis planteadas.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
@@ -279,7 +279,7 @@ del ABET – EAC - Student Outcome 5.
         AV1: Guió al equipo en la construcción del User Task Matrix y el User Journey Mapping, promoviendo el análisis conjunto del comportamiento de los usuarios.<br>
         AV1: Lideró el análisis de entrevistas y la elaboración del User Persona, sintetizando los hallazgos para orientar las decisiones del equipo.
       </td>
-      <td>- Enrique Manuel Mantilla Maldonado</td>
+      <td>
         El trabajo en equipo permitió que todos los integrantes asumieran un rol activo y colaboraran de manera coordinada. Gracias a este liderazgo conjunto, se logró una mejor organización, el cual permitió mayor eficiencia en el desarrollo del proyecto. Como resultado, se alcanzaron los objetivos planteados, y también se fortaleció la confianza y la cooperación en el equipo.
       </td>
     </tr>
@@ -287,7 +287,7 @@ del ABET – EAC - Student Outcome 5.
       <td width="25%"><b>Crea un entorno colaborativo e 
                 inclusivo, establece metas, 
                 planifica tareas y cumple objetivos. </b></td>
-      <td>- Enrique Manuel Mantilla Maldonado</td>
+      <td>
         <b>Jose Asto Jacome</b><br>
         AV1: Planificó y organizó las secciones del capítulo 1 relacionadas al Solution Profile, estableciendo metas claras para la entrega y asegurando su cumplimiento dentro del plazo acordado.<br>
         <b>Milenko Rubén Cayanchi Avila</b><br>
@@ -298,7 +298,7 @@ del ABET – EAC - Student Outcome 5.
         AV1: Organizó las tareas del Needfinding junto al equipo, estableciendo objetivos concretos para el User Task Matrix y el User Journey Mapping y verificando su cumplimiento.<br>
         AV1: Contribuyó a un entorno colaborativo al compartir los hallazgos del análisis de entrevistas con el equipo, permitiendo que todos comprendieran las necesidades del usuario y alinearan sus secciones en consecuencia.
       </td>
-      <td>- Enrique Manuel Mantilla Maldonado</td>
+      <td>
         El equipo logró crear un entorno colaborativo e inclusivo, donde cada integrante pudo participar activamente y aportar sus ideas. Además, se establecieron metas claras para mantener una organización efectiva que permitió cumplir los objetivos propuestos. Como resultado, se fortaleció el trabajo en equipo, la comunicación y el compromiso de todos los miembros.
       </td>
     </tr>
