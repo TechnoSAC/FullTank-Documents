@@ -989,7 +989,7 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c630_upc
 
 Para identificar los eventos de dominio, es recomendable realizar una sesión de Event Storming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Context.
 
-El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/app/board/uXjVGgOzeI4=/?share_link_id=580201872614
+El desarrollo del proceso del Domain-Driven Design se realizó en la aplicación Miro: https://miro.com/welcomeonboard/WXBPeXdMZ3lhRkZueE9tRzdWTk5QRnZrUTZDcnFxamRPZDhlS09TR1dRZTRMSms5b0FQQzdyYlF1T3FjY1VHVDRlZy9zbHlXMkF2RkRuM3VXM3dSOUpwVmkzME1xMEgyTFBJZWJtNDNvNVUzSXh0UXdLbDg4UnZrc2FCS1h6WG9NakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=978655609648
 
 <div align="center">
   <img src="./../assets/chapter-4/miro.jpg" alt="imagen de lo realizado en miro" width="500"/>
