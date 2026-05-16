@@ -13,9 +13,10 @@
     </tr>
   </thead>
   <tbody>
+
 <!-- EP01 -->
 <tr>
-  <td colspan="5"><b>EP01 — Landing Page:</b> Funcionalidades visibles para visitantes en el sitio web público de FullTank: home, about us, how it works, beneficios, clientes, precios y contacto.</td>
+  <td colspan="5"><b>EP01 — Landing Page:</b> Como visitante, quiero explorar el sitio web público de FullTank para conocer el producto antes de registrarme.</td>
 </tr>
 <tr>
   <td>US-01</td>
@@ -49,21 +50,21 @@
   <td>US-36</td>
   <td>Ver sección Benefits</td>
   <td>Como visitante de ambos segmentos, quiero conocer las principales ventajas con las que puedo contar para evaluar la implementación de la plataforma.</td>
-  <td><b>Escenario 1: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir TechnoSAC?",<br/>Cuando visualiza los múltiples beneficios,<br/>Entonces puede identificar nuestra ventajas frente a nuestros competidores.<br/><br/><b>Escenario 2: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir TechnoSAC?",<br/>Cuando observa la lista de beneficios,<br/>Entonces ve como le podría beneficiar usar TechnoSAC.</td>
+  <td><b>Escenario 1: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir FullTank?",<br/>Cuando visualiza los múltiples beneficios,<br/>Entonces puede identificar nuestra ventajas frente a nuestros competidores.<br/><br/><b>Escenario 2: Visualizar beneficios</b><br/>Dado que el visitante de ambos segmentos accede a la sección "¿Por qué elegir FullTank?",<br/>Cuando observa la lista de beneficios,<br/>Entonces ve como le podría beneficiar usar FullTank.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-37</td>
   <td>Ver sección Lo que Dicen Nuestros Clientes</td>
-  <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de TechnoSAC para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
-  <td><b>Escenario 1: Ver testimonios de clientes</b><br/>Dado que el visitante de ambos segmentos está interesado en los comentarios de los clientes,<br/>Cuando accede a la sección,<br/>Entonces puede leer un breve testimonio sobre experiencias usando TechnoSAC.<br/><br/><b>Escenario 2: Visualizar testimonios recientes</b><br/>Dado que el visitante de ambos segmentos accede a la sección y esta se actualiza regularmente,<br/>Cuando se carga la información,<br/>Entonces visualiza las últimos testimonios que se han unido a TechnoSAC.</td>
+  <td>Como visitante de ambos segmentos, quiero conocer los testimonios de los usuarios de FullTank para tener confianza en la plataforma y saber que otras empresas ya la están usando.</td>
+  <td><b>Escenario 1: Ver testimonios de clientes</b><br/>Dado que el visitante de ambos segmentos está interesado en los comentarios de los clientes,<br/>Cuando accede a la sección,<br/>Entonces puede leer un breve testimonio sobre experiencias usando FullTank.<br/><br/><b>Escenario 2: Visualizar testimonios recientes</b><br/>Dado que el visitante de ambos segmentos accede a la sección y esta se actualiza regularmente,<br/>Cuando se carga la información,<br/>Entonces visualiza las últimos testimonios que se han unido a FullTank.</td>
   <td>EP01</td>
 </tr>
 <tr>
   <td>US-38</td>
   <td>Ver sección Planes y Precios</td>
   <td>Como visitante (ambos segmentos), quiero saber que planes se adecuan a mis necesidades para poder iniciar un proceso de registro o solicitud.</td>
-  <td><b>Escenario 1: Ver información sobre ser solicitante de combustible</b><br/>Dado que el visitante entra a la sección Precios y Planes,<br/>Cuando visualiza los diferentes precios y las features incluidas,<br/>Entonces entiende que existe flexibilidad para adaptar TechnoSAC a su empresa.<br/><br/><b>Escenario 2: Seleccionar un plan</b><br/>Dado que el visitante está interesado en obtener un plan específico,<br/>Cuando hace clic en el call to action,<br/>Entonces es redirigido a la página de registro.</td>
+  <td><b>Escenario 1: Ver información sobre ser solicitante de combustible</b><br/>Dado que el visitante entra a la sección Precios y Planes,<br/>Cuando visualiza los diferentes precios y las features incluidas,<br/>Entonces entiende que existe flexibilidad para adaptar FullTank a su empresa.<br/><br/><b>Escenario 2: Seleccionar un plan</b><br/>Dado que el visitante está interesado en obtener un plan específico,<br/>Cuando hace clic en el call to action,<br/>Entonces es redirigido a la página de registro.</td>
   <td>EP01</td>
 </tr>
 <tr>
@@ -73,31 +74,10 @@
   <td><b>Escenario 1: Cambiar idioma a español</b><br/>Dado que el visitante de ambos segmentos está viendo la página en inglés,<br/>Cuando selecciona la opción de español,<br/>Entonces toda la interfaz de la página se muestra en español.<br/><br/><b>Escenario 2: Cambiar idioma a inglés</b><br/>Dado que el visitante está viendo la página en español,<br/>Cuando selecciona la opción de inglés,<br/>Entonces toda la interfaz de la página se muestra en inglés.</td>
   <td>EP01</td>
 </tr>
-<tr>
-  <td>US-46</td>
-  <td>Ver sección Planes y Precios</td>
-  <td>Como visitante de ambos segmentos, quiero conocer los planes disponibles para evaluar qué opción se adapta mejor a mi empresa.</td>
-  <td><b>Escenario 1: Visualización de planes</b><br/>Dado que el visitante accede a la sección de Planes y Precios,<br/>Cuando se carga el contenido,<br/>Entonces puede ver los diferentes planes con sus precios y características incluidas.<br/><br/><b>Escenario 2: Selección de plan y redirección</b><br/>Dado que el visitante está interesado en un plan específico,<br/>Cuando hace clic en el call to action del plan,<br/>Entonces es redirigido a la página de registro.<br/><br/><b>Escenario 3: Visualización en móvil</b><br/>Dado que el visitante accede desde un dispositivo móvil,<br/>Cuando carga la sección,<br/>Entonces los planes se muestran de forma legible y adaptada a la pantalla.</td>
-  <td>EP01</td>
-</tr>
-<tr>
-  <td>US-47</td>
-  <td>Ver sección Testimonios de Clientes</td>
-  <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan FullTank para generar confianza antes de registrarme.</td>
-  <td><b>Escenario 1: Visualización de testimonios</b><br/>Dado que el visitante accede a la sección de testimonios,<br/>Cuando se carga el contenido,<br/>Entonces puede leer experiencias de empresas que usan FullTank.<br/><br/><b>Escenario 2: Testimonios actualizados</b><br/>Dado que la sección se actualiza regularmente,<br/>Cuando el visitante la carga,<br/>Entonces visualiza los testimonios más recientes disponibles.<br/><br/><b>Escenario 3: Error de carga</b><br/>Dado que ocurre un error al cargar los testimonios,<br/>Cuando el visitante accede a la sección,<br/>Entonces se muestra un mensaje genérico de error sin romper la navegación.</td>
-  <td>EP01</td>
-</tr>
-<tr>
-  <td>US-48</td>
-  <td>Cambiar idioma de la plataforma</td>
-  <td>Como visitante de ambos segmentos, quiero cambiar entre español e inglés para usar la plataforma en mi idioma preferido.</td>
-  <td><b>Escenario 1: Cambiar a inglés</b><br/>Dado que el visitante navega la web en español,<br/>Cuando selecciona la opción de inglés,<br/>Entonces toda la interfaz se muestra en inglés.<br/><br/><b>Escenario 2: Cambiar a español</b><br/>Dado que el visitante navega en inglés,<br/>Cuando selecciona la opción de español,<br/>Entonces toda la interfaz se muestra en español.<br/><br/><b>Escenario 3: Persistencia del idioma</b><br/>Dado que el visitante cambia el idioma y navega a otra sección,<br/>Cuando regresa a la sección anterior,<br/>Entonces el idioma seleccionado se mantiene activo.</td>
-  <td>EP01</td>
-</tr>
 
 <!-- EP02 -->
 <tr>
-  <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Permite al solicitante registrar, consultar, confirmar y gestionar sus pedidos de combustible, incluyendo pagos e historial.</td>
+  <td colspan="5"><b>EP02 — Gestión de Pedidos (Solicitante):</b> Como solicitante, quiero gestionar mis pedidos de combustible para registrarlos, consultarlos, confirmarlos y llevar mi historial.</td>
 </tr>
 <tr>
   <td>US-05</td>
@@ -144,7 +124,7 @@
 
 <!-- EP03 -->
 <tr>
-  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b> Permite al proveedor ver, aprobar, rechazar, despachar, cerrar pedidos y generar reportes de ventas.</td>
+  <td colspan="5"><b>EP03 — Gestión de Pedidos (Proveedor):</b> Como proveedor, quiero gestionar los pedidos recibidos para aprobarlos, rechazarlos, despacharlos y generar reportes de ventas.</td>
 </tr>
 <tr>
   <td>US-10</td>
@@ -191,7 +171,7 @@
 
 <!-- EP04 -->
 <tr>
-  <td colspan="5"><b>EP04 — Autenticación y Registro:</b> Registro de empresas solicitantes y proveedoras, inicio de sesión, recuperación y cierre de sesión.</td>
+  <td colspan="5"><b>EP04 — Autenticación y Registro:</b> Como usuario, quiero registrarme e iniciar sesión en la plataforma para acceder de forma segura a mi cuenta.</td>
 </tr>
 <tr>
   <td>US-15</td>
@@ -231,7 +211,7 @@
 
 <!-- EP05 -->
 <tr>
-  <td colspan="5"><b>EP05 — Dashboard y Resumen Operativo:</b> Paneles de control con KPIs y resúmenes de estado de pedidos para ambos segmentos.</td>
+  <td colspan="5"><b>EP05 — Dashboard y Resumen Operativo:</b> Como usuario, quiero ver un panel de control con el resumen de mis pedidos para tener visibilidad operativa rápida.</td>
 </tr>
 <tr>
   <td>US-18</td>
@@ -247,10 +227,17 @@
   <td><b>Escenario 1: Visualización de KPIs con datos</b><br/>Dado que el proveedor tiene pedidos registrados,<br/>Cuando accede a su dashboard,<br/>Entonces ve KPIs de pedidos: pendientes, aprobados, rechazados, despachados y finalizados.<br/><br/><b>Escenario 2: Sin datos registrados</b><br/>Dado que no hay pedidos registrados,<br/>Cuando se carga el dashboard,<br/>Entonces los KPIs se muestran con valor cero y un mensaje informativo.<br/><br/><b>Escenario 3: Fallo en la carga del resumen</b><br/>Dado que el proveedor accede al dashboard,<br/>Cuando hay un error de conexión,<br/>Entonces se muestra una alerta con opción para reintentar.</td>
   <td>EP05</td>
 </tr>
+<tr>
+  <td>US-47</td>
+  <td>Ver Dashboard principal del proveedor</td>
+  <td>Como proveedor, quiero acceder a un panel principal con KPIs de operación y un gráfico de tendencia de ventas para tener visibilidad en tiempo real del estado de mi negocio.</td>
+  <td><b>Escenario 1: Visualización de KPIs y gráfico de tendencia</b><br/>Dado que el proveedor accede al dashboard principal,<br/>Cuando se cargan los datos del periodo activo,<br/>Entonces visualiza las tarjetas de KPIs (combustible total vendido, pedidos pendientes) y un gráfico de tendencia con opción de filtrar por vista diaria, semanal o mensual.<br/><br/><b>Escenario 2: Navegación desde el dashboard hacia otras secciones</b><br/>Dado que el proveedor revisa el panel principal y desea profundizar en un indicador,<br/>Cuando selecciona el acceso directo a pedidos activos o al módulo de reportes,<br/>Entonces es redirigido a la vista correspondiente sin perder el contexto de sesión.</td>
+  <td>EP05</td>
+</tr>
 
 <!-- EP08 -->
 <tr>
-  <td colspan="5"><b>EP08 — Logística y Despacho:</b> Gestión de flota: vehículos, conductores, asignación y validación de disponibilidad para despachos.</td>
+  <td colspan="5"><b>EP08 — Logística y Despacho:</b> Como proveedor, quiero gestionar mi flota de vehículos y conductores para asignarlos correctamente a cada despacho.</td>
 </tr>
 <tr>
   <td>US-20</td>
@@ -287,10 +274,17 @@
   <td><b>Escenario 1: Registro exitoso de conductor</b><br/>Dado que el proveedor completa los datos del conductor (nombre, DNI, licencia),<br/>Cuando guarda el registro,<br/>Entonces el conductor queda disponible para ser asignado a pedidos.<br/><br/><b>Escenario 2: DNI duplicado</b><br/>Dado que el proveedor intenta registrar un conductor con un DNI ya existente,<br/>Cuando intenta guardar,<br/>Entonces el sistema notifica que el conductor ya está registrado.<br/><br/><b>Escenario 3: Edición de datos de conductor</b><br/>Dado que el proveedor actualiza los datos de un conductor existente,<br/>Cuando guarda los cambios,<br/>Entonces la información se actualiza correctamente en el sistema.</td>
   <td>EP08</td>
 </tr>
+<tr>
+  <td>US-49</td>
+  <td>Asignar recursos a despacho</td>
+  <td>Como proveedor, quiero asignar un vehículo y un conductor a un pedido aprobado en una sola operación para agilizar la preparación del despacho.</td>
+  <td><b>Escenario 1: Asignación exitosa de recursos al despacho</b><br/>Dado que el proveedor selecciona un pedido aprobado y elige un vehículo y conductor disponibles,<br/>Cuando confirma la asignación,<br/>Entonces ambos recursos quedan vinculados al pedido y el despacho queda registrado con estado "Asignado".<br/><br/><b>Escenario 2: Recursos no disponibles para la fecha del pedido</b><br/>Dado que el proveedor intenta asignar recursos a un pedido y tanto el vehículo como el conductor seleccionados ya tienen compromisos en esa fecha,<br/>Cuando ejecuta la asignación,<br/>Entonces el sistema muestra cuáles recursos están en conflicto e impide completar la operación.</td>
+  <td>EP08</td>
+</tr>
 
 <!-- EP09 -->
 <tr>
-  <td colspan="5"><b>EP09 — Perfil de Usuario:</b> Visualización y edición de datos del perfil del usuario autenticado.</td>
+  <td colspan="5"><b>EP09 — Perfil de Usuario:</b> Como usuario registrado, quiero ver y editar mi perfil para mantener mi información actualizada en la plataforma.</td>
 </tr>
 <tr>
   <td>US-23</td>
@@ -309,7 +303,7 @@
 
 <!-- EP10 -->
 <tr>
-  <td colspan="5"><b>EP10 — Soporte y Contacto:</b> Secciones de preguntas frecuentes e información de contacto rápido para usuarios y visitantes.</td>
+  <td colspan="5"><b>EP10 — Soporte y Contacto:</b> Como usuario, quiero acceder a soporte y datos de contacto para resolver dudas sin necesidad de intermediarios.</td>
 </tr>
 <tr>
   <td>US-25</td>
@@ -325,24 +319,10 @@
   <td><b>Escenario 1: Visualización de datos de contacto</b><br/>Dado que el usuario accede a la sección de soporte,<br/>Cuando se carga la página,<br/>Entonces puede visualizar claramente el correo de soporte y número telefónico.<br/><br/><b>Escenario 2: Acceso al correo de cliente</b><br/>Dado que el usuario hace clic en la dirección de correo,<br/>Cuando tiene una app de correo configurada,<br/>Entonces se abre automáticamente su aplicación de correo predeterminada.<br/><br/><b>Escenario 3: Falla en la configuración de contacto</b><br/>Dado que el usuario accede a la página y los datos de contacto no están bien configurados,<br/>Cuando se carga la sección de contacto,<br/>Entonces el sistema muestra un mensaje genérico invitando a intentar más tarde.</td>
   <td>EP10</td>
 </tr>
-<tr>
-  <td>US-49</td>
-  <td>Acceder a preguntas frecuentes</td>
-  <td>Como visitante de ambos segmentos, quiero consultar una sección de preguntas frecuentes para resolver dudas sin necesidad de contactar soporte.</td>
-  <td><b>Escenario 1: Visualización de FAQs</b><br/>Dado que el visitante accede a la sección de preguntas frecuentes,<br/>Cuando se carga el contenido,<br/>Entonces puede leer preguntas y respuestas organizadas por categorías.<br/><br/><b>Escenario 2: Búsqueda de pregunta específica</b><br/>Dado que el visitante tiene una duda puntual,<br/>Cuando escribe palabras clave en el buscador de FAQs,<br/>Entonces se filtran las preguntas relevantes.<br/><br/><b>Escenario 3: Error al cargar FAQs</b><br/>Dado que ocurre un fallo al cargar la sección,<br/>Cuando el visitante intenta acceder,<br/>Entonces se muestra un mensaje de error con opción de reintentar.</td>
-  <td>EP10</td>
-</tr>
-<tr>
-  <td>US-50</td>
-  <td>Ver información de contacto directo</td>
-  <td>Como usuario de ambos segmentos, quiero ver los datos de contacto directo de soporte para realizar consultas urgentes.</td>
-  <td><b>Escenario 1: Visualización de datos de contacto</b><br/>Dado que el usuario accede a la sección de soporte,<br/>Cuando se carga la página,<br/>Entonces puede ver claramente el correo y número telefónico de soporte.<br/><br/><b>Escenario 2: Abrir correo desde enlace</b><br/>Dado que el usuario hace clic en la dirección de correo,<br/>Cuando tiene una app de correo configurada,<br/>Entonces se abre automáticamente su aplicación de correo predeterminada.<br/><br/><b>Escenario 3: Datos de contacto no configurados</b><br/>Dado que los datos de contacto no están configurados correctamente,<br/>Cuando el usuario accede a la sección,<br/>Entonces el sistema muestra un mensaje genérico invitando a intentar más tarde.</td>
-  <td>EP10</td>
-</tr>
 
 <!-- EP11 -->
 <tr>
-  <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Funcionalidades para buscar pedidos por código y filtrarlos por estado.</td>
+  <td colspan="5"><b>EP11 — Búsqueda y Filtrado:</b> Como usuario, quiero buscar y filtrar pedidos para encontrar rápidamente la información que necesito.</td>
 </tr>
 <tr>
   <td>US-27</td>
@@ -361,7 +341,7 @@
 
 <!-- EP12 -->
 <tr>
-  <td colspan="5"><b>EP12 — Notificaciones:</b> Notificaciones automáticas al solicitante sobre cambios de estado de sus pedidos.</td>
+  <td colspan="5"><b>EP12 — Notificaciones:</b> Como solicitante, quiero recibir notificaciones automáticas para estar informado sobre los cambios de estado de mis pedidos.</td>
 </tr>
 <tr>
   <td>US-29</td>
@@ -380,7 +360,7 @@
 
 <!-- EP13 -->
 <tr>
-  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b> Listado y detalle de empresas solicitantes desde la vista del proveedor.</td>
+  <td colspan="5"><b>EP13 — Gestión de Clientes (Proveedor):</b> Como proveedor, quiero ver el listado y detalle de mis clientes para analizar su historial y frecuencia de pedidos.</td>
 </tr>
 <tr>
   <td>US-31</td>
@@ -399,7 +379,7 @@
 
 <!-- EP14 -->
 <tr>
-  <td colspan="5"><b>EP14 — Reportes y Analytics:</b> Gráficos de consumo y ventas, y descarga de reportes en PDF para ambos segmentos.</td>
+  <td colspan="5"><b>EP14 — Reportes y Analytics:</b> Como usuario, quiero acceder a gráficos y reportes descargables para analizar mi consumo o ventas por periodo.</td>
 </tr>
 <tr>
   <td>US-33</td>
@@ -422,10 +402,29 @@
   <td><b>Escenario 1: Generación de PDF con datos</b><br/>Dado que el usuario hace clic en "Descargar",<br/>Cuando hay datos en el periodo seleccionado,<br/>Entonces se genera un archivo PDF descargable.<br/><br/><b>Escenario 2: No hay datos en el periodo seleccionado</b><br/>Dado que el usuario no tiene registros en el periodo seleccionado,<br/>Cuando se solicita la descarga,<br/>Entonces el sistema notifica que no hay contenido para exportar.<br/><br/><b>Escenario 3: Falla en la generación del PDF</b><br/>Dado que el usuario intenta descargar el archivo y ocurre un error en el backend al generar el PDF,<br/>Cuando hace clic en el botón de descargar,<br/>Entonces se muestra un mensaje de error sin afectar la sesión.</td>
   <td>EP14</td>
 </tr>
+<tr>
+  <td>US-48</td>
+  <td>Ver distribución de ventas por sector</td>
+  <td>Como proveedor, quiero ver la distribución de mis ventas por sector industrial para identificar cuáles son mis clientes más relevantes por rubro.</td>
+  <td><b>Escenario 1: Visualización de distribución con datos disponibles</b><br/>Dado que el proveedor accede al módulo de reportes de clientes,<br/>Cuando existen ventas registradas en más de un sector industrial,<br/>Entonces el sistema muestra un gráfico de barras con el volumen y porcentaje de participación por sector.<br/><br/><b>Escenario 2: Sin distribución por sector disponible</b><br/>Dado que el proveedor aún no tiene ventas registradas o todos sus clientes pertenecen al mismo sector,<br/>Cuando accede a la sección de distribución,<br/>Entonces el sistema muestra un mensaje indicando que no hay datos suficientes para mostrar la distribución.</td>
+  <td>EP14</td>
+</tr>
+
+<!-- EP15 -->
+<tr>
+  <td colspan="5"><b>EP15 — Gestión de Inventario (Proveedor):</b> Como proveedor, quiero administrar mi catálogo de productos de combustible para mantenerlo actualizado y disponible en la plataforma.</td>
+</tr>
+<tr>
+  <td>US-46</td>
+  <td>Gestionar inventario de combustibles</td>
+  <td>Como proveedor, quiero registrar, editar y eliminar los productos de combustible de mi catálogo para que estén disponibles como opciones al crear un pedido.</td>
+  <td><b>Escenario 1: Registro y visualización de productos en el inventario</b><br/>Dado que el proveedor accede al módulo de inventario y completa los campos requeridos del formulario de producto (nombre, tipo de combustible, precio por litro y unidad),<br/>Cuando guarda el registro,<br/>Entonces el producto aparece listado en el inventario con su información completa y queda disponible para ser referenciado en nuevos pedidos.<br/><br/><b>Escenario 2: Edición y eliminación de un producto existente</b><br/>Dado que el proveedor selecciona un producto ya registrado en el inventario,<br/>Cuando actualiza sus datos o confirma su eliminación,<br/>Entonces los cambios se reflejan de inmediato en el listado y el producto editado o eliminado no genera inconsistencias en pedidos en curso.</td>
+  <td>EP15</td>
+</tr>
 
 <!-- Technical Stories: EP06 -->
 <tr>
-  <td colspan="5"><b>EP06 — API de Autenticación:</b> Endpoints del backend para login, logout y recuperación de contraseña.</td>
+  <td colspan="5"><b>EP06 — API de Autenticación:</b> Como developer, quiero contar con endpoints de autenticación para implementar login, logout y recuperación de contraseña.</td>
 </tr>
 <tr>
   <td>TS-01</td>
@@ -451,7 +450,7 @@
 
 <!-- Technical Stories: EP07 -->
 <tr>
-  <td colspan="5"><b>EP07 — API de Pedidos:</b> Endpoints del backend para crear y consultar pedidos de combustible.</td>
+  <td colspan="5"><b>EP07 — API de Pedidos:</b> Como developer, quiero contar con endpoints de pedidos para crear y consultar órdenes de combustible desde el frontend.</td>
 </tr>
 <tr>
   <td>TS-04</td>
@@ -470,382 +469,79 @@
   </tbody>
 </table>
 
+
 ## 3.2 Impact Mapping
 
-En el Impact Mapping del modelo de negocio digital de FullTank, desarrollado por la startup TechnoSAC, el equipo elaboró el mapa partiendo de un Business Goal principal que cumple los criterios SMART: “Optimizar la gestión y distribución de combustible, alcanzando 300 empresas solicitantes activas y 100 proveedores registrados en el primer año de operación, reduciendo en un 40% los tiempos de gestión de pedidos”. A partir de esta meta se incorporaron como Actors/Personas a los User Personas previamente definidos: Carlos Ramírez (empresa solicitante) y Andrea López (proveedora de combustible). Para cada uno se identificaron los Impacts esperados, es decir, cómo se busca cambiar su comportamiento para lograr el objetivo: en el caso de Carlos, la digitalización del registro de pedidos, la reducción de la dependencia de canales informales, el seguimiento en tiempo real y una mejor toma de decisiones basada en datos; en el caso de Andrea, la centralización de pedidos, la optimización de la planificación logística, la mejora en la comunicación con clientes y el uso de métricas para el control operativo.
+En el Impact Mapping del modelo de negocio digital de FullTank, desarrollado por la startup PrimeFuel, el equipo elaboró el mapa partiendo de un Business Goal principal que cumple los criterios SMART: "Optimizar la gestión y distribución de combustible, alcanzando 300 empresas solicitantes activas y 100 proveedores registrados en el primer año de operación, reduciendo en un 40% los tiempos de gestión de pedidos". A partir de esta meta se incorporaron como Actors/Personas a los User Personas previamente definidos: Carlos Ramírez (empresa solicitante) y Andrea López (proveedora de combustible). Para cada uno se identificaron los Impacts esperados, es decir, cómo se busca cambiar su comportamiento para lograr el objetivo: en el caso de Carlos, la digitalización del registro de pedidos, la reducción de la dependencia de canales informales, el seguimiento en tiempo real y una mejor toma de decisiones basada en datos; en el caso de Andrea, la centralización de pedidos, la optimización de la planificación logística, la mejora en la comunicación con clientes y el uso de métricas para el control operativo.
 
-A partir de estos impactos se definieron los Deliverables que la plataforma FullTank debe ofrecer para generar dichos cambios en los actores. Entre ellos se incluyen el módulo de registro y gestión de pedidos, el sistema de tracking en tiempo real, el panel de control con métricas operativas, la planificación logística automatizada, el historial de pedidos y el sistema de notificaciones y comunicación integrada. Finalmente, en la columna de User Stories se detallaron historias en formato “Como [persona] deseo [acción] para [beneficio]” (por ejemplo, registro de pedidos, consulta de estado, actualización de entregas, coordinación logística y generación de reportes), lo que permite trazar una línea clara desde los objetivos de negocio hasta las funcionalidades del sistema, asegurando la alineación entre Business Goals, Impacts, Deliverables y el desarrollo de la solución.
+A partir de estos impactos se definieron los Deliverables que la plataforma FullTank debe ofrecer para generar dichos cambios en los actores. Entre ellos se incluyen el módulo de registro y gestión de pedidos, el sistema de tracking en tiempo real, el panel de control con métricas operativas, la planificación logística automatizada, el historial de pedidos y el sistema de notificaciones y comunicación integrada. Finalmente, en la columna de User Stories se detallaron historias en formato "Como [persona] deseo [acción] para [beneficio]" (por ejemplo, registro de pedidos, consulta de estado, actualización de entregas, coordinación logística y generación de reportes), lo que permite trazar una línea clara desde los objetivos de negocio hasta las funcionalidades del sistema, asegurando la alineación entre Business Goals, Impacts, Deliverables y el desarrollo de la solución.
 
 
  <img src="../assets/chapter-3/impactMapping.png" alt="ImpactMapping de los userPersona"/>
 
 
+
 ## 3.3 Product Backlog
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>#Orden</th>
-      <th>ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Story Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>US-01</td>
-      <td>Ver sección Home</td>
-      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>US-02</td>
-      <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>US-03</td>
-      <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>US-04</td>
-      <td>Enviar mensaje de contacto</td>
-      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>US-05</td>
-      <td>Registrar nuevo pedido</td>
-      <td>Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>US-06</td>
-      <td>Consultar estado del pedido</td>
-      <td>Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>US-07</td>
-      <td>Confirmar recepción de pedido</td>
-      <td>Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>US-08</td>
-      <td>Subir comprobante de pago</td>
-      <td>Como solicitante, quiero subir el comprobante para validar el pedido ante el proveedor</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>US-09</td>
-      <td>Ver historial de pedidos</td>
-      <td>Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>US-10</td>
-      <td>Ver pedidos pendientes</td>
-      <td>Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>US-11</td>
-      <td>Aprobar o rechazar pedido</td>
-      <td>Como proveedor, quiero aceptar o rechazar pedidos según el stock disponible para evitar conflictos de distribución</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>US-12</td>
-      <td>Marcar pedido como despachado</td>
-      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>US-13</td>
-      <td>Cerrar pedido</td>
-      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>US-14</td>
-      <td>Generar reporte de ventas</td>
-      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>US-15</td>
-      <td>Iniciar sesión</td>
-      <td>Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>US-16</td>
-      <td>Recuperar contraseña</td>
-      <td>Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>US-17</td>
-      <td>Cerrar sesión</td>
-      <td>Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>US-18</td>
-      <td>Ver resumen de pedidos (Solicitante)</td>
-      <td>Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>US-19</td>
-      <td>Ver resumen de pedidos (Proveedor)</td>
-      <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>US-20</td>
-      <td>Asignar vehículo a pedido</td>
-      <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>US-21</td>
-      <td>Asignar conductor a pedido</td>
-      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>US-22</td>
-      <td>Validar disponibilidad de transporte</td>
-      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>US-23</td>
-      <td>Ver perfil de usuario</td>
-      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>US-24</td>
-      <td>Editar datos de perfil</td>
-      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>US-25</td>
-      <td>Ver sección de preguntas frecuentes</td>
-      <td>Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>US-26</td>
-      <td>Acceder a información de contacto rápido</td>
-      <td>Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>US-27</td>
-      <td>Buscar pedido por código</td>
-      <td>Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>28</td>
-      <td>US-28</td>
-      <td>Filtrar pedidos por estado</td>
-      <td>Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado (pendiente, aprobado, entregado) para facilitar la revisión</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>US-29</td>
-      <td>Recibir notificación de aprobación</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para  estar informado</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>US-30</td>
-      <td>Notificación de pedido despachado</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>31</td>
-      <td>US-31</td>
-      <td>Ver listado de empresas</td>
-      <td>Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>32</td>
-      <td>US-32</td>
-      <td>Ver detalles de empresa</td>
-      <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>33</td>
-      <td>US-33</td>
-      <td>Ver gráfico de consumo (Solicitante)</td>
-      <td>Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>34</td>
-      <td>US-34</td>
-      <td>Ver gráfico de ventas (Proveedor)</td>
-      <td>Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>US-35</td>
-      <td>Descargar reporte PDF</td>
-      <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td>US-36</td>
-      <td>Ver sección Main Suppliers</td>
-      <td>Como visitante de ambos segmentos, quiero conocer los principales proveedores de combustible que trabajan con FullTank para confiar en la plataforma</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>37</td>
-      <td>US-37</td>
-      <td>Ver sección Our Clients</td>
-      <td>Como visitante de ambos segmentos, quiero conocer a las empresas que utilizan FullTank para tener confianza en la plataforma y saber que otras empresas ya la están usando</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>38</td>
-      <td>US-38</td>
-      <td>Ver sección Are You A Fuel Requester?</td>
-      <td>Como visitante (solicitante), quiero saber si cumplo con los requisitos de solicitante de combustible para poder iniciar un proceso de registro o solicitud</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>US-39</td>
-      <td>Cambiar idioma</td>
-      <td>Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>US-40</td>
-      <td>Registrar empresa solicitante</td>
-      <td>Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>US-41</td>
-      <td>Registrar empresa proveedora</td>
-      <td>Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>US-42</td>
-      <td>Rechazar pedido</td>
-      <td>Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>US-43</td>
-      <td>Ver detalle de pedido</td>
-      <td>Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>US-44</td>
-      <td>Gestionar vehículos de flota</td>
-      <td>Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al momento de asignarlos a pedidos.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>US-45</td>
-      <td>Gestionar conductores</td>
-      <td>Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>46</td>
-      <td>US-46</td>
-      <td>Ver sección Planes y Precios</td>
-      <td>Como visitante de ambos segmentos, quiero conocer los planes disponibles para evaluar qué opción se adapta mejor a mi empresa.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>47</td>
-      <td>US-47</td>
-      <td>Ver sección Testimonios de Clientes</td>
-      <td>Como visitante de ambos segmentos, quiero leer testimonios de empresas que ya usan FullTank para generar confianza antes de registrarme.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>48</td>
-      <td>US-48</td>
-      <td>Cambiar idioma de la plataforma</td>
-      <td>Como visitante de ambos segmentos, quiero cambiar entre español e inglés para usar la plataforma en mi idioma preferido.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td>US-49</td>
-      <td>Acceder a preguntas frecuentes</td>
-      <td>Como visitante de ambos segmentos, quiero consultar una sección de preguntas frecuentes para resolver dudas sin necesidad de contactar soporte.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>50</td>
-      <td>US-50</td>
-      <td>Ver información de contacto directo</td>
-      <td>Como usuario de ambos segmentos, quiero ver los datos de contacto directo de soporte para realizar consultas urgentes.</td>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
+| #Orden | ID | Título | Descripción | Story Points |
+|--------|-----|--------|-------------|:---:|
+| 01 | US-15 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con correo y contraseña para acceder a mi cuenta. | 2 |
+| 02 | US-16 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder si la olvidé. | 2 |
+| 03 | US-17 | Cerrar sesión | Como usuario registrado, quiero poder cerrar sesión para mantener segura mi cuenta. | 1 |
+| 04 | US-40 | Registrar empresa solicitante | Como visitante (solicitante), quiero registrar mi empresa en la plataforma para comenzar a realizar pedidos de combustible. | 3 |
+| 05 | US-41 | Registrar empresa proveedora | Como visitante (proveedor), quiero registrar mi empresa distribuidora en la plataforma para comenzar a gestionar pedidos de combustible. | 3 |
+| 06 | US-01 | Ver sección Home | Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FullTank para comprender rápidamente el objetivo del sistema. | 2 |
+| 07 | US-02 | Ver sección About Us | Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FullTank para confiar en el sistema. | 1 |
+| 08 | US-03 | Ver sección How it works? | Como visitante de ambos segmentos, quiero entender cómo funciona FullTank paso a paso para evaluar si se ajusta a mis necesidades. | 2 |
+| 09 | US-36 | Ver sección Benefits | Como visitante de ambos segmentos, quiero conocer las principales ventajas para evaluar la implementación de la plataforma. | 1 |
+| 10 | US-37 | Ver sección Testimonios de Clientes | Como visitante de ambos segmentos, quiero conocer los testimonios de usuarios de FullTank para tener confianza en la plataforma. | 2 |
+| 11 | US-38 | Ver sección Planes y Precios | Como visitante de ambos segmentos, quiero saber qué planes se adecuan a mis necesidades para poder iniciar un proceso de registro. | 3 |
+| 12 | US-39 | Cambiar idioma | Como visitante de ambos segmentos, quiero poder cambiar entre inglés y español para entender la plataforma en mi idioma preferido. | 3 |
+| 13 | US-04 | Enviar mensaje de contacto | Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información. | 3 |
+| 14 | US-18 | Ver resumen de pedidos (Solicitante) | Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados. | 3 |
+| 15 | US-19 | Ver resumen de pedidos (Proveedor) | Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes. | 3 |
+| 16 | US-47 | Ver Dashboard principal del proveedor | Como proveedor, quiero acceder a un panel principal con KPIs de operación y un gráfico de tendencia de ventas para tener visibilidad en tiempo real del estado de mi negocio. | 3 |
+| 17 | US-05 | Registrar nuevo pedido | Como solicitante, quiero registrar un pedido con tipo y cantidad de combustible para que el proveedor lo procese. | 5 |
+| 18 | US-06 | Consultar estado del pedido | Como solicitante, quiero ver el estado de mis pedidos para saber si están aprobados, en tránsito o entregados. | 2 |
+| 19 | US-07 | Confirmar recepción de pedido | Como solicitante, quiero confirmar que recibí el pedido para que el proveedor lo cierre. | 2 |
+| 20 | US-08 | Registrar información de pago | Como solicitante, quiero ingresar la información de los pagos correspondientes para validar el pedido ante el proveedor. | 3 |
+| 21 | US-09 | Ver historial de pedidos | Como solicitante, quiero ver mis pedidos anteriores para tener control sobre mi consumo. | 2 |
+| 22 | US-43 | Ver detalle de pedido | Como usuario de ambos segmentos, quiero ver el detalle completo de un pedido para revisar toda la información asociada. | 2 |
+| 23 | US-10 | Ver pedidos pendientes | Como proveedor, quiero ver todos los pedidos pendientes para analizarlos y tomar acción. | 2 |
+| 24 | US-11 | Aprobar pedido | Como proveedor, quiero aprobar pedidos según los depósitos hechos a mis cuentas bancarias. | 3 |
+| 25 | US-42 | Rechazar pedido | Como proveedor, quiero rechazar un pedido cuando no pueda atenderlo para notificar al solicitante oportunamente. | 2 |
+| 26 | US-12 | Marcar pedido como despachado | Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente. | 2 |
+| 27 | US-13 | Cerrar pedido | Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso. | 2 |
+| 28 | US-46 | Gestionar inventario de combustibles | Como proveedor, quiero registrar, editar y eliminar los productos de combustible de mi catálogo para que estén disponibles como opciones al crear un pedido. | 3 |
+| 29 | US-44 | Gestionar vehículos de flota | Como proveedor, quiero registrar y administrar los vehículos de mi flota para tenerlos disponibles al asignarlos a pedidos. | 3 |
+| 30 | US-45 | Gestionar conductores | Como proveedor, quiero registrar y administrar los conductores de mi empresa para asignarlos correctamente a los despachos. | 3 |
+| 31 | US-20 | Asignar vehículo a pedido | Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística. | 3 |
+| 32 | US-21 | Asignar conductor a pedido | Como proveedor, quiero asignar un conductor para completar la información de despacho. | 3 |
+| 33 | US-49 | Asignar recursos a despacho | Como proveedor, quiero asignar un vehículo y un conductor a un pedido aprobado en una sola operación para agilizar la preparación del despacho. | 5 |
+| 34 | US-22 | Validar disponibilidad de transporte | Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente. | 5 |
+| 35 | US-27 | Buscar pedido por código | Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente. | 2 |
+| 36 | US-28 | Filtrar pedidos por estado | Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado para facilitar la revisión. | 2 |
+| 37 | US-29 | Recibir notificación de aprobación | Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado. | 2 |
+| 38 | US-30 | Notificación de pedido despachado | Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado. | 2 |
+| 39 | US-14 | Generar reporte de ventas | Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas. | 3 |
+| 40 | US-33 | Ver gráfico de consumo (Solicitante) | Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible. | 3 |
+| 41 | US-34 | Ver gráfico de ventas (Proveedor) | Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio. | 3 |
+| 42 | US-48 | Ver distribución de ventas por sector | Como proveedor, quiero ver la distribución de mis ventas por sector industrial para identificar cuáles son mis clientes más relevantes por rubro. | 2 |
+| 43 | US-35 | Descargar reporte PDF | Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo. | 3 |
+| 44 | US-31 | Ver listado de empresas | Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes. | 2 |
+| 45 | US-32 | Ver detalles de empresa | Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos. | 2 |
+| 46 | US-23 | Ver perfil de usuario | Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada. | 1 |
+| 47 | US-24 | Editar datos de perfil | Como usuario registrado, quiero editar mis datos para mantener mi información actualizada. | 2 |
+| 48 | US-25 | Ver sección de preguntas frecuentes | Como visitante de ambos segmentos, quiero acceder a una sección de preguntas frecuentes para resolver dudas rápidamente. | 2 |
+| 49 | US-26 | Acceder a información de contacto rápido | Como usuario de ambos segmentos, quiero ver datos de contacto directo (teléfono o correo) para hacer consultas urgentes. | 1 |
+| 50 | TS-01 | Endpoint: Login | Como developer, quiero un endpoint para autenticar usuarios. | 2 |
+| 51 | TS-02 | Endpoint: Recuperar contraseña | Como developer, quiero un endpoint que permita enviar correo de recuperación. | 2 |
+| 52 | TS-03 | Endpoint: Logout | Como developer, quiero un endpoint para cerrar sesión. | 1 |
+| 53 | TS-04 | Endpoint: Crear pedido | Como developer, quiero un endpoint para registrar un nuevo pedido de combustible. | 3 |
+| 54 | TS-05 | Endpoint: Consultar pedidos por usuario | Como developer, quiero un endpoint para obtener todos los pedidos de un usuario. | 2 |
+
+---
 
 Link del Trello: https://trello.com/invite/b/69e2fd01ee5b055b2d967a45/ATTI05a9ebca4c1da02108fc92fa76bfa07e412172F6/fulltank
 
-![alt text](../assets/chapter-3/trello.png)
+![trello](../assets/chapter-3/trello.png)
