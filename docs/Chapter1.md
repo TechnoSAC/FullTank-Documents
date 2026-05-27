@@ -62,26 +62,51 @@
 
 ### 1.2.1 Antecedentes y problemática
 
-- **What? (¿Qué?)**  
-  La problemática principal es la falta de un sistema centralizado y digital para gestionar los pedidos de combustible, lo que genera errores humanos, duplicación de esfuerzos y retrasos en las entregas.
+#### Antecedentes
+En el sector industrial, minero y de construcción en el Perú, el abastecimiento de combustible es una actividad crítica para la continuidad operativa. La adquisición de este recurso suele estar sujeta a contratos de exclusividad y alta demanda. Tradicionalmente, la comunicación y coordinación logística entre las empresas solicitantes y los distribuidores mayoristas de combustible se ha gestionado mediante llamadas telefónicas, correos electrónicos y mensajería instantánea. A pesar del crecimiento tecnológico del país, la cadena de suministro de combustibles líquidos sigue operando bajo esquemas manuales e informales, lo que dificulta la trazabilidad de las entregas y limita la toma de decisiones basada en datos históricos. En este contexto, surge la necesidad de digitalizar y centralizar este proceso en una plataforma integrada que optimice la comunicación, reduzca tiempos muertos y elimine los errores humanos asociados a la gestión operativa.
 
-- **When? (¿Cuándo?)**  
-  El problema se presenta constantemente en el proceso de gestión de pedidos, especialmente cuando hay un alto volumen de solicitudes o múltiples pedidos a coordinar.
+#### Problemática (Análisis 5W2H)
+Para comprender a fondo la problemática identificada en el mercado de compraventa y distribución de combustible, se aplicó la técnica de análisis **5W2H**:
 
-- **Where? (¿Dónde?)**  
-  El problema ocurre en empresas solicitantes de combustible y proveedores, tanto en áreas urbanas como rurales, donde la infraestructura digital aún no está optimizada.
+*   **Who? (¿Quién?):** Los principales afectados son el personal logístico de las empresas solicitantes (compradores industriales) y los operadores o despachadores de las empresas proveedoras de combustible, quienes experimentan una sobrecarga administrativa y frustración debido a procesos manuales e ineficientes.
+*   **What? (¿Qué?):** La inexistencia de un canal digital unificado y centralizado para la solicitud, confirmación, seguimiento y conciliación logística de los pedidos de combustible, lo que genera errores humanos, duplicación de esfuerzos administrativos y retrasos constantes en los despachos.
+*   **Where? (¿Dónde?):** El problema se suscita principalmente en los departamentos de compras, almacén y logística de empresas solicitantes (en zonas urbanas e industriales, o campamentos mineros/obras de construcción) y en las bases operativas de las distribuidoras de combustible.
+*   **When? (¿Cuándo?):** Ocurre de manera recurrente en el flujo diario de operaciones logísticas, agravándose durante picos de demanda o cuando las empresas compradoras requieren abastecimiento urgente para no detener sus maquinarias.
+*   **Why? (¿Por qué?):** Se debe a la excesiva dependencia de canales informales e inconexos (WhatsApp, correos, llamadas) y a la falta de herramientas de software específicas adaptadas a la dinámica operativa local, lo que impide una trazabilidad en tiempo real.
+*   **How? (¿Cómo?):** Se manifiesta a través del registro duplicado de información en hojas de cálculo manuales, la falta de visibilidad del estado de los camiones cisterna en camino, y discrepancias constantes en la facturación y conciliación de volúmenes de combustible.
+*   **How Much? (¿Cuánto?):** La ineficiencia logística se traduce en pérdidas económicas significativas por paradas operativas imprevistas de maquinaria y un incremento de hasta un 40% en los tiempos de gestión administrativa de cada pedido de combustible.
 
-- **Who? (¿Quién?)**  
-  Los principales afectados son las empresas solicitantes (medianas y grandes), los proveedores de combustible y los encargados de la logística y gestión de pedidos.
+#### Enunciado del Problema
 
-- **Why? (¿Por qué?)**  
-  El problema radica en la falta de integración entre los métodos actuales de gestión (como correos y aplicaciones de mensajería), que dificultan un control centralizado y preciso de los pedidos.
+ La gestión de compraventa y distribución de combustible entre empresas industriales y proveedores en el Perú se caracteriza por la fragmentación operativa y la dependencia de canales informales (WhatsApp, llamadas y correos). Esta falta de un sistema digital unificado e interactivo genera un margen de error del 15% en las solicitudes logísticas, prolonga los tiempos de procesamiento administrativo y carece de trazabilidad en tiempo real de los despachos, lo que provoca sobrecostos operativos e interrupciones en la producción de los clientes finales.
 
-- **How? (¿Cómo?)**  
-  Los procesos actuales son desorganizados, utilizando diversas plataformas desconectadas, lo que impide tener un flujo de trabajo eficiente y controlado.
+#### Puntos Clave a Resolver por la Solución Propuesta
+La plataforma digital **FullTank** está diseñada para abordar y resolver los siguientes puntos críticos del problema:
+1.  **Centralización del Flujo Operativo:** Reemplazar el uso de múltiples canales inconexos por un único entorno web donde se realicen y validen solicitudes en menos de 3 minutos.
+2.  **Seguimiento y Trazabilidad (Tracking):** Implementar un módulo de seguimiento en tiempo real que brinde visibilidad del estado y ubicación logística de cada despacho.
+3.  **Reducción de Errores Logísticos:** Automatizar la conciliación de datos de inventario y pedidos mediante reglas de validación en la plataforma, reduciendo la tasa de error por debajo del 5%.
+4.  **Optimización Administrativa:** Proveer un panel de control (Dashboard) y herramientas de generación de reportes automáticos que aceleren la toma de decisiones y reduzcan la carga administrativa en un 40%.
 
-- **How Much? (¿Cuánto?)**  
-  La magnitud del problema es considerable, pues cada día se pierden horas valiosas debido a la ineficiencia y los errores, lo que incrementa los costos operativos y puede generar pérdidas económicas significativas.
+#### Objetivos del Proyecto
+*   **Objetivo General:**
+    Desarrollar e implementar la plataforma web distribuida **FullTank**, conformada por un RESTful API elaborado internamente mediante tecnologías basadas en C# en el lado del servidor y una aplicación frontend responsiva y moderna, que permita centralizar y optimizar la gestión de pedidos de combustible para medianas y grandes empresas y proveedores, garantizando la trazabilidad, eficiencia y comunicación en un entorno ágil y seguro.
+*   **Objetivos Específicos:**
+    1.  **Analizar** las necesidades y procesos operativos de los segmentos objetivos mediante entrevistas y técnicas de *Needfinding* para delimitar los requisitos del sistema.
+    2.  **Diseñar** la arquitectura de la solución bajo el enfoque de Arquitectura Limpia y Diseño Orientado al Dominio (DDD), especificando diagramas de contexto, contenedores y componentes (Modelo C4), así como interfaces de usuario accesibles e intuitivas.
+    3.  **Implementar** el backend de la solución utilizando ASP.NET Core (C#) bajo un enfoque RESTful API, integrando bases de datos relacionales y servicios de terceros.
+    4.  **Desarrollar** la aplicación frontend (Web Application) utilizando tecnologías modernas, asegurando un diseño responsivo y adaptable (Mobile-First/Web), y desplegar la Landing Page promocional alineada al modelo de negocio.
+    5.  **Validar** la solución web desarrollada mediante pruebas de software y entrevistas de validación con usuarios reales, y realizar el despliegue de los componentes en la nube (Cloud) para garantizar la disponibilidad del servicio.
+
+#### Restricciones del Proyecto
+*   **Restricciones Tecnológicas:**
+    *   **Backend:** La lógica del lado del servidor debe desarrollarse de forma obligatoria en lenguaje C#, utilizando el framework .NET / ASP.NET Core.
+    *   **Arquitectura:** La solución debe estar conformada estrictamente por un RESTful API desarrollado internamente e integrado con una aplicación web cliente (Web Application).
+    *   **Responsive:** Las interfaces del frontend y la Landing Page deben ser adaptables (responsive) a diferentes tamaños de dispositivos móviles y de escritorio.
+    *   **Integración:** La plataforma debe integrarse con al menos un servicio web externo (API de terceros) para complementar sus funcionalidades.
+*   **Restricción de Tiempo:**
+    *   El desarrollo, validación y entrega final de los entregables del informe y el software deben completarse rigurosamente dentro del periodo académico estipulado para el Ciclo 2026-10 (16 semanas).
+*   **Restricción Presupuestaria:**
+    *   El presupuesto asignado para infraestructura es de $0 USD, por lo cual todas las herramientas de desarrollo, bases de datos y plataformas de despliegue en la nube (Cloud/Server-Side) deben limitarse a planes gratuitos y de código abierto (Open-Source), tales como Vercel, Render, Firebase o equivalentes.
 
 ### 1.2.2 Lean UX Process
 
