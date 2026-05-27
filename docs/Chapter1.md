@@ -30,7 +30,7 @@
       <td>Jose Gustavo Asto Jacome</td>
       <td>u20241c630</td>
       <td>Ingeniería de Software</td>
-      <td>Estudiante de la carrera de Ingenieria de software en la UPC. Actualmente cuento con conocimientos en herramientas Office, como tambien en diferentes lenguajes de programacion como C++,C,Java, JavaScript. Mis mayores virtudes son: innovador, capacidad de liderar y adaptacion constante</td>
+      <td>Estudiante de la carrera de Ingeniería de Software en la UPC. Actualmente cuento con conocimientos en herramientas Office, así como también en diferentes lenguajes de programación como C++, C, Java y JavaScript. Mis mayores virtudes son: ser innovador, mi capacidad de liderar y mi adaptación constante.</td>
     </tr>
     <tr>
       <td><img src="../assets/chapter-1/milenko-foto.png" alt="nombre" width="100"></td>
@@ -51,7 +51,7 @@
       <td>Brayan Alexis Corvacho Damian</td>
       <td>u20231a257</td>
       <td>Ingeniería de Software</td>
-      <td>EMi nombre es Brayan Corvacho, tengo 22 años y estoy cursando el 5 ciclo de la carrera de ingeniería de software en la UPC. Busco en esta carrera aprender sobre todo lo relacionado a la tecnología, mejorar mis habilidades en el desarrollo de proyectos. Mis hobbies son ver documentales, series, revisar foros de tecnología. Me comprometo a hacer mi mayor esfuerzo en este proyecto y organizar mejor mis tareas diarias de este curso.</td>
+      <td>Mi nombre es Brayan Corvacho, tengo 22 años y estoy cursando el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Busco en esta carrera aprender sobre todo lo relacionado a la tecnología, y mejorar mis habilidades en el desarrollo de proyectos. Mis hobbies son ver documentales, series y revisar foros de tecnología. Me comprometo a hacer mi mayor esfuerzo en este proyecto y organizar mejor mis tareas diarias de este curso.</td>
     </tr>
   </tbody>
 </table>
@@ -115,25 +115,24 @@ Para el desarrollo de la Startup, utilizamos el enfoque Lean UX, que nos permite
 #### 1.2.2.1 Lean UX Problem Statements
  
 **Solicitantes de Combustible (Empresas Compradoras)**
-- **Problema:** Empresas de sectores industriales, mineros y de construcción coordinan sus pedidos de combustible mediante canales informales (llamadas, correos, mensajería), lo que genera desorganización, errores y ausencia de trazabilidad. 
-- **Impacto:** Incertidumbre sobre el estado de los despachos y posibles interrupciones en sus operaciones debido a errores por mala coordinación.  
-- **Riesgo:** La facilidad a la adaptación puede verse afectada si la plataforma no es intuitiva o no se adapta a procesos actuales.  
-- **How Might We...?:** ¿Cómo podemos diseñar una experiencia que permita registrar y gestionar pedidos en menos de 3 minutos, con tasa de error <5% y adopción del 80% en el primer mes?  
+El sector de abastecimiento de combustible en Perú depende de canales informales para la coordinación logística. Hemos observado que las empresas compradoras industriales buscan asegurar un abastecimiento continuo y sin interrupciones, pero actualmente enfrentan desorganización, errores en las solicitudes y falta de trazabilidad en los pedidos. Esto genera incertidumbre operativa, sobrecostos e interrupciones en su cadena de producción. Nuestra visión es desarrollar una solución digital centralizada que brinde visibilidad, reduzca los errores logísticos y permita una gestión eficiente de los pedidos de combustible.
 
 **Proveedores de Combustible (Empresas Distribuidoras)**
-- **Problema:** Gestionan múltiples pedidos, conciliaciones y despachos con procesos manuales, lo que aumenta la carga administrativa (asumida por los operadores del área) y el riesgo de errores logísticos.  
-- **Impacto:** Baja eficiencia operativa y menor satisfacción del cliente.  
-- **Riesgo:** Posible resistencia a la implementación si los beneficios no son inmediatos.  
-- **How Might We...?:** ¿Cómo podemos demostrar que nuestra plataforma reduce el tiempo de gestión en un 40%, disminuye errores logísticos en un 60% y mejora la satisfacción del cliente en +1 punto en encuestas durante los primeros 3 meses?  
+El mercado de distribución mayorista de combustible se gestiona de manera manual y tradicional. Hemos observado que las empresas proveedoras buscan optimizar su flujo de despacho logístico, pero actualmente enfrentan una alta carga administrativa, lentitud en los procesos de conciliación y errores humanos frecuentes. Esto provoca ineficiencia operativa, retrasos en la facturación y una menor satisfacción de sus clientes. Nuestra visión es proveer una herramienta tecnológica que automatice la recepción de pedidos, mejore la planificación de rutas y optimice la asignación de su flota de cisternas en tiempo real.
 
 #### 1.2.2.2 Lean UX Assumptions
 
 **Business Assumptions (Suposiciones de Negocio)**
 
+* El mercado de distribución de combustible requiere urgentemente herramientas digitales para superar la informalidad logística.
 * Las empresas están buscando formas de reducir errores y retrasos logísticos para optimizar sus costos operativos.
-* Los proveedores estan dispuestos a invertir para mejorar su nivel de servicio y aumentar su competitividad en el mercado.
-* Las empresas usuarias apreciarán tener un mayor control sobre sus órdenes y ser capaces de seguirlas en una plataforma centralizada.
-* La dificil trazabilidad de los pedidos y las fallas en la comunicación hace que dejar los métodos informales sea una necesidad crítica para todo el sector.
+* Los proveedores están dispuestos a invertir para mejorar su nivel de servicio y aumentar su competitividad en el mercado.
+
+**Business Outcome Assumptions (Suposiciones de Resultados de Negocio)**
+
+* Alcanzaremos una adopción del 80% en los segmentos objetivo durante el primer año.
+* Reduciremos la tasa de rechazo o discrepancias en los pedidos por problemas de comunicación a menos del 5%.
+* Generaremos ingresos sostenibles posicionándonos como el principal intermediario digital del sector.
 
 **User Assumptions (Suposiciones de Usuario)**
 
@@ -150,35 +149,36 @@ Para el desarrollo de la Startup, utilizamos el enfoque Lean UX, que nos permite
 * *¿Cómo debe verse nuestro producto y cómo debe comportarse?*
   El producto debe presentar una interfaz limpia y profesional. Adaptada al perfil corporativo de los clientes objetivos. Debe ser eficiente, permitiendo la creación, modificación y seguimiento de pedidos en pocos clics. También debe ser altamente confiable, debido al alto valor y magnitud de las órdenes que se realizarán en la plataforma
 
-**Feature Assumptions**
+**User Outcome Assumptions (Suposiciones de Resultados de Usuario)**
 
-* Creemos que al proporcionar una plataforma centralizada con trazabilidad en tiempo real, ayudaremos a las empresas a reducir errores y mejorar la eficiencia logística.
-* Creemos que al ofrecer una interfaz clara y rápida con funciones de seguimiento, aumentaremos la adopción entre proveedores y solicitantes.
-* Creemos que al automatizar la gestión de pedidos, los usuarios reducirán su dependencia de métodos informales y ganarán en control y visibilidad.
-* Creemos que al integrar notificaciones en tiempo real sobre estados de pedido, mejoraremos la coordinación entre actores y reduciremos los retrasos.
-*  Creemos que al incluir visualización de métricas, facilitaremos la toma de decisiones y la optimización operativa de los proveedores.
+* Las empresas solicitantes obtendrán un mayor control y tranquilidad al poder monitorear el estado de sus pedidos en tiempo real.
+* Los proveedores lograrán reducir el tiempo dedicado a tareas administrativas manuales, aliviando la carga de sus operadores.
+* Ambos tipos de usuarios mejorarán su coordinación, eliminando la fricción y las confusiones operativas.
+
+**Feature Assumptions (Suposiciones de Características)**
+
+* Creemos en implementar una plataforma centralizada para la gestión de pedidos de combustible.
+* Creemos en desarrollar una interfaz clara y rápida con funciones de seguimiento en tiempo real.
+* Creemos en ofrecer la automatización de la gestión de pedidos para reducir procesos manuales.
+* Creemos en integrar notificaciones en tiempo real sobre los cambios de estado de cada pedido.
+* Creemos en proveer un panel de visualización de métricas (Dashboard) para facilitar la toma de decisiones.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
 **Hypothesis Statement 01:**
-* *Creemos* que la centralización de los pedidos en nuestra plataforma reducirá el margen de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores drásticamente.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
+**Creemos que** reduciremos la tasa de discrepancias en los pedidos a menos del 5% (Business Outcome) **se logrará si** las empresas solicitantes y proveedores (User) obtienen una mejor coordinación eliminando la fricción (User Outcome) **con** una plataforma centralizada para la gestión de pedidos (Feature).
 
 **Hypothesis Statement 02:**
-* *Creemos* que ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* se observe una reducción del 30% en llamadas de seguimiento.
+**Creemos que** alcanzaremos una adopción del 80% en los segmentos objetivo durante el primer año (Business Outcome) **se logrará si** los encargados logísticos (User) obtienen un mayor control y tranquilidad (User Outcome) **con** una interfaz clara y rápida con funciones de seguimiento (Feature).
 
 **Hypothesis Statement 03:**
-* *Creemos* que la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
+**Creemos que** generaremos ingresos sostenibles posicionándonos como líderes del sector (Business Outcome) **se logrará si** los proveedores de combustible (User) logran reducir el tiempo dedicado a tareas administrativas manuales (User Outcome) **con** la automatización de la gestión de pedidos (Feature).
 
 **Hypothesis Statement 04:**
-* *Creemos* que las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.
-* *Sabremos* que hemos tenido éxito
-* *Cuando* las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
+**Creemos que** aumentaremos el uso recurrente de la herramienta (Business Outcome) **se logrará si** los solicitantes y operadores (User) reducen la incertidumbre operativa (User Outcome) **con** notificaciones en tiempo real sobre los estados de pedido (Feature).
+
+**Hypothesis Statement 05:**
+**Creemos que** incrementaremos el valor percibido del servicio para los proveedores (Business Outcome) **se logrará si** los gerentes de logística (User) facilitan su toma de decisiones (User Outcome) **con** un panel de visualización de métricas (Feature).
 
 #### 1.2.2.4 Lean UX Canvas
 
@@ -186,20 +186,36 @@ Para el desarrollo de la Startup, utilizamos el enfoque Lean UX, que nos permite
 
 ## 1.3 Segmentos objetivos
 
-**A. Empresas solicitantes de combustible**
+**A. Empresas solicitantes de combustible (Clientes B2B)**
 
-Empresas medianas y grandes que requieren de combustible de forma constante para el desarrollo de sus operaciones. Utilizan este recurso para alimentar maquinaria, vehículos o equipos, y buscan procesos más ágiles, ordenados y confiables para su gestión de pedidos. Además, mantienen un contrato de exclusividad con un proveedor de combustible, lo que les permite tener un flujo constante de pedidos y una relación comercial estable.
+Empresas medianas y grandes que requieren de combustible (principalmente Diésel B5 y gasolinas industriales) de forma constante para el desarrollo de sus operaciones diarias. Utilizan este recurso para alimentar maquinaria pesada, flotas de transporte, grupos electrógenos o equipos industriales, y buscan procesos más ágiles, ordenados y confiables para su gestión de pedidos. Además, suelen mantener contratos de abastecimiento exclusivo con un proveedor, lo que les permite tener un flujo constante de pedidos y una relación comercial estable.
 
-*Necesidades:*
-* Asegurar el abastecimiento oportuno de combustible.
-* Reducir errores derivados de la informalidad en los procesos.
-* Mantener constante comunicación con proveedores.
-  
-**B. Proveedores de combustible**
+*   **Características Demográficas:**
+    *   **Tipo de Organización:** Empresas medianas y grandes pertenecientes a los sectores de Construcción, Minería, Logística y Transporte, Pesca y Agricultura.
+    *   **Tamaño de Empresa:** Facturación anual superior a las 150 UIT (medianas y grandes empresas según la legislación peruana).
+    *   **Ubicación Geográfica:** Operaciones en el Perú, con alta concentración en zonas industriales de Lima Metropolitana y Callao, así como en regiones con alta actividad minero-extractiva y de infraestructura (tales como Arequipa, Cajamarca, Ancash, La Libertad, Cusco e Ica).
+    *   **Usuario Clave en la Plataforma:** Jefe de Logística, Administrador de Obra, Supervisor de Operaciones o Encargado de Control de Combustible (edades entre 28 y 55 años, con manejo intermedio de herramientas digitales).
+*   **Información Estadística de Sustento:**
+    *   De acuerdo con reportes del **Ministerio de Energía y Minas (MINEM)** y la **Sociedad Nacional de Minería, Petróleo y Energía (SNMPE)**, los sectores de minería y construcción consumen en conjunto más del 35% del total de diésel industrial comercializado a nivel nacional en el Perú.
+    *   El **Instituto Nacional de Estadística e Informática (INEI)** indica que las ineficiencias en el abastecimiento y la cadena de suministro logístico de insumos críticos (como el combustible) causan retrasos en obras de infraestructura que incrementan los costos operativos directos entre un 12% y un 18%.
+*   **Necesidades:**
+    *   Asegurar el abastecimiento oportuno y continuo de combustible para evitar la paralización de maquinaria crítica.
+    *   Reducir errores operativos y sobrecostos derivados de la informalidad y la falta de trazabilidad en los pedidos.
+    *   Mantener una comunicación transparente y en tiempo real con sus proveedores respecto al estado de sus despachos.
 
-Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
+**B. Proveedores de combustible (Distribuidores Mayoristas/Minoristas B2B)**
 
-*Motivaciones:*
-* Mejorar la experiencia del cliente mediante canales digitales.
-* Reducir errores en la entrega por información incompleta o mal gestionada.
-* Optimizar la planificación logística y distribución.
+Empresas dedicadas a la comercialización y distribución mayorista de combustibles líquidos, biocombustibles y otros derivados, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas tecnológicas que les permitan centralizar sus pedidos, programar sus despachos logísticos de manera eficiente, optimizar el uso de sus camiones cisterna y diferenciarse en un mercado altamente competitivo mediante un servicio de calidad superior.
+
+*   **Características Demográficas:**
+    *   **Tipo de Organización:** Distribuidores mayoristas autorizados de combustibles, empresas comercializadoras de hidrocarburos (DHC) y estaciones de servicio con venta a nivel industrial.
+    *   **Tamaño de Empresa:** Medianas y grandes corporaciones de distribución con flota propia o subcontratada de camiones cisterna.
+    *   **Ubicación Geográfica:** Bases de operaciones y plantas de despacho distribuidas estratégicamente a nivel nacional en el Perú (cercanas a terminales de almacenamiento como Callao, Mollendo, Pisco o Salaverry).
+    *   **Usuario Clave en la Plataforma:** Gerente de Logística, Planificador de Despachos (Dispatcher), Administrador de Ventas Industriales y Conductores de cisternas.
+*   **Información Estadística de Sustento:**
+    *   Según el registro oficial de la **Dirección General de Hidrocarburos (DGH) de OSINERGMIN**, existen en el Perú más de 500 empresas debidamente registradas y habilitadas como Distribuidores Mayoristas o Comercializadores de Combustibles Líquidos que compiten en el mercado industrial.
+    *   Estudios sobre competitividad y eficiencia logística empresarial en el ámbito local demuestran que la digitalización y automatización de la recepción de órdenes puede reducir hasta en un 50% los errores en facturación y disminuir el ciclo total de entrega (*Order-to-Delivery*) en un 25%, optimizando sustancialmente el uso de la flota vehicular.
+*   **Motivaciones:**
+    *   Mejorar la experiencia y retención de sus clientes industriales mediante canales digitales intuitivos de autoservicio.
+    *   Reducir pérdidas y errores de despacho ocasionados por información incompleta o mal gestionada a través de canales informales.
+    *   Optimizar la planificación de rutas logísticas y la asignación de flotas de cisternas de entrega en tiempo real.
