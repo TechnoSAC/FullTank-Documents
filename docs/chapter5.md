@@ -46,6 +46,25 @@ El proyecto utiliza GitHub como repositorio para administrar y estructurar los a
 
 **Conventional Commits:** Estándar aplicado en los mensajes de commit para mantener un historial de cambios claro, comprensible y trazable, mejorando además la automatización de flujos de despliegue.
 
+**Feature branches:** Creadas desde `develop` con la convención 
+`feature/[bounded-context]-[descripción]`.  
+Ejemplo: `feature/ordering-create-request`, `feature/fulfillment-fleet`
+
+**Release branches:** Creadas desde `develop` cuando el Sprint 
+está listo para producción, con la convención `release/vX.Y.Z` 
+siguiendo Semantic Versioning (MAJOR.MINOR.PATCH).  
+Ejemplo: `release/v1.0.0`, `release/v1.1.0`
+
+**Hotfix branches:** Creadas desde `main` para correcciones 
+urgentes en producción, con la convención `hotfix/[descripción]`.  
+Ejemplo: `hotfix/fix-login-redirect`
+
+**Semantic Versioning:** Los releases del proyecto siguen el 
+estándar vMAJOR.MINOR.PATCH donde:
+- MAJOR: cambio incompatible con versión anterior
+- MINOR: nueva funcionalidad compatible
+- PATCH: corrección de bugs
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 **HTML:**
@@ -78,6 +97,27 @@ Definimos las siguientes convenciones para asegurar un código robusto, eficient
 - Incluir comentarios descriptivos para explicar la funcionalidad de componentes, servicios, validaciones y lógica compleja.
 - Mantener las funciones pequeñas y con una única responsabilidad.
 - Aplicar principios de programación funcional y reactiva, así como patrones de diseño adecuados.
+
+**Vue (Vue Style Guide):**
+
+- Nombres de componentes en PascalCase: `FuelOrderCard.vue`
+- Un componente por archivo
+- Props definidas con tipo y valor por defecto usando defineProps()
+- Directivas abreviadas: `:` para v-bind, `@` para v-on, `#` para v-slot
+- Emits declarados explícitamente con defineEmits()
+- Composables con prefijo `use`: `useOrderStore`, `useAuthStore`
+- Bounded contexts organizados como módulos independientes
+
+**C# / ASP.NET Core (C# Coding Conventions + Microsoft ASP.NET Core):**
+
+- PascalCase para clases, métodos y propiedades públicas
+- camelCase para variables locales y parámetros
+- Interfaces con prefijo "I": `IOrderRepository`, `IPaymentService`
+- Async/await para todas las operaciones de I/O
+- Endpoints REST en plural y minúsculas: `GET /api/orders`, 
+  `POST /api/payments`
+- DTOs separados de entidades de dominio
+- Inyección de dependencias mediante constructor
 
 ### 5.1.4. Software Deployment Configuration.
 
@@ -154,13 +194,11 @@ Flujo Gitflow:
     <tr>
         <td align="center">Sprint 1 Goal</td>
         <td>Desarrollar una landing page funcional y visualmente clara que comunique efectivamente la propuesta de valor de FullTank a nuestros dos segmentos clave de usuarios: proveedores de combustible y solicitantes de combustible. La página debe incluir secciones estratégicas como:<br>
-        •	Home, con un call to action para captar proveedores interesados.<br>
-        •	Are you a fuel requester?, con un call to action dirigido a potenciales solicitantes.<br>
-        •	Secciones informativas como About Us y How it works?, para explicar el funcionamiento del sistema.<br>
-        •	Secciones de validación social como Main Suppliers y Our Clients, para generar confianza mostrando empresas reales que ya usan el servicio.<br>
-        •	Una sección de contacto directo (Contact Us) para atención inmediata.<br>
-        •	Soporte de idioma bilingüe (español e inglés) para mayor accesibilidad.
-        </td>
+          <ul>
+            <li><strong>Our focus is on:</strong> communicating FullTank's value proposition to fuel requesters and suppliers through a deployed landing page.</li>
+            <li><strong>We believe:</strong> it delivers clarity on the platform's benefits and increases sign-up intent for both customer segments.</li>
+            <li><strong>This will be confirmed when:</strong> both segments can navigate the landing page, understand the service, and access contact and demo request options without assistance.</li>
+          </ul>
     </tr>
     <tr align="center">
         <td>Sprint 1 Velocity</td>
@@ -592,8 +630,17 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
     </tr>
     <tr>
         <td align="center">Sprint 2 Goal</td>
-        <td>Construir y estabilizar la Web Application (Frontend) funcional de FullTank, implementando la navegación principal, vistas operativas y conectándolas a una API mock (json-server) desplegada en Render para simular el flujo de negocio: inventario, solicitudes, órdenes, despacho, flota, conductores, dashboard y reportes. (Nota: IAM/Login queda pendiente).<br><br>
-        Esto se confirmará cuando los usuarios puedan navegar fluidamente y realizar simulaciones operativas desde la Web App desplegada en Firebase.
+        <td>
+          Our focus is on delivering a functional and navigable 
+          Frontend Web Application covering FullTank's core 
+          operational flows.
+          We believe it delivers a first operational experience 
+          to fuel providers, enabling simulation of inventory 
+          management, order processing and fleet dispatch.
+          This will be confirmed when users can navigate all 
+          main modules (dashboard, inventory, ordering, 
+          fulfillment, reporting) in the deployed Firebase 
+          app without critical navigation failures.
         </td>
     </tr>
     <tr align="center">
@@ -668,8 +715,8 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td><strong>Status</strong></td>
     </tr>
     <tr align="center">
-        <td>US-47</td>
-        <td>Ver Dashboard principal del proveedor</td>
+        <td>US-18</td>
+        <td>Ver Dashboard del proveedor</td>
         <td>W-14</td>
         <td>Dashboard Principal</td>
         <td>Implementación del dashboard con KPIs de combustible vendido, tendencias y navegación operativa.</td>
@@ -688,8 +735,8 @@ Durante el Sprint 1, el equipo se enfocó en el desarrollo del Landing Page de F
         <td>Done</td>
     </tr>
     <tr align="center">
-        <td>US-46</td>
-        <td>Gestionar inventario de combustibles</td>
+        <td>US-20</td>
+        <td>Gestionar inventario</td>
         <td>W-16</td>
         <td>Módulo Inventory</td>
         <td>CRUD completo de productos y catálogo de combustibles usando PrimeVue y conexión con json-server.</td>
@@ -885,7 +932,30 @@ En este sprint se implementaron las siguientes pantallas y módulos clave:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Sprint 2 utilizamos un **Mock API local (json-server)** expuesto en Render (`https://json-server-1-1uka.onrender.com`) para habilitar la simulación de todas las pantallas operativas sin depender del equipo backend en C#. La implementación real del RESTful Web API con ASP.NET Core y documentación en Swagger será el objetivo principal de los próximos Sprints.
+Durante el Sprint 2 se utilizó un Mock API (json-server) desplegado 
+en Render (`https://json-server-1-1uka.onrender.com`) para simular 
+los endpoints del RESTful API. La implementación real con ASP.NET Core 
+y documentación OpenAPI/Swagger está planificada para Sprint 3.
+
+A continuación se detallan los endpoints simulados utilizados:
+
+| Endpoint       | Verbo HTTP | Descripción                              | Parámetros                                              | Response                   |
+| -------------- | ---------- | ---------------------------------------- | ------------------------------------------------------- | -------------------------- |
+| /inventory     | GET        | Lista todos los productos de combustible | -                                                       | 200 + array de productos   |
+| /inventory     | POST       | Registra nuevo producto                  | body: {fuel_type, quantity_liters, price_per_liter}     | 201 + producto creado      |
+| /inventory/:id | PUT        | Actualiza producto existente             | id, body: {fuel_type, quantity_liters, price_per_liter} | 200 + producto actualizado |
+| /inventory/:id | DELETE     | Elimina producto                         | id                                                      | 200                        |
+| /orders        | GET        | Lista todas las solicitudes              | -                                                       | 200 + array de órdenes     |
+| /orders/:id    | GET        | Obtiene detalle de una solicitud         | id                                                      | 200 + objeto orden         |
+| /orders/:id    | PATCH      | Actualiza estado de orden                | id, body: {status}                                      | 200 + orden actualizada    |
+| /transports    | GET        | Lista vehículos de flota                 | -                                                       | 200 + array de vehículos   |
+| /transports    | POST       | Registra vehículo                        | body: {plate, vehicle_type, capacity_liters}            | 201 + vehículo creado      |
+| /drivers       | GET        | Lista conductores                        | -                                                       | 200 + array de conductores |
+| /drivers       | POST       | Registra conductor                       | body: {full_name, dni, license_number}                  | 201 + conductor creado     |
+| /reports       | GET        | Lista reportes generados                 | -                                                       | 200 + array de reportes    |
+
+**URL del repositorio Frontend:** https://github.com/TechnoSAC/frontend  
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
