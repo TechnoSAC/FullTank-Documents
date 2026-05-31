@@ -1,5 +1,10 @@
 # Capítulo IV: Product Design
-
+Este capítulo presenta el diseño completo de la plataforma FullTank, 
+abarcando las guías de estilo visual, la arquitectura de información, 
+los diseños de interfaz (Landing Page y Web Application), los prototipos 
+interactivos y la arquitectura de software bajo el enfoque Domain-Driven 
+Design, incluyendo los diagramas C4, diagramas de clases y modelo de 
+base de datos.
 ## 4.1 Style Guidelines
 En esta sección el equipo presenta la Guía de Estilos de Full-Tank.
 ### 4.1.1 General Style Guidelines
@@ -151,7 +156,7 @@ Las etiquetas del sitio web estático buscan guiar al visitante rápidamente hac
 
 - **Home**: Representa la página principal y el resumen de la propuesta de valor.
 
-- **About Us**: Agrupa la información sobre la misión, visión y el equipo detrás de TechnoSAC.
+- **About Us**: Agrupa la información sobre la misión, visión y el equipo detrás de FullTank.
 
 - **Frecuency Asked Questions**: Agrupa las preguntas frecuentes sobre el servicio.
 
@@ -278,7 +283,11 @@ Navegación Global: La barra de navegación en el encabezado proporciona acceso 
 
 Navegación Contextual: Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
 
-Navegación Secundaria: Enlaces internos, como los botones en la sección What We Offer y los botones de llamado a la acción, guían al usuario de manera contextual a la siguiente etapa de su recorrido.
+Navegación Secundaria: El footer centraliza accesos a 
+Términos y Condiciones, información de contacto y redes sociales, 
+funcionando como punto de cierre del recorrido. Dentro de la 
+aplicación, breadcrumbs y botones de retorno permiten al usuario 
+orientarse entre vistas de detalle y listados.
 
 ## 4.3 Landing Page UI Design
 ### 4.3.1 Landing Page Wireframe
@@ -309,7 +318,7 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 ![alt text](../assets/chapter-4/landing2.png)
 
-**About Us:** La sección "About Us" presenta a TechnoSAC, la empresa detrás de FullTank. Aquí compartimos nuestra misión de digitalizar la gestión de combustible y nuestros valores de innovación, eficiencia y confiabilidad. 
+**About Us:** La sección "About Us" presenta a FullTank, la empresa detrás de FullTank. Aquí compartimos nuestra misión de digitalizar la gestión de combustible y nuestros valores de innovación, eficiencia y confiabilidad. 
 ![alt text](../assets/chapter-4/landing3.png)
 
 **Plans:** En la sección "Plans", detallamos los planes de suscripción disponibles. Las tarjetas incluyen opciones como "Plan Starter" y "Plan Pro", mostrando precios, características y beneficios. También se ofrece la opción de visualizar precios mensuales o anuales, facilitando la elección según las necesidades del cliente.
@@ -322,7 +331,8 @@ En esta sección se presentan los esquemas estructurales (wireframes) de baja fi
 
 ## 4.4 Web Applications UX/UI Design
 
-Los wireframes y mockups aquí presentados muestran la estructura inicial de las vistas principales, priorizando la jerarquía visual, la simplicidad de navegación, la accesibilidad, la escalabilidad futura y la claridad en la presentación de información crítica como rutas, paraderos, notificaciones y configuraciones del usuario.
+Los wireframes y mockups aquí presentados muestran la estructura inicial de las vistas principales, priorizando la jerarquía visual, la simplicidad de navegación, la accesibilidad, la escalabilidad futura y la claridad en la presentación de información crítica como pedidos, estado de despacho, 
+notificaciones y configuraciones del usuario.
 
 ### 4.4.1 Web Applications Wireframes
 
@@ -334,7 +344,7 @@ El primer wireframe representa la Landing Page principal de FullTank, diseñada 
 
 En el cuerpo de la página, la información se desglosa siguiendo una secuencia lógica que construye confianza y educación sobre el servicio. Se incluyen secciones dedicadas a la historia de la startup (About Us) y al funcionamiento paso a paso del sistema (How it works), utilizando bloques modulares que permiten un escaneo rápido del contenido. Esta estructura se complementa con una cuadrícula de características que resaltan los beneficios técnicos, como la trazabilidad y la centralización de datos, fundamentales para resolver los dolores detectados en la etapa de investigación.
 
-Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con TechnoSAC. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
+Hacia el final de la navegación, se presenta una sección de planes y suscripciones que utiliza el principio de jerarquía visual para destacar la opción más equilibrada, facilitando la toma de decisiones del usuario. El diseño concluye con un pie de página (footer) que centraliza los datos de contacto y redes sociales, asegurando que el usuario tenga siempre una vía de comunicación abierta con FullTank. Todo el conjunto ha sido diseñado bajo criterios de diseño inclusivo, empleando dimensiones de botones generosas y una organización de elementos que prioriza la legibilidad y la facilidad de interacción en dispositivos móviles.
 
 <div align="center">
   <img src="./../assets/chapter-4/Wireframe1.png" alt="Estilos" width="310"/>
@@ -691,19 +701,19 @@ El flujo inicia en la Landing Page, la cual actúa como el nodo central de infor
 
 En este apartado se mostrará los mockups hechos para la aplicación web FullTank.
 
-**Login – Techno SAC**
+**Login – FullTank**
 
 Pantalla de inicio donde el usuario puede loguearse o registrarse. Además el usuario puede pedir una demo gratuita aunque igual se le pedirá que se registre.
 
 <img src="../assets/chapter-4/mockup-login.PNG" height="400"/>
 
-**Inicio de sesión – Techno SAC**
+**Inicio de sesión – FullTank**
 
 Formulario que necesitará las credenciales del usuario. Además brinda la opción de cambiar la contraseña o pasar a registrarse en caso de que no tenga una cuenta.
 
 <img src="../assets/chapter-4/mockup-inicioSesion.PNG" height="400"/>
 
-**Registro – Techno SAC**
+**Registro – FullTank**
 
 Formulario que pide datos básicos como el correo, el nombre de la empresa y una contraseña. Posteriormente, se le enviará al usuario una validación por correo.
 
@@ -832,7 +842,7 @@ Happy Path
 En esta ruta esperada, el flujo inicia en la "Sección de inicio". El usuario presiona el enlace "¿Olvidaste tu contraseña?" y es redirigido a la vista "Recuperar contraseña". Allí, completa el campo con su correo corporativo y presiona "Enviar Código". La interfaz se actualiza a la pantalla "Restablecer contraseña", donde el usuario llena los campos con el código recibido, su nueva contraseña y la confirmación. El proceso finaliza exitosamente al presionar "Actualizar Contraseña".
 
 <div align="center">
-<img src="../assets/chapter-4/User Goal 3-Unhappy path.png" height="200"/>
+<img src="../assets/chapter-4/User Goal 3-Happy path.png" height="200"/>
 </div>
 
 Unhappy Paths
@@ -1149,9 +1159,6 @@ De esta forma, el diseño orientado a objetos enlaza el nivel arquitectónico (C
 En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos, proporcionando una vista centrada en clases, relaciones y responsabilidades.
 
 
-En esta subsección se presentan los diagramas de clases que detallan la estructura interna de los principales componentes para cada bounded context. Estos diagramas complementan al Component Diagram de la API Application y a los contenedores definidos, proporcionando una vista centrada en clases, relaciones y responsabilidades.
-
-
 
 ### Diagramas de clases del Frontend
 
@@ -1164,7 +1171,7 @@ A nivel de frontend, se modelan las clases en función de los módulos y vistas 
 
 **Diagrama del Frontend completo:**
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend.png" alt="frontend classes"/>
 </div>
 
@@ -1175,49 +1182,49 @@ El diagrama completo del frontend muestra la organización general de la capa de
 - **Identity & Access Frontend**  
   Responsabilidad: Maneja las vistas de registro, inicio de sesión, recuperación de contraseña y edición de perfil de usuario.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_identity.png" alt="frontend identity"/>
 </div>
 
 - **Catalog Frontend**  
   Responsabilidad: Maneja las vistas de gestión del inventario de recursos ofrecidos por el proveedor.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_catalog.png" alt="frontend catalog"/>
 </div>
 
 - **Ordering Frontend**  
   Responsabilidad: Maneja las vistas del ciclo de vida completo de pedidos: creación de solicitudes, aprobación, rechazo, despacho, confirmación de entrega y cierre.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_ordering.png" alt="frontend ordering"/>
 </div>
 
 - **Payment Frontend**  
   Responsabilidad: Maneja las vistas para que el cliente registre comprobantes de pago vinculados a una orden.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_payment.png" alt="frontend payment"/>
 </div>
 
 - **Fulfillment Frontend**  
   Responsabilidad: Maneja las vistas de gestión de recursos logísticos (por ejemplo, vehículos y operadores) y la asignación de despacho a órdenes aprobadas.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_fullfillment.png" alt="frontend fullfillment"/>
 </div>
 
 - **Notification Frontend**  
   Responsabilidad: Maneja el panel de notificaciones dentro de la aplicación para informar a los usuarios sobre cambios en el estado de los pedidos.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_notification.png" alt="frontend notification"/>
 </div>
 
 - **Reporting & Analytics Frontend**  
   Responsabilidad: Maneja las vistas de visualización de métricas, gráficos de consumo o ventas, y la descarga de reportes.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/frontend_analysis.png" alt="frontend analysis"/>
 </div>
 
@@ -1232,7 +1239,7 @@ A nivel de backend, los diagramas de clases reflejan la implementación detallad
 
 **Diagrama del Backend completo:**
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend.png" alt="backend"/>
 </div>
 
@@ -1252,21 +1259,21 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
 - **Identity & Access Backend**  
   Responsabilidad: Gestiona el registro de usuarios, autenticación, autorización y control de acceso.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_identity.png" alt="backend identity"/>
 </div>
 
 - **Catalog Backend**  
   Responsabilidad: Gestiona el inventario de recursos disponibles, incluyendo stock y características relevantes.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_catalog.png" alt="backend catalog"/>
 </div>
 
 - **Ordering Backend**  
   Responsabilidad: Orquesta el ciclo de vida completo del pedido. Es el bounded context central que coordina la interacción con los demás contextos.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_ordering.png" alt="backend ordering"/>
 </div>
 
@@ -1274,21 +1281,21 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
 - **Payment Backend**  
   Responsabilidad: Gestiona el registro y validación de pagos asociados a órdenes.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_payment.png" alt="backend payment"/>
 </div>
 
 - **Fulfillment Backend**  
   Responsabilidad: Gestiona los recursos necesarios para la ejecución de entregas y su asignación a órdenes.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_fullfilment.png" alt="backend fullfilment"/>
 </div>
 
 - **Notification Backend**  
   Responsabilidad: Genera y gestiona notificaciones ante eventos relevantes del sistema.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_notification.png" alt="backend notification"/>
 </div>
 
@@ -1296,7 +1303,7 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
 - **Reporting & Analytics Backend**  
   Responsabilidad: Agrega información histórica para generar métricas, análisis y reportes.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/backend_analysis.png" alt="backend analysis"/>
 </div>
 
@@ -1305,7 +1312,7 @@ Todas las interacciones entre bounded contexts se realizan a través de interfac
 
 La base de datos relacional almacena todos los datos del dominio del sistema. Las tablas se organizan en correspondencia directa con los bounded contexts definidos en el diseño orientado a objetos. A continuación, se detalla qué tablas pertenecen a cada contexto y cuál es su responsabilidad dentro del modelo de datos.
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos.png" alt="backend analysis"/>
 </div>
 
@@ -1317,7 +1324,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **CLIENT:** extensión del perfil para empresas solicitantes (`id_client`, `id_user` FK, `company_name`, `company_ruc`, `industry`, `created_at`).
 - **PROVIDER:** extensión del perfil para empresas proveedoras (`id_provider`, `id_user` FK, `company_name`, `company_ruc`, `description`, `created_at`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_identity.png" alt="tablas de identity"/>
 </div>
 
@@ -1328,7 +1335,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 
 - **INVENTORY:** registro de stock por tipo de recurso (`id_inventory`, `id_provider` FK, `fuel_type`, `quantity_liters`, `price_per_liter`, `updated_at`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_catalogo.png" alt="tablas de catalogo"/>
 </div>
 
@@ -1340,7 +1347,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **REQUEST_DETAIL:** detalle del pedido con desglose de valores (`id_detail`, `id_request` FK, `fuel_type`, `quantity_liters`, `unit_price`, `subtotal`).
 - **ORDER:** orden generada a partir de una solicitud aprobada (`id_order`, `id_request` FK, `status`, `approved_at`, `dispatched_at`, `delivered_at`, `closed_at`, `rejection_reason`, `created_at`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_ordering.png" alt="tablas de orders"/>
 </div>
 
@@ -1350,7 +1357,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 
 - **PAYMENT:** comprobante de pago vinculado a una orden (`id_payment`, `id_order` FK, `operation_code`, `amount`, `bank_name`, `voucher_url`, `payment_date`, `status`, `registered_at`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatosPayment.png" alt="tablas de payment"/>
 </div>
 
@@ -1362,7 +1369,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **DRIVER:** operador asignado al transporte (`id_driver`, `id_provider` FK, `full_name`, `dni`, `license_number`, `phone_number`, `is_available`, `created_at`).
 - **DISPATCH:** asignación de recursos a una orden (`id_dispatch`, `id_order` FK, `id_transport` FK, `id_driver` FK, `assigned_at`, `status`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_fullfillment.png" alt="tablas de fullfilment"/>
 </div>
 
@@ -1372,7 +1379,7 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 
 - **NOTIFICATION:** notificación asociada a un usuario (`id_notification`, `id_user` FK, `id_order` FK, `type`, `message`, `is_read`, `created_at`).
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_notification.png" alt="tablas de fullfilment"/>
 </div>
 
@@ -1383,6 +1390,6 @@ La base de datos relacional almacena todos los datos del dominio del sistema. La
 - **REPORT:** reporte generado por un usuario (`id_report`, `id_user` FK, `type`, `pdf_url`, `generated_at`).
   
 
-<div allign="center">
+<div align="center">
   <img src="../assets/chapter-4/baseDatos_analysis.png" alt="tablas de analysis"/>
 </div>
